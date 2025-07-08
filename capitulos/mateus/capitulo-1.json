@@ -1,0 +1,14 @@
+{
+    "livro": "Mateus",
+    "capitulo": 1,
+    "versiculos": [
+      {
+        "numero": 1,
+        "palavras": [
+          { "grego": "Βίβλος", "traducao": "Livro" },
+          { "grego": "γενέσεως", "traducao": "da genealogia" }
+
+        ]
+      }
+    ]
+  }
