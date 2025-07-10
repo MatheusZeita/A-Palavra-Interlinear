@@ -1,12 +1,23 @@
-# 🏗 Arquitetura do Projeto - Tradução Interlinear das Escrituras
+# Arquitetura do Projeto
 
-Este documento descreve a arquitetura geral do site de tradução interlinear das Escrituras Cristças, incluindo a estrutura de dados, o fluxo de carregamento e a interação com o front-end.
+Este documento descreve a arquitetura geral do projeto, incluindo a **estrutura de dados**, o **fluxo de carregamento** e a **interação com o front-end**.
 
 ---
 
 ## 🔍 Visão Geral
 
 O projeto tem como objetivo apresentar uma tradução interlinear das Escrituras, exibindo o texto grego e a tradução palavra por palavra, com notas explicativas (opcionais) ao lado. O conteúdo é estruturado em arquivos JSON, um para cada capítulo, e renderizado dinamicamente via HTML + JavaScript.
+
+---
+
+## 🏗️ Estrutura Básica do Site
+
+O site é dividido em páginas estáticas que exibem:
+
+- Página inicial com **lista interativa dos livros** das Escrituras Cristãs
+- Páginas por **livro e capítulos**, com **breadcrumbs** de navegação
+- Capítulos em formato **interlinear**: texto grego com tradução literal em português
+  - Área lateral com **notas explicativas**
 
 ---
 
@@ -161,6 +172,8 @@ Cada capítulo bíblico é representado por um arquivo `.json` com a seguinte es
 
 ---
 
+DELETAR:
+
 ## 🧱 Possibilidades Futuras
 
 - Sistema de busca por palavras gregas.
@@ -185,5 +198,3 @@ Cada capítulo bíblico é representado por um arquivo `.json` com a seguinte es
 A FAZER
 
 ---
-
-
