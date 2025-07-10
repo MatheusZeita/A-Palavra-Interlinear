@@ -16,7 +16,7 @@ A estrutura do projeto é modular e organizada para facilitar a manutenção, a 
 
 ```
 
-INTERLINEAR---EC/
+A-Palavra-Interlinear/
 │
 ├── assets/                         # Arquivos estáticos (imagens, ícones, fontes)
 │   ├── logo.png
