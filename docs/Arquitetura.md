@@ -107,8 +107,8 @@ Cada capítulo bíblico é representado por um arquivo `.json` com a seguinte es
         },
         {
           "grego": "γενέσεως",
-          "traducao": "da genealogia",
-          "nota": "Ou: 'história; linhagem; origem'."
+          "traducao": "de origem",
+          "nota": "Ou: 'genealogia; geração; nascimento."
         },
         . . .
       ]
