@@ -1,4 +1,4 @@
-# A Palavra Interlinear — Tradução Interlinear das Escrituras Gregas Cristãs
+# A Palavra Interlinear — Tradução das Escrituras Gregas Cristãs
 
 Este é um site que apresenta uma **tradução interlinear do texto grego das Escrituras Cristãs (Novo Testamento)** para o português — isto é, o texto das Escrituras em seu idioma original junto à tradução literal de cada palavra.
 
