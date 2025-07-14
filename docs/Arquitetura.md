@@ -102,17 +102,28 @@ Cada capítulo bíblico é representado por um arquivo `.json` com a seguinte es
     {
       "numero": 1,
       "palavras": [
-        { "grego": "Βίβλος",
-          "traducao": "Livro"
-        },
-        {
-          "grego": "γενέσεως",
-          "traducao": "de origem",
-          "nota": "Ou: 'genealogia; geração; nascimento."
-        },
+        { "grego": "Βίβλος", "traducao": "Livro" },
+        { "grego": "γενέσεως", "traducao": "de origem", "nota": "Ou: 'genealogia; geração; nascimento'." },
+        { "grego": "Ἰησοῦ", "traducao": "de Jesus" },
+        { "grego": "χριστοῦ", "traducao": "Cristo", "nota": "Que significa: 'Ungido'." },
+        { "grego": "υἱοῦ", "traducao": "filho" },
+        { "grego": "Δαυὶδ", "traducao": "de Davi" },
+        { "grego": "υἱοῦ", "traducao": "filho" },
+        { "grego": "Ἀβραάμ.", "traducao": "de Abraão." }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "grego": "Ἀβραὰμ", "traducao": "Abraão" },
+        { "grego": "ἐγέννησεν", "traducao": "gerou" },
+        { "grego": "τὸν", "traducao": "o" },
+        { "grego": "Ἰσαάκ,", "traducao": "Isaque," },
         . . .
       ]
-    }
+    },
+    . . .
   ]
 }
 ```
@@ -126,9 +137,10 @@ Cada capítulo bíblico é representado por um arquivo `.json` com a seguinte es
   - `numero`: Número do versículo.
   - `palavras`: Lista de objetos com:
 
-    - `grego`: Palavra original em grego _koiné_.
-    - `traducao`: Tradução da palavra.
+    - `grego`: Palavra original em grego koiné.
+    - `traducao`: Tradução da palavra correspondente em português.
     - `nota` _(opcional)_: Nota explicativa vinculada à palavra.
+    - `paragrafo`: Marcador de parágrafo, indicando onde um novo parágrafo começa — inclusive no meio de um versículo.
 
 ---
 
