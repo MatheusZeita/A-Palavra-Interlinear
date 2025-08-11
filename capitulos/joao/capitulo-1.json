@@ -10,7 +10,7 @@
         {
           "grego": "ἦν",
           "traducao": "existia",
-          "nota": "Ou: “era”."
+          "nota": "Ou: “era; estava”."
         },
         {
           "grego": "ὁ",
@@ -20,7 +20,7 @@
         {
           "grego": "λόγος,",
           "traducao": "Palavra,",
-          "nota": "Ou: “Mensagem; Verbo; Razão”; Transliteração: “Logos”. Substantivo masculino."
+          "nota": "Ou: “Mensagem; Verbo”; Possivelmente: “Razão”; Transliteração: “Logos”. Substantivo masculino."
         },
         { "grego": "καὶ", "traducao": "e" },
         { "grego": "ὁ", "traducao": "o" },
@@ -37,7 +37,7 @@
         {
           "grego": "θεὸς",
           "traducao": "deus",
-          "nota": "Ou: “divino”. Sem artigo, expressando qualidade."
+          "nota": "Isto é: “divino”. Sem artigo, expressando qualidade."
         },
         { "grego": "ἦν", "traducao": "era" },
         { "grego": "ὁ", "traducao": "o" },
@@ -50,8 +50,8 @@
         { "grego": "οὗτος", "traducao": "Este" },
         {
           "grego": "ἦν",
-          "traducao": "existia",
-          "nota": "Ou: “era”."
+          "traducao": "estava",
+          "nota": "Ou: “era; existia”."
         },
         { "grego": "ἐν", "traducao": "em" },
         { "grego": "ἀρχῇ", "traducao": "princípio" },
@@ -65,14 +65,14 @@
       "palavras": [
         { "grego": "πάντα", "traducao": "Tudo" },
         { "grego": "διʼ", "traducao": "por meio de" },
-        { "grego": "αὐτοῦ", "traducao": "dele" },
+        { "grego": "αὐτοῦ", "traducao": "ele" },
         { "grego": "ἐγένετο,", "traducao": "veio à existência," },
         { "grego": "καὶ", "traducao": "e" },
         { "grego": "χωρὶς", "traducao": "sem" },
-        { "grego": "αὐτοῦ", "traducao": "dele" },
+        { "grego": "αὐτοῦ", "traducao": "ele" },
         { "grego": "ἐγένετο", "traducao": "veio à existência" },
         { "grego": "οὐδὲ", "traducao": "nem mesmo" },
-        { "grego": "ἕν.", "traducao": "uma (coisa)." },
+        { "grego": "ἕν.", "traducao": "uma [coisa]." },
         { "paragrafo": "inicio" },
         { "grego": "ὃ", "traducao": "O que" },
         { "grego": "γέγονεν", "traducao": "veio à existência" }
@@ -82,7 +82,7 @@
       "numero": 4,
       "palavras": [
         { "grego": "ἐν", "traducao": "em" },
-        { "grego": "αὐτῷ", "traducao": "nele" },
+        { "grego": "αὐτῷ", "traducao": "ele" },
         { "grego": "ζωὴ", "traducao": "vida" },
         { "grego": "ἦν,", "traducao": "era," },
         { "grego": "καὶ", "traducao": "e" },

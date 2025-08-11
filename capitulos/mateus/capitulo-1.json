@@ -9,17 +9,17 @@
         {
           "grego": "γενέσεως",
           "traducao": "de origem",
-          "nota": "Ou: “genealogia; geração; nascimento”."
+          "nota": "Ou, possivelmente: “de genealogia; geração; nascimento”."
         },
         { "grego": "Ἰησοῦ", "traducao": "de Jesus" },
         {
           "grego": "χριστοῦ",
-          "traducao": "de Ungido",
+          "traducao": "Ungido",
           "nota": "Transliteração: “Cristo”; Em hebraico: “Messias”."
         },
-        { "grego": "υἱοῦ", "traducao": "de filho" },
+        { "grego": "υἱοῦ", "traducao": "filho" },
         { "grego": "Δαυὶδ", "traducao": "de Davi" },
-        { "grego": "υἱοῦ", "traducao": "de filho" },
+        { "grego": "υἱοῦ", "traducao": "filho" },
         { "grego": "Ἀβραάμ.", "traducao": "de Abraão." }
       ]
     },
@@ -362,7 +362,7 @@
         { "grego": "Ἀβραὰμ", "traducao": "Abraão" },
         { "grego": "ἕως", "traducao": "até" },
         { "grego": "Δαυὶδ", "traducao": "Davi" },
-        { "grego": "γενεαὶ", "traducao": "gerações" },
+        { "grego": "γενεαὶ", "traducao": "[foram] gerações" },
         { "grego": "δεκατέσσαρες,", "traducao": "catorze," },
         { "grego": "καὶ", "traducao": "e" },
         { "grego": "ἀπὸ", "traducao": "desde" },
@@ -377,10 +377,10 @@
         { "grego": "ἀπὸ", "traducao": "desde" },
         { "grego": "τῆς", "traducao": "a" },
         { "grego": "μετοικεσίας", "traducao": "deportação" },
-        { "grego": "Βαβυλῶνος", "traducao": "Babilônia" },
+        { "grego": "Βαβυλῶνος", "traducao": "de Babilônia" },
         { "grego": "ἕως", "traducao": "até" },
-        { "grego": "τοῦ", "traducao": "do" },
-        { "grego": "χριστοῦ", "traducao": "de Ungido" },
+        { "grego": "τοῦ", "traducao": "o" },
+        { "grego": "χριστοῦ", "traducao": "Ungido" },
         { "grego": "γενεαὶ", "traducao": "gerações" },
         { "grego": "δεκατέσσαρες.", "traducao": "catorze." }
       ]
@@ -392,13 +392,13 @@
         { "paragrafo": "inicio" },
         { "grego": "Τοῦ", "traducao": "Do" },
         { "grego": "δὲ", "traducao": "porém" },
-        { "grego": "Ἰησοῦ", "traducao": "de Jesus" },
-        { "grego": "χριστοῦ", "traducao": "de Ungido" },
+        { "grego": "Ἰησοῦ", "traducao": "Jesus" },
+        { "grego": "χριστοῦ", "traducao": "Ungido" },
         { "grego": "ἡ", "traducao": "a" },
         {
           "grego": "γένεσις",
           "traducao": "origem",
-          "nota": "Ou: “nascimento; geração”."
+          "nota": "Ou, possivelmente: “nascimento; geração”."
         },
         { "grego": "οὕτως", "traducao": "assim" },
         { "grego": "ἦν.", "traducao": "era." },
@@ -419,14 +419,18 @@
         { "grego": "εὑρέθη", "traducao": "foi achada" },
         { "grego": "ἐν", "traducao": "em" },
         { "grego": "γαστρὶ", "traducao": "ventre" },
-        { "grego": "ἔχουσα", "traducao": "tendo" },
-        { "grego": "ἐκ", "traducao": "do" },
+        {
+          "grego": "ἔχουσα",
+          "traducao": "tendo",
+          "nota": "Isto é: “grávida."
+        },
+        { "grego": "ἐκ", "traducao": "de" },
         { "grego": "πνεύματος", "traducao": "espírito" },
         { "grego": "ἁγίου.", "traducao": "santo." }
       ]
     },
 
-CONTINUAR A CONFERIR:
+    { "CONTINUAR DAQUI": "" },
 
     {
       "numero": 19,
