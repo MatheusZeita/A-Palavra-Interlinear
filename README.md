@@ -14,7 +14,9 @@ Uma tradução interlinear apresenta o texto no idioma original acompanhado de s
 
 Como a gramática, o vocabulário e a sintaxe desses idiomas diferem bastante das línguas modernas, como o português, esse tipo de tradução não é prática para leitura cotidiana. Logo, uma tradução interlinear não substitui traduções normais, como a *<a href="https://wol.jw.org/pt/wol/binav/r5/lp-t" target="_blank" rel="noopener noreferrer">Tradução do Novo Mundo</a>*. Ainda assim, ela é de grande valor para quem deseja compreender com mais precisão o significado original das Escrituras.
 
-**A Palavra Interlinear** é um projeto pessoal inspirado na *<a href="https://wol.jw.org/en/wol/binav/r1/lp-e/int" target="_blank" rel="noopener noreferrer">Tradução Interlinear do Reino das Escrituras Gregas</a>*, de língua inglesa, produzida pela *Watchtower Bible and Tract Society of New York, Inc*. Espero que essa nova tradução possa ajudar os sinceros estudantes da Bíblia de língua portuguesa a se aproximarem de Jeová Deus e de seu Filho, Jesus Cristo, dando glória a ambos por meio do conhecimento da Palavra de Deus.
+**A Palavra Interlinear** é um projeto pessoal inspirado na *<a href="https://wol.jw.org/en/wol/binav/r1/lp-e/int" target="_blank" rel="noopener noreferrer">Tradução Interlinear do Reino das Escrituras Gregas</a>*, de língua inglesa, produzida pela *Watchtower Bible and Tract Society of New York, Inc*. 
+
+Espero que essa nova tradução possa ajudar os sinceros estudantes da Bíblia de língua portuguesa a se aproximarem de Jeová Deus e de seu Filho, Jesus Cristo, dando glória a ambos por meio do conhecimento da Palavra de Deus.
 
 > 📖 *"Tua palavra é lâmpada para o meu pé, e luz para o meu caminho."* — Salmo 119:105.
 
