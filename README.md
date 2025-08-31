@@ -18,7 +18,7 @@ Como a gramática, o vocabulário e a sintaxe desses idiomas diferem bastante da
 
 Espero que essa nova tradução possa ajudar os sinceros estudantes da Bíblia de língua portuguesa a se aproximarem de Jeová Deus e de seu Filho, Jesus Cristo, dando glória a ambos por meio do conhecimento da Palavra de Deus.
 
-> 📖 *"Tua palavra é lâmpada para o meu pé, e luz para o meu caminho."* — Salmo 119:105.
+> 📖 *“Tua palavra é lâmpada para o meu pé, e luz para o meu caminho.”* — Salmo 119:105.
 
 ---
 
