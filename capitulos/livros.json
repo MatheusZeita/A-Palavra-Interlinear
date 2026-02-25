@@ -5,193 +5,243 @@
       "completo": "Mateus",
       "medio": "Mat.",
       "curto": "Mt",
-      "capitulos": 28
+      "capitulos": 28,
+      "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
+      "titulo traduzido": "[BOAS NOVAS] SEGUNDO MATEUS"
     },
     {
       "ordem": 2,
       "completo": "Marcos",
       "medio": "Mar.",
       "curto": "Mr",
-      "capitulos": 16
+      "capitulos": 16,
+      "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΜΑΡΚΟΝ",
+      "titulo traduzido": "[BOAS NOVAS] SEGUNDO MARCOS"
     },
     {
       "ordem": 3,
       "completo": "Lucas",
       "medio": "Luc.",
       "curto": "Lu",
-      "capitulos": 24
+      "capitulos": 24,
+      "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΛΟΥΚΑΝ",
+      "titulo traduzido": "[BOAS NOVAS] SEGUNDO LUCAS"
     },
     {
       "ordem": 4,
       "completo": "João",
       "medio": "João",
       "curto": "Jo",
-      "capitulos": 21
+      "capitulos": 21,
+      "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΙΩΑΝΝΗΝ",
+      "titulo traduzido": "[BOAS NOVAS] SEGUNDO JOÃO"
     },
-
     {
       "ordem": 5,
       "completo": "Atos",
       "medio": "Atos",
       "curto": "At",
-      "capitulos": 28
+      "capitulos": 28,
+      "titulo original": "ΠΡΑΞΕΙΣ ΑΠΟΣΤΟΛΩΝ",
+      "titulo traduzido": "ATOS DOS APÓSTOLOS"
     },
-
     {
       "ordem": 6,
       "completo": "Romanos",
       "medio": "Rom.",
       "curto": "Ro",
-      "capitulos": 16
+      "capitulos": 16,
+      "titulo original": "ΠΡΟΣ ΡΩΜΑΙΟΥΣ",
+      "titulo traduzido": "[CARTA] AOS ROMANOS"
     },
     {
       "ordem": 7,
       "completo": "1 Coríntios",
       "medio": "1 Cor.",
       "curto": "1Co",
-      "capitulos": 16
+      "capitulos": 16,
+      "titulo original": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Α",
+      "titulo traduzido": "PRIMEIRA [CARTA] AOS CORÍNTIOS"
     },
     {
       "ordem": 8,
       "completo": "2 Coríntios",
       "medio": "2 Cor.",
       "curto": "2Co",
-      "capitulos": 13
+      "capitulos": 13,
+      "titulo original": "ΠΡΟΣ ΚΟΡΙΝΘΙΟΥΣ Β",
+      "titulo traduzido": "SEGUNDA [CARTA] AOS CORÍNTIOS"
     },
     {
       "ordem": 9,
       "completo": "Gálatas",
       "medio": "Gál.",
       "curto": "Gál",
-      "capitulos": 6
+      "capitulos": 6,
+      "titulo original": "ΠΡΟΣ ΓΑΛΑΤΑΣ",
+      "titulo traduzido": "[CARTA] AOS GÁLATAS"
     },
     {
       "ordem": 10,
       "completo": "Efésios",
       "medio": "Efé.",
       "curto": "Ef",
-      "capitulos": 6
+      "capitulos": 6,
+      "titulo original": "ΠΡΟΣ ΕΦΕΣΙΟΥΣ",
+      "titulo traduzido": "[CARTA] AOS EFÉSIOS"
     },
     {
       "ordem": 11,
       "completo": "Filipenses",
       "medio": "Fil.",
       "curto": "Fil",
-      "capitulos": 4
+      "capitulos": 4,
+      "titulo original": "ΠΡΟΣ ΦΙΛΙΠΠΗΣΙΟΥΣ",
+      "titulo traduzido": "[CARTA] AOS FILIPENSES"
     },
     {
       "ordem": 12,
       "completo": "Colossenses",
       "medio": "Col.",
       "curto": "Col",
-      "capitulos": 4
+      "capitulos": 4,
+      "titulo original": "ΠΡΟΣ ΚΟΛΟΣΣΑΕΙΣ",
+      "titulo traduzido": "[CARTA] AOS COLOSSENSES"
     },
     {
       "ordem": 13,
       "completo": "1 Tessalonicenses",
       "medio": "1 Tes.",
       "curto": "1Te",
-      "capitulos": 5
+      "capitulos": 5,
+      "titulo original": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Α",
+      "titulo traduzido": "PRIMEIRA [CARTA] AOS TESSALONICENSES"
     },
     {
       "ordem": 14,
       "completo": "2 Tessalonicenses",
       "medio": "2 Tes.",
       "curto": "2Te",
-      "capitulos": 3
+      "capitulos": 3,
+      "titulo original": "ΠΡΟΣ ΘΕΣΣΑΛΟΝΙΚΕΙΣ Β",
+      "titulo traduzido": "SEGUNDA [CARTA] AOS TESSALONICENSES"
     },
     {
       "ordem": 15,
       "completo": "1 Timóteo",
       "medio": "1 Tim.",
       "curto": "1Ti",
-      "capitulos": 6
+      "capitulos": 6,
+      "titulo original": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Α",
+      "titulo traduzido": "PRIMEIRA [CARTA] A TIMÓTEO"
     },
     {
       "ordem": 16,
       "completo": "2 Timóteo",
       "medio": "2 Tim.",
       "curto": "2Ti",
-      "capitulos": 4
+      "capitulos": 4,
+      "titulo original": "ΠΡΟΣ ΤΙΜΟΘΕΟΝ Β",
+      "titulo traduzido": "SEGUNDA [CARTA] A TIMÓTEO"
     },
     {
       "ordem": 17,
       "completo": "Tito",
       "medio": "Tito",
       "curto": "Tit",
-      "capitulos": 3
+      "capitulos": 3,
+      "titulo original": "ΠΡΟΣ ΤΙΤΟΝ",
+      "titulo traduzido": "[CARTA] A TITO"
     },
     {
       "ordem": 18,
       "completo": "Filemom",
       "medio": "Filêm.",
       "curto": "Flm",
-      "capitulos": 1
+      "capitulos": 1,
+      "titulo original": "ΠΡΟΣ ΦΙΛΗΜΟΝΑ",
+      "titulo traduzido": "[CARTA] A FILEMOM"
     },
     {
       "ordem": 19,
       "completo": "Hebreus",
       "medio": "Heb.",
       "curto": "He",
-      "capitulos": 13
+      "capitulos": 13,
+      "titulo original": "ΠΡΟΣ ΕΒΡΑΙΟΥΣ",
+      "titulo traduzido": "[CARTA] AOS HEBREUS"
     },
-
     {
       "ordem": 20,
       "completo": "Tiago",
       "medio": "Tia.",
       "curto": "Tg",
-      "capitulos": 5
+      "capitulos": 5,
+      "titulo original": "ΙΑΚΩΒΟΥ",
+      "titulo traduzido": "[CARTA] DE TIAGO"
     },
     {
       "ordem": 21,
       "completo": "1 Pedro",
       "medio": "1 Ped.",
       "curto": "1Pe",
-      "capitulos": 5
+      "capitulos": 5,
+      "titulo original": "ΠΕΤΡΟΥ Α",
+      "titulo traduzido": "PRIMEIRA [CARTA] DE PEDRO"
     },
     {
       "ordem": 22,
       "completo": "2 Pedro",
       "medio": "2 Ped.",
       "curto": "2Pe",
-      "capitulos": 3
+      "capitulos": 3,
+      "titulo original": "ΠΕΤΡΟΥ Β",
+      "titulo traduzido": "SEGUNDA [CARTA] DE PEDRO"
     },
     {
       "ordem": 23,
       "completo": "1 João",
       "medio": "1 João",
       "curto": "1Jo",
-      "capitulos": 5
+      "capitulos": 5,
+      "titulo original": "ΙΩΑΝΝΟΥ Α",
+      "titulo traduzido": "PRIMEIRA [CARTA] DE JOÃO"
     },
     {
       "ordem": 24,
       "completo": "2 João",
       "medio": "2 João",
       "curto": "2Jo",
-      "capitulos": 1
+      "capitulos": 1,
+      "titulo original": "ΙΩΑΝΝΟΥ Β",
+      "titulo traduzido": "SEGUNDA [CARTA] DE JOÃO"
     },
     {
       "ordem": 25,
       "completo": "3 João",
       "medio": "3 João",
       "curto": "3Jo",
-      "capitulos": 1
+      "capitulos": 1,
+      "titulo original": "ΙΩΑΝΝΟΥ Γ",
+      "titulo traduzido": "TERCEIRA [CARTA] DE JOÃO"
     },
     {
       "ordem": 26,
       "completo": "Judas",
       "medio": "Judas",
       "curto": "Ju",
-      "capitulos": 1
+      "capitulos": 1,
+      "titulo original": "ΙΟΥΔΑ",
+      "titulo traduzido": "[CARTA] DE JUDAS"
     },
-
     {
       "ordem": 27,
       "completo": "Apocalipse",
       "medio": "Apo.",
       "curto": "Ap",
-      "capitulos": 22
+      "capitulos": 22,
+      "titulo original": "ΑΠΟΚΑΛΥΨΙΣ ΙΩΑΝΝΟΥ",
+      "titulo traduzido": "APOCALIPSE DE JOÃO"
     }
   ]
 }
