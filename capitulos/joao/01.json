@@ -1,0 +1,123 @@
+{
+  "livro": "Joao",
+  "capitulo": 1,
+  "idioma": "grego",
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        { "original": "Ἐν", "traducao": "Em" },
+        { "original": "ἀρχῇ", "traducao": "princípio" },
+        {
+          "original": "ἦν",
+          "traducao": "era",
+          "nota": "Ou: “existia”; Possivelmente: “estava”."
+        },
+        {
+          "original": "ὁ",
+          "traducao": "o",
+          "nota": "Artigo masculino. Concorda com “λόγος” (Palavra)."
+        },
+        {
+          "original": "λόγος,",
+          "traducao": "Palavra,",
+          "nota": "Ou: “Mensagem; Verbo”; Possivelmente: “Razão”; Transliteração: “Logos”. Substantivo masculino."
+        },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ὁ", "traducao": "o" },
+        { "original": "λόγος", "traducao": "Palavra" },
+        { 
+          "original": "ἦν", 
+          "traducao": "era",
+          "nota": "Ou: “existia”; Possivelmente: “estava”."
+        },
+        {
+          "original": "πρὸς",
+          "traducao": "em direção a",
+          "nota": "Ou: “voltado para; com”. Indica relação íntima."
+        },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "θεόν,", "traducao": "Deus," },
+        { "original": "καὶ", "traducao": "e" },
+        {
+          "original": "θεὸς",
+          "traducao": "deus",
+          "nota": "Isto é: “divino”. Sem artigo, expressando qualidade."
+        },
+        { "original": "ἦν", "traducao": "era" },
+        { "original": "ὁ", "traducao": "o" },
+        { "original": "λόγος.", "traducao": "Palavra." }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        { "original": "οὗτος", "traducao": "Este" },
+        { 
+          "original": "ἦν", 
+          "traducao": "era",
+          "nota": "Ou: “existia”; Possivelmente: “estava”."
+        },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "ἀρχῇ", "traducao": "princípio" },
+        { "original": "πρὸς", "traducao": "em direção a" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "θεόν.", "traducao": "Deus." }
+      ]
+    },
+    {
+      "numero": 3,
+      "palavras": [
+        { "original": "πάντα", "traducao": "Tudo" },
+        { "original": "διʼ", "traducao": "por meio de" },
+        { "original": "αὐτοῦ", "traducao": "ele" },
+        { "original": "ἐγένετο,", "traducao": "veio à existência," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "χωρὶς", "traducao": "sem" },
+        { "original": "αὐτοῦ", "traducao": "ele" },
+        { "original": "ἐγένετο", "traducao": "veio à existência" },
+        { "original": "οὐδὲ", "traducao": "nem mesmo" },
+        { "original": "ἕν.", "traducao": "uma [coisa]." },
+        { "paragrafo": "inicio" },
+        { "original": "ὃ", "traducao": "O que" },
+        { "original": "γέγονεν", "traducao": "veio à existência" }
+      ]
+    },
+    {
+      "numero": 4,
+      "palavras": [
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "αὐτῷ", "traducao": "ele" },
+        { "original": "ζωὴ", "traducao": "vida" },
+        { "original": "ἦν,", "traducao": "era," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἡ", "traducao": "a" },
+        { "original": "ζωὴ", "traducao": "vida" },
+        { "original": "ἦν", "traducao": "era" },
+        { "original": "τὸ", "traducao": "a" },
+        { "original": "φῶς", "traducao": "luz" },
+        { "original": "τῶν", "traducao": "dos" },
+        { "original": "ἀνθρώπων·", "traducao": "homens;" }
+      ]
+    },
+    {
+      "numero": 5,
+      "palavras": [
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "τὸ", "traducao": "a" },
+        { "original": "φῶς", "traducao": "luz" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "τῇ", "traducao": "a" },
+        { "original": "σκοτίᾳ", "traducao": "escuridão" },
+        { "original": "φαίνει,", "traducao": "está brilhando," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἡ", "traducao": "a" },
+        { "original": "σκοτία", "traducao": "escuridão" },
+        { "original": "αὐτὸ", "traducao": "ela" },
+        { "original": "οὐ", "traducao": "não" },
+        { "original": "κατέλαβεν.", "traducao": "dominou." }
+      ]
+    },
+    CONTINUAR
+  ]
+}

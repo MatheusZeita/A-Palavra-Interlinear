@@ -1,0 +1,151 @@
+{
+  "livro": "Apocalipse",
+  "capitulo": 1,
+  "idioma": "grego",
+
+  "LINK IMPORTANTE PARA MATHEUS": "https://bterry.com/tc2/lay31rev.htm",
+
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        { "original": "Καὶ", "traducao": "E" },
+        { "original": "ἦλθεν", "traducao": "veio" },
+        { "original": "εἷς", "traducao": "um" },
+        { "original": "ἐκ", "traducao": "de" },
+        { "original": "τῶν", "traducao": "os" },
+        { "original": "ἑπτὰ", "traducao": "sete" },
+        { "original": "ἀγγέλων", "traducao": "anjos" },
+        { "original": "τῶν", "traducao": "que" },
+        { "original": "ἐχόντων", "traducao": "possuindo" },
+        { "original": "τὰς", "traducao": "as" },
+        { "original": "ἑπτὰ", "traducao": "sete" },
+        { "original": "φιάλας,", "traducao": "tigelas," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἐλάλησεν", "traducao": "falou" },
+        { "original": "μετʼ", "traducao": "com" },
+        { "original": "ἐμοῦ", "traducao": "mim" },
+        { "original": "λέγων·", "traducao": "dizendo:" },
+        { "original": "Δεῦρο,", "traducao": "“Venha," },
+        { "original": "δείξω", "traducao": "mostrarei" },
+        { "original": "σοι", "traducao": "lhe" },
+        { "original": "τὸ", "traducao": "o" },
+        { "original": "κρίμα", "traducao": "julgamento" },
+        { "original": "τῆς", "traducao": "da" },
+        { "original": "πόρνης", "traducao": "prostituta" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "μεγάλης", "traducao": "grande" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "καθημένης", "traducao": "sentada" },
+        { "original": "ἐπὶ", "traducao": "sobre" },
+        { "original": "⸀ὑδάτων", "traducao": "águas" },
+        { "original": "πολλῶν,", "traducao": "muitas," }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        { "original": "μεθʼ", "traducao": "com" },
+        { "original": "ἧς", "traducao": "a qual" },
+        {
+          "original": "ἐπόρνευσαν",
+          "traducao": "cometeram imoralidade sexual",
+          "nota": "Ou: “prostituíram-se”."
+        },
+        { "original": "οἱ", "traducao": "os" },
+        { "original": "βασιλεῖς", "traducao": "reis" },
+        { "original": "τῆς", "traducao": "da" },
+        { "original": "γῆς,", "traducao": "terra," },
+        { "original": "καὶ" },
+        { "original": "ἐμεθύσθησαν", "traducao": "ficaram embriagados" },
+        { "original": "οἱ", "traducao": "os" },
+        { "original": "κατοικοῦντες", "traducao": "habitando" },
+        { "original": "τὴν", "traducao": "a" },
+        { "original": "γῆν", "traducao": "terra" },
+        { "original": "ἐκ", "traducao": "com" },
+        { "original": "τοῦ", "traducao": "o" },
+        { "original": "οἴνου", "traducao": "vinho" },
+        { "original": "τῆς", "traducao": "da" },
+        {
+          "original": "πορνείας",
+          "traducao": "imoralidade sexual",
+          "nota": "Ou: “prostituição”."
+        },
+        { "original": "αὐτῆς.", "traducao": "dela.”" }
+      ]
+    },
+    {
+      "numero": 3,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "καὶ", "traducao": "E" },
+        { "original": "ἀπήνεγκέν", "traducao": "levou" },
+        { "original": "με", "traducao": "me" },
+        { "original": "εἰς", "traducao": "para" },
+        { "original": "ἔρημον", "traducao": "deserto" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "πνεύματι.", "traducao": "espírito." },
+        { "original": "καὶ", "traducao": "E" },
+        { "original": "εἶδον", "traducao": "vi" },
+        { "original": "γυναῖκα", "traducao": "mulher" },
+        { "original": "καθημένην", "traducao": "sentada" },
+        { "original": "ἐπὶ", "traducao": "sobre" },
+        { "original": "θηρίον", "traducao": "fera" },
+        { "original": "κόκκινον,", "traducao": "carmesim," },
+        { "original": "⸀γέμοντα", "traducao": "cheia de" },
+        { "original": "ὀνόματα", "traducao": "nomes" },
+        { "original": "βλασφημίας,", "traducao": "de blasfêmia," },
+        { "original": "⸀ἔχων", "traducao": "tendo" },
+        { "original": "κεφαλὰς", "traducao": "cabeças" },
+        { "original": "ἑπτὰ", "traducao": "sete" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "κέρατα", "traducao": "chifres" },
+        { "original": "δέκα.", "traducao": "dez." }
+      ]
+    },
+    {
+      "numero": 4,
+      "palavras": [
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἡ", "traducao": "a" },
+        { "original": "γυνὴ", "traducao": "mulher" },
+        { "original": "ἦν", "traducao": "estava" },
+        { "original": "περιβεβλημένη", "traducao": "vestida de" },
+        { "original": "πορφυροῦν", "traducao": "púrpura" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "κόκκινον,", "traducao": "carmesim," },
+        { "original": "⸀καὶ", "traducao": "e" },
+        {
+          "original": "κεχρυσωμένη",
+          "traducao": "dourada",
+          "nota": "Ou: “revestida de ouro”; Possivelmente: “adornada”."
+        },
+        { "original": "⸀χρυσίῳ", "traducao": "com ouro" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "λίθῳ", "traducao": "com pedra" },
+        { "original": "τιμίῳ", "traducao": "preciosa" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "μαργαρίταις,", "traducao": "com pérolas," },
+        { "original": "ἔχουσα", "traducao": "tendo" },
+        { "original": "ποτήριον", "traducao": "cálice" },
+        { "original": "χρυσοῦν", "traducao": "dourado" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "τῇ", "traducao": "na" },
+        { "original": "χειρὶ", "traducao": "mão" },
+        { "original": "αὐτῆς", "traducao": "dela" },
+        { "original": "γέμον", "traducao": "cheio" },
+        { "original": "βδελυγμάτων", "traducao": "de coisas repugnantes" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "τὰ", "traducao": "as" },
+        { "original": "ἀκάθαρτα", "traducao": "[coisas] impuras" },
+        { "original": "τῆς", "traducao": "da" },
+        {
+          "original": "πορνείας",
+          "traducao": "imoralidade sexual",
+          "nota": "Ou: “prostituição”."
+        },
+        { "original": "αὐτῆς,", "traducao": "dela," }
+      ]
+    }
+  ]
+}

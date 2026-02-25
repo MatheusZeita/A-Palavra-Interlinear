@@ -6,9 +6,9 @@ Este documento descreve os **requisitos funcionais e não funcionais**, os **cri
 
 ## 🎯 Objetivo do Projeto
 
-O projeto visa disponibilizar online uma tradução interlinear das Escrituras Gregas Cristãs, exibindo:
+O projeto visa disponibilizar online uma tradução interlinear da Bíblia, exibindo:
 
-- O texto original em grego (koiné)
+- O texto no idioma original — a saber, grego *koiné*
 - Tradução palavra por palavra em português
 - Notas explicativas adicionais sobre vocabulário, variações e alternativas
 
@@ -19,7 +19,7 @@ Ele tem fins **educacionais e de estudo bíblico**, com foco em precisão textua
 ## 👤 Público-alvo
 
 - Estudantes das Escrituras
-- Pesquisadores do grego bíblico
+- Pesquisadores dos idiomas bíblicos
 - Leitores interessados em análise interlinear
 - Estudantes de teologia ou exegese bíblica
 
@@ -27,7 +27,7 @@ Ele tem fins **educacionais e de estudo bíblico**, com foco em precisão textua
 
 ## 📌 Escopo do Sistema
 
-- Apresentar o texto bíblico interlinear (grego + tradução literal).
+- Apresentar o texto bíblico interlinear (idioma original + tradução literal).
 - Permitir navegação entre livros e capítulos.
 - Exibir notas explicativas associadas às palavras e ao texto.
 - Funcionar sem back-end, usando arquivos JSON estáticos.
@@ -41,7 +41,7 @@ Ele tem fins **educacionais e de estudo bíblico**, com foco em precisão textua
 | ---------- | ----------------------------------------------------------------------------------------------- |
 | **Must**   | RF01 - O sistema **deve** exibir a lista interativa dos livros.                                 |
 | **Must**   | RF02 - O sistema **deve** permitir navegação entre capítulos de um livro.                       |
-| **Must**   | RF03 - O sistema **deve** renderizar o texto interlinear (grego + tradução literal).            |
+| **Must**   | RF03 - O sistema **deve** renderizar o texto interlinear (idioma original + tradução literal).            |
 | **Must**   | RF04 - O sistema **deve** carregar dinamicamente os dados dos capítulos via arquivos JSON.      |
 | **Must**   | RF05 - O sistema **deve** exibir notas explicativas relacionadas às palavras.                   |
 | **Should** | RF06 - O sistema **deveria** permitir clicar em um asterisco e rolar até a nota correspondente. |
@@ -73,9 +73,10 @@ Os dados estão organizados em arquivos `.json` por capítulo. Cada entrada cont
 
 - Nome do livro
 - Número do capítulo
+- Indicação do idioma original
 - Lista de versículos
   - Versículos compostos por palavras
-    - Palavra original em grego
+    - Palavra no idioma original
     - Tradução literal em português
     - Nota explicativa (opcional)
 
@@ -86,7 +87,7 @@ Os dados estão organizados em arquivos `.json` por capítulo. Cada entrada cont
 ## 🧪 Critérios de Aceitação
 
 - A navegação entre livros e capítulos funciona sem erros.
-- O texto grego e as traduções são exibidos corretamente.
+- O texto no idioma original e as traduções são exibidos corretamente.
 - As notas explicativas são exibidas ao lado e acessíveis por clique.
 - O sistema pode ser aberto e usado localmente sem conexão com servidor externo.
 - Não há erros visuais ou funcionais em dispositivos móveis.

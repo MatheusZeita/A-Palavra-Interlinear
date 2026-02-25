@@ -1,0 +1,312 @@
+{
+  "livro": "Filipenses",
+  "capitulo": 2,
+  "idioma": "grego",
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        { "original": "Εἴ", "traducao": "Se [há]" },
+        { "original": "τις", "traducao": "algum" },
+        { "original": "οὖν", "traducao": "portanto" },
+        {
+          "original": "παράκλησις",
+          "traducao": "encorajamento",
+          "nota": "Ou, possivelmente: “exortação; consolo”; Transliteração: “paráclesis”."
+        },
+        { "original": "ἐν", "traducao": "em" },
+        {
+          "original": "Χριστῷ,",
+          "traducao": "Ungido,",
+          "nota": "Transliteração: “Cristo”."
+        },
+        { "original": "εἴ", "traducao": "se" },
+        { "original": "τι", "traducao": "algum" },
+        { "original": "παραμύθιον", "traducao": "consolo" },
+        { "original": "ἀγάπης,", "traducao": "de amor," },
+        { "original": "εἴ", "traducao": "se" },
+        { "original": "τις", "traducao": "algum" },
+        { "original": "κοινωνία", "traducao": "compartilhamento" },
+        { "original": "πνεύματος,", "traducao": "de espírito," },
+        { "original": "εἴ", "traducao": "se" },
+        { "original": "τις", "traducao": "alguma" },
+        {
+          "original": "σπλάγχνα",
+          "traducao": "entranhas",
+          "nota": "Ou: “[sentimentos] viscerais”; Isto é: “ternos sentimentos”. Refere-se literalmente às entranhas de uma pessoa e figurativamente a sentimentos profundos e emoções intensas."
+        },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "οἰκτιρμοί,", "traducao": "compaixões," }
+      ]
+    },
+
+    {
+      "numero": 2,
+      "palavras": [
+        {
+          "original": "πληρώσατέ",
+          "traducao": "encham",
+          "nota": "Ou: “completem”."
+        },
+        { "original": "μου", "traducao": "minha" },
+        { "original": "τὴν", "traducao": "a" },
+        { "original": "χαρὰν", "traducao": "alegria" },
+        { "original": "ἵνα", "traducao": "para que" },
+        { "original": "τὸ", "traducao": "a" },
+        { "original": "αὐτὸ", "traducao": "mesma [coisa]" },
+        { "original": "φρονῆτε,", "traducao": "tenham em mente," },
+        {
+          "original": "τὴν",
+          "traducao": "a",
+          "nota": "Artigo feminino. Concorda com “ἀγάπην” (amor)."
+        },
+        { "original": "αὐτὴν", "traducao": "mesma" },
+        {
+          "original": "ἀγάπην",
+          "traducao": "amor",
+          "nota": "Transliteração: “agapen”. Substantivo feminino."
+        },
+        { "original": "ἔχοντες,", "traducao": "tendo," },
+        {
+          "original": "σύμψυχοι,",
+          "traducao": "unidos em alma,",
+          "nota": "Isto é: “plenamente unidos”."
+        },
+        { "original": "τὸ", "traducao": "a" },
+        { "original": "ἓν", "traducao": "uma [coisa]" },
+        { "original": "φρονοῦντες,", "traducao": "tendo em mente," }
+      ]
+    },
+
+    {
+      "numero": 3,
+      "palavras": [
+        { "original": "μηδὲν", "traducao": "nada" },
+        { "original": "κατʼ", "traducao": "por" },
+        { "original": "ἐριθείαν", "traducao": "rivalidade" },
+        { "original": "μηδὲ", "traducao": "nem" },
+        { "original": "κατὰ", "traducao": "por" },
+        {
+          "original": "κενοδοξίαν,",
+          "traducao": "vanglória,",
+          "nota": "Ou: “presunção; vaidade”."
+        },
+        { "original": "ἀλλὰ", "traducao": "mas" },
+        { "original": "τῇ", "traducao": "à" },
+        { "original": "ταπεινοφροσύνῃ", "traducao": "com humildade mental" },
+        { "original": "ἀλλήλους", "traducao": "uns aos outros" },
+        { "original": "ἡγούμενοι", "traducao": "considerando" },
+        { "original": "ὑπερέχοντας", "traducao": "superiores" },
+        { "original": "ἑαυτῶν,", "traducao": "a si mesmos," }
+      ]
+    },
+
+    {
+      "numero": 4,
+      "palavras": [
+        { "original": "μὴ", "traducao": "não" },
+        { "original": "τὰ", "traducao": "as [coisas]" },
+        { "original": "ἑαυτῶν", "traducao": "de si mesmos" },
+        { "original": "ἕκαστοι", "traducao": "cada um" },
+        {
+          "original": "σκοποῦντες,",
+          "traducao": "observando,",
+          "nota": "Ou: “atentando; tendo em vista; considerando”."
+        },
+        { "original": "ἀλλὰ", "traducao": "mas" },
+        { "original": "καὶ", "traducao": "também" },
+        { "original": "τὰ", "traducao": "as [coisas]" },
+        { "original": "ἑτέρων", "traducao": "dos outros" },
+        { "original": "ἕκαστοι.", "traducao": "cada um." }
+      ]
+    },
+
+    {
+      "numero": 5,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "τοῦτο", "traducao": "Isto" },
+        { "original": "φρονεῖτε", "traducao": "tenham em mente" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "ὑμῖν", "traducao": "vocês" },
+        { "original": "ὃ", "traducao": "o que" },
+        { "original": "καὶ", "traducao": "também" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "Χριστῷ", "traducao": "Ungido" },
+        { "original": "Ἰησοῦ,", "traducao": "Jesus," }
+      ]
+    },
+    {
+      "numero": 6,
+      "palavras": [
+        { "original": "ὃς", "traducao": "o qual" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "μορφῇ", "traducao": "forma" },
+        { "original": "θεοῦ", "traducao": "de Deus" },
+        { "original": "ὑπάρχων", "traducao": "existindo" },
+        { "original": "οὐχ", "traducao": "não" },
+        {
+          "original": "ἁρπαγμὸν",
+          "traducao": "algo a ser usurpado",
+          "nota": "Ou: “usurpação”. Derivada do verbo “ἁρπάζω”, que significa “usurpar; arrancar; apoderar-se”."
+        },
+        { "original": "ἡγήσατο", "traducao": "considerou" },
+        { "original": "τὸ", "traducao": "o" },
+        { "original": "εἶναι", "traducao": "ser" },
+        { "original": "ἴσα", "traducao": "igual" },
+        { "original": "θεῷ,", "traducao": "a Deus," }
+      ]
+    },
+    {
+      "numero": 7,
+      "palavras": [
+        { "original": "ἀλλὰ", "traducao": "mas" },
+        { "original": "ἑαυτὸν", "traducao": "a si mesmo" },
+        { "original": "ἐκένωσεν", "traducao": "esvaziou" },
+        { "original": "μορφὴν", "traducao": "forma" },
+        { "original": "δούλου", "traducao": "de escravo" },
+        { "original": "λαβών,", "traducao": "tendo tomado," },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "ὁμοιώματι", "traducao": "semelhança" },
+        { "original": "ἀνθρώπων", "traducao": "de homens" },
+        { "original": "γενόμενος·", "traducao": "tendo se tornado;" }
+      ]
+    },
+    {
+      "numero": 8,
+      "palavras": [
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "σχήματι", "traducao": "em aparência" },
+        { "original": "εὑρεθεὶς", "traducao": "sendo achado" },
+        { "original": "ὡς", "traducao": "como" },
+        { "original": "ἄνθρωπος", "traducao": "homem" },
+        { "original": "ἐταπείνωσεν", "traducao": "humilhou" },
+        { "original": "ἑαυτὸν", "traducao": "a si mesmo" },
+        { "original": "γενόμενος", "traducao": "tornando-se" },
+        { "original": "ὑπήκοος", "traducao": "obediente" },
+        { "original": "μέχρι", "traducao": "até" },
+        { "original": "θανάτου,", "traducao": "morte," },
+        { "original": "θανάτου", "traducao": "morte" },
+        { "original": "δὲ", "traducao": "mas" },
+        { "original": "σταυροῦ·", "traducao": "de estaca;" }
+      ]
+    },
+    {
+      "numero": 9,
+      "palavras": [
+        { "original": "διὸ", "traducao": "por isso" },
+        { "original": "καὶ", "traducao": "também" },
+        {
+          "original": "ὁ",
+          "traducao": "o",
+          "nota": "Pronome definido masculino."
+        },
+        { "original": "θεὸς", "traducao": "Deus" },
+        {
+          "original": "αὐτὸν",
+          "traducao": "o",
+          "nota": "Ou: “ele”. Pronome pessoal masculino no caso acusativo."
+        },
+        { "original": "ὑπερύψωσεν,", "traducao": "elevou altamente," },
+        { "original": "καὶ", "traducao": "e" },
+        {
+          "original": "ἐχαρίσατο",
+          "traducao": "deu bondosamente",
+          "nota": "Ou: “concedeu”. Relacionada à palavra grega para “favor; graça; bondade”."
+        },
+        { "original": "αὐτῷ", "traducao": "a ele" },
+        {
+          "original": "τὸ",
+          "traducao": "o",
+          "nota": "Alguns manuscritos, especialmente bizantinos, omitem este artigo."
+        },
+        { "original": "ὄνομα", "traducao": "nome" },
+        { "original": "τὸ", "traducao": "o" },
+        { "original": "ὑπὲρ", "traducao": "acima de" },
+        { "original": "πᾶν", "traducao": "todo" },
+        { "original": "ὄνομα,", "traducao": "nome," }
+      ]
+    },
+    {
+      "numero": 10,
+      "palavras": [
+        { "original": "ἵνα", "traducao": "para que" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "τῷ", "traducao": "o" },
+        { "original": "ὀνόματι", "traducao": "nome" },
+        { "original": "Ἰησοῦ", "traducao": "de Jesus" },
+        { "original": "πᾶν", "traducao": "todo" },
+        { "original": "γόνυ", "traducao": "joelho" },
+        { "original": "κάμψῃ", "traducao": "se dobre" },
+        { "original": "ἐπουρανίων", "traducao": "de celestiais" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἐπιγείων", "traducao": "de terrestres" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "καταχθονίων,", "traducao": "de subterrâneos," }
+      ]
+    },
+    {
+      "numero": 11,
+      "palavras": [
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "πᾶσα", "traducao": "toda" },
+        { "original": "γλῶσσα", "traducao": "língua" },
+        {
+          "original": "ἐξομολογήσηται",
+          "traducao": "reconheça abertamente",
+          "nota": "Ou: “declare publicamente; confesse”."
+        },
+        { "original": "ὅτι", "traducao": "que" },
+        { "original": "κύριος", "traducao": "[é] Senhor" },
+        { "original": "Ἰησοῦς", "traducao": "Jesus" },
+        {
+          "original": "Χριστὸς",
+          "traducao": "Ungido",
+          "nota": "Alguns manuscritos, especialmente ocidentais, omitem esta palavra."
+        },
+        { "original": "εἰς", "traducao": "para" },
+        { "original": "δόξαν", "traducao": "glória" },
+        { "original": "θεοῦ", "traducao": "de Deus" },
+        { "original": "πατρός.", "traducao": "Pai." }
+      ]
+    },
+    {
+      "numero": 12,
+      "palavras": [
+        { "original": "Ὥστε", "traducao": "" },
+        { "original": "ἀγαπητοί", "traducao": "" },
+        { "original": "μου", "traducao": "" },
+        { "original": "καθὼς", "traducao": "" },
+        { "original": "πάντοτε", "traducao": "" },
+        { "original": "ὑπηκούσατε", "traducao": "" },
+        { "original": "μὴ", "traducao": "" },
+        {
+          "original": "ὡς",
+          "traducao": "como"
+        },
+        { "original": "ἐν", "traducao": "" },
+        { "original": "τῇ", "traducao": "" },
+        { "original": "παρουσίᾳ", "traducao": "" },
+        { "original": "μου", "traducao": "" },
+        { "original": "μόνον", "traducao": "" },
+        { "original": "ἀλλὰ", "traducao": "" },
+        { "original": "νῦν", "traducao": "" },
+        { "original": "πολλῷ", "traducao": "" },
+        { "original": "μᾶλλον", "traducao": "" },
+        { "original": "ἐν", "traducao": "" },
+        { "original": "τῇ", "traducao": "" },
+        { "original": "ἀπουσίᾳ", "traducao": "" },
+        { "original": "μου", "traducao": "" },
+        { "original": "μετὰ", "traducao": "" },
+        { "original": "φόβου", "traducao": "" },
+        { "original": "καὶ", "traducao": "" },
+        { "original": "τρόμου", "traducao": "" },
+        { "original": "τὴν", "traducao": "" },
+        { "original": "ἑαυτῶν", "traducao": "" },
+        { "original": "σωτηρίαν", "traducao": "" },
+        { "original": "κατεργάζεσθε", "traducao": "" }
+      ]
+    }
+  ]
+}
+https://pt.scribd.com/document/556893645/Variantes-Textual-Do-Novo-Testamento-Filipenses

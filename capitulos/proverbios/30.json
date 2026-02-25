@@ -1,0 +1,77 @@
+{
+  "livro": "Provérbios",
+  "capitulo": 30,
+  "idioma": "hebraico",
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        { "original": "דִּבְרֵי", "traducao": "Palavras" },
+        { "original": "אָגוּר", "traducao": "[de] Agur" },
+        { "original": "בִּן־", "traducao": "filho de" },
+        { "original": "יָקֶה", "traducao": "Jaque;" },
+        {
+          "original": "הַמַּשָּׂא",
+          "traducao": "a mensagem",
+          "nota": "Literalmente: “a carga; o peso”."
+        },
+        { "original": "נְאֻם", "traducao": "declaração" },
+        { "original": "הַגֶּבֶר", "traducao": "[de] o homem" },
+        { "original": "לְאִיתִיאֵל", "traducao": "a Itiel" },
+        { "original": "לְאִיתִיאֵל", "traducao": "a Itiel" },
+        { "original": "וְאוּכָל.", "traducao": "e Ucal." }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        { "original": "כִּי", "traducao": "Pois" },
+        {
+          "original": "בַעַר",
+          "traducao": "ignorante",
+          "nota": "Ou: “bruto; irracional”."
+        },
+        { "original": "אָנֹכִי", "traducao": "eu [sou]" },
+        {
+          "original": "מֵאִישׁ",
+          "traducao": "de homem",
+          "nota": "Isto é: “mais do que qualquer homem”."
+        },
+        { "original": "וְלֹא־", "traducao": "e não [tenho]" },
+        { "original": "בִינַת", "traducao": "entendimento" },
+        { "original": "אָדָם", "traducao": "humano" },
+        { "original": "לִי.", "traducao": "para mim." }
+      ]
+    },
+    {
+      "numero": 3,
+      "palavras": [
+        { "original": "וְלֹא", "traducao": "E não" },
+        { "original": "לָמַדְתִּי", "traducao": "aprendi" },
+        { "original": "חָכְמָה", "traducao": "sabedoria," },
+        { "original": "וְדַעַת", "traducao": "nem conhecimento" },
+        {
+          "original": "קְדֹשִׁים",
+          "traducao": "[de] o Santíssimo",
+          "nota": "Literalmente: “os santos”. Plural de excelência."
+        },
+        { "original": "אֵדָע.", "traducao": "conheço." }
+      ]
+    },
+    {
+      "numero": 4,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "מִי", "traducao": "Quem" },
+        { "original": "עָלָה", "traducao": "subiu" },
+        { "original": "שָׁמַיִם", "traducao": "aos céus" },
+        { "original": "וַיֵּרַד", "traducao": "e desceu?" },
+        { "original": "מִי", "traducao": "Quem" },
+        { "original": "אָסַף", "traducao": "ajuntou" },
+        { "original": "רוּחַ", "traducao": "[o] vento" },
+        { "original": "בְּחָפְנָיו", "traducao": "em suas mãos?" },
+        . . . 
+      ]
+    }
+  ]
+}

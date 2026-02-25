@@ -1,0 +1,197 @@
+{
+  "EscriturasCristas": [
+    {
+      "ordem": 1,
+      "completo": "Mateus",
+      "medio": "Mat.",
+      "curto": "Mt",
+      "capitulos": 28
+    },
+    {
+      "ordem": 2,
+      "completo": "Marcos",
+      "medio": "Mar.",
+      "curto": "Mr",
+      "capitulos": 16
+    },
+    {
+      "ordem": 3,
+      "completo": "Lucas",
+      "medio": "Luc.",
+      "curto": "Lu",
+      "capitulos": 24
+    },
+    {
+      "ordem": 4,
+      "completo": "João",
+      "medio": "João",
+      "curto": "Jo",
+      "capitulos": 21
+    },
+
+    {
+      "ordem": 5,
+      "completo": "Atos",
+      "medio": "Atos",
+      "curto": "At",
+      "capitulos": 28
+    },
+
+    {
+      "ordem": 6,
+      "completo": "Romanos",
+      "medio": "Rom.",
+      "curto": "Ro",
+      "capitulos": 16
+    },
+    {
+      "ordem": 7,
+      "completo": "1 Coríntios",
+      "medio": "1 Cor.",
+      "curto": "1Co",
+      "capitulos": 16
+    },
+    {
+      "ordem": 8,
+      "completo": "2 Coríntios",
+      "medio": "2 Cor.",
+      "curto": "2Co",
+      "capitulos": 13
+    },
+    {
+      "ordem": 9,
+      "completo": "Gálatas",
+      "medio": "Gál.",
+      "curto": "Gál",
+      "capitulos": 6
+    },
+    {
+      "ordem": 10,
+      "completo": "Efésios",
+      "medio": "Efé.",
+      "curto": "Ef",
+      "capitulos": 6
+    },
+    {
+      "ordem": 11,
+      "completo": "Filipenses",
+      "medio": "Fil.",
+      "curto": "Fil",
+      "capitulos": 4
+    },
+    {
+      "ordem": 12,
+      "completo": "Colossenses",
+      "medio": "Col.",
+      "curto": "Col",
+      "capitulos": 4
+    },
+    {
+      "ordem": 13,
+      "completo": "1 Tessalonicenses",
+      "medio": "1 Tes.",
+      "curto": "1Te",
+      "capitulos": 5
+    },
+    {
+      "ordem": 14,
+      "completo": "2 Tessalonicenses",
+      "medio": "2 Tes.",
+      "curto": "2Te",
+      "capitulos": 3
+    },
+    {
+      "ordem": 15,
+      "completo": "1 Timóteo",
+      "medio": "1 Tim.",
+      "curto": "1Ti",
+      "capitulos": 6
+    },
+    {
+      "ordem": 16,
+      "completo": "2 Timóteo",
+      "medio": "2 Tim.",
+      "curto": "2Ti",
+      "capitulos": 4
+    },
+    {
+      "ordem": 17,
+      "completo": "Tito",
+      "medio": "Tito",
+      "curto": "Tit",
+      "capitulos": 3
+    },
+    {
+      "ordem": 18,
+      "completo": "Filemom",
+      "medio": "Filêm.",
+      "curto": "Flm",
+      "capitulos": 1
+    },
+    {
+      "ordem": 19,
+      "completo": "Hebreus",
+      "medio": "Heb.",
+      "curto": "He",
+      "capitulos": 13
+    },
+
+    {
+      "ordem": 20,
+      "completo": "Tiago",
+      "medio": "Tia.",
+      "curto": "Tg",
+      "capitulos": 5
+    },
+    {
+      "ordem": 21,
+      "completo": "1 Pedro",
+      "medio": "1 Ped.",
+      "curto": "1Pe",
+      "capitulos": 5
+    },
+    {
+      "ordem": 22,
+      "completo": "2 Pedro",
+      "medio": "2 Ped.",
+      "curto": "2Pe",
+      "capitulos": 3
+    },
+    {
+      "ordem": 23,
+      "completo": "1 João",
+      "medio": "1 João",
+      "curto": "1Jo",
+      "capitulos": 5
+    },
+    {
+      "ordem": 24,
+      "completo": "2 João",
+      "medio": "2 João",
+      "curto": "2Jo",
+      "capitulos": 1
+    },
+    {
+      "ordem": 25,
+      "completo": "3 João",
+      "medio": "3 João",
+      "curto": "3Jo",
+      "capitulos": 1
+    },
+    {
+      "ordem": 26,
+      "completo": "Judas",
+      "medio": "Judas",
+      "curto": "Ju",
+      "capitulos": 1
+    },
+
+    {
+      "ordem": 27,
+      "completo": "Apocalipse",
+      "medio": "Apo.",
+      "curto": "Ap",
+      "capitulos": 22
+    }
+  ]
+}

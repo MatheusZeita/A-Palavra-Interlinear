@@ -1,0 +1,494 @@
+{
+  "livro": "Mateus",
+  "capitulo": 1,
+  "idioma": "grego",
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        { "original": "Βίβλος", "traducao": "Livro" },
+        {
+          "original": "γενέσεως",
+          "traducao": "de origem",
+          "nota": "Ou, possivelmente: “de genealogia; geração; nascimento”."
+        },
+        { "original": "Ἰησοῦ", "traducao": "de Jesus" },
+        {
+          "original": "χριστοῦ",
+          "traducao": "Ungido",
+          "nota": "Transliteração: “Cristo”; Em hebraico: “Messias”."
+        },
+        { "original": "υἱοῦ", "traducao": "filho" },
+        { "original": "Δαυὶδ", "traducao": "de Davi" },
+        { "original": "υἱοῦ", "traducao": "filho" },
+        { "original": "Ἀβραάμ.", "traducao": "de Abraão." }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "Ἀβραὰμ", "traducao": "Abraão" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰσαάκ,", "traducao": "Isaque," },
+        { "original": "Ἰσαὰκ", "traducao": "Isaque" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰακώβ,", "traducao": "Jacó," },
+        { "original": "Ἰακὼβ", "traducao": "Jacó" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰούδαν,", "traducao": "Judá," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "τοὺς", "traducao": "os" },
+        { "original": "ἀδελφούς", "traducao": "irmãos" },
+        { "original": "αὐτοῦ,", "traducao": "dele," }
+      ]
+    },
+    {
+      "numero": 3,
+      "palavras": [
+        { "original": "Ἰούδας", "traducao": "Judá" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Φαρὲς", "traducao": "Peres" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ζάρα", "traducao": "Zerá" },
+        { "original": "ἐκ", "traducao": "de" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "Θαμάρ,", "traducao": "Tamar," },
+        { "original": "Φαρὲς", "traducao": "Peres" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἑσρώμ,", "traducao": "Esrom," },
+        { "original": "Ἑσρὼμ", "traducao": "Esrom" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀράμ,", "traducao": "Rão," }
+      ]
+    },
+    {
+      "numero": 4,
+      "palavras": [
+        { "original": "Ἀρὰμ", "traducao": "Rão" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀμιναδάβ,", "traducao": "Aminadabe," },
+        { "original": "Ἀμιναδὰβ", "traducao": "Aminadabe" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ναασσών,", "traducao": "Nasom," },
+        { "original": "Ναασσὼν", "traducao": "Nasom" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Σαλμών,", "traducao": "Salmom," }
+      ]
+    },
+    {
+      "numero": 5,
+      "palavras": [
+        { "original": "Σαλμὼν", "traducao": "Salmom" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Βόες", "traducao": "Boaz" },
+        { "original": "ἐκ", "traducao": "de" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "Ῥαχάβ,", "traducao": "Raabe," },
+        { "original": "Βόες", "traducao": "Boaz" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰωβὴδ", "traducao": "Obede" },
+        { "original": "ἐκ", "traducao": "de" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "Ῥούθ,", "traducao": "Rute," },
+        { "original": "Ἰωβὴδ", "traducao": "Obede" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰεσσαί,", "traducao": "Jessé," }
+      ]
+    },
+    {
+      "numero": 6,
+      "palavras": [
+        { "original": "Ἰεσσαὶ", "traducao": "Jessé" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Δαυὶδ", "traducao": "Davi" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "βασιλέα.", "traducao": "rei." },
+        { "paragrafo": "inicio" },
+        { "original": "Δαυὶδ", "traducao": "Davi" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Σολομῶνα", "traducao": "Salomão" },
+        { "original": "ἐκ", "traducao": "de" },
+        { "original": "τῆς", "traducao": "da [mulher]" },
+        { "original": "τοῦ", "traducao": "do" },
+        { "original": "Οὐρίου,", "traducao": "Urias," }
+      ]
+    },
+
+    {
+      "numero": 7,
+      "palavras": [
+        { "original": "Σολομὼν", "traducao": "Salomão" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ῥοβοάμ,", "traducao": "Roboão," },
+        { "original": "Ῥοβοὰμ", "traducao": "Roboão" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀβιά,", "traducao": "Abias," },
+        { "original": "Ἀβιὰ", "traducao": "Abias" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀσάφ,", "traducao": "Asa," }
+      ]
+    },
+
+    {
+      "numero": 8,
+      "palavras": [
+        { "original": "Ἀσὰφ", "traducao": "Asa" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰωσαφάτ,", "traducao": "Jeosafá," },
+        { "original": "Ἰωσαφὰτ", "traducao": "Jeosafá" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰωράμ,", "traducao": "Jeorão," },
+        { "original": "Ἰωρὰμ", "traducao": "Jeorão" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ὀζίαν,", "traducao": "Uzias," }
+      ]
+    },
+
+    {
+      "numero": 9,
+      "palavras": [
+        { "original": "Ὀζίας", "traducao": "Uzias" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰωαθάμ,", "traducao": "Jotão," },
+        { "original": "Ἰωαθὰμ", "traducao": "Jotão" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀχάζ,", "traducao": "Acaz," },
+        { "original": "Ἀχὰζ", "traducao": "Acaz" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἑζεκίαν,", "traducao": "Ezequias," }
+      ]
+    },
+
+    {
+      "numero": 10,
+      "palavras": [
+        { "original": "Ἑζεκίας", "traducao": "Ezequias" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Μανασσῆ,", "traducao": "Manassés," },
+        { "original": "Μανασσῆς", "traducao": "Manassés" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀμώς,", "traducao": "Amós," },
+        { "original": "Ἀμὼς", "traducao": "Amós" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰωσίαν,", "traducao": "Josias," }
+      ]
+    },
+
+    {
+      "numero": 11,
+      "palavras": [
+        { "original": "Ἰωσίας", "traducao": "Josias" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰεχονίαν", "traducao": "Jeconias" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "τοὺς", "traducao": "os" },
+        { "original": "ἀδελφοὺς", "traducao": "irmãos" },
+        { "original": "αὐτοῦ", "traducao": "dele" },
+        { "original": "ἐπὶ", "traducao": "em [o tempo]" },
+        { "original": "τῆς", "traducao": "da" },
+        { "original": "μετοικεσίας", "traducao": "deportação" },
+        { "original": "Βαβυλῶνος.", "traducao": "de Babilônia." }
+      ]
+    },
+
+    {
+      "numero": 12,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "Μετὰ", "traducao": "Depois" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "τὴν", "traducao": "a" },
+        { "original": "μετοικεσίαν", "traducao": "deportação" },
+        { "original": "Βαβυλῶνος", "traducao": "de Babilônia" },
+        { "original": "Ἰεχονίας", "traducao": "Jeconias" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Σαλαθιήλ,", "traducao": "Saaltiel," },
+        { "original": "Σαλαθιὴλ", "traducao": "Saaltiel" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ζοροβαβέλ,", "traducao": "Zorobabel," }
+      ]
+    },
+
+    {
+      "numero": 13,
+      "palavras": [
+        { "original": "Ζοροβαβὲλ", "traducao": "Zorobabel" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀβιούδ,", "traducao": "Abiúde," },
+        { "original": "Ἀβιοὺδ", "traducao": "Abiúde" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἐλιακίμ,", "traducao": "Eliaquim," },
+        { "original": "Ἐλιακὶμ", "traducao": "Eliaquim" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀζώρ,", "traducao": "Azor," }
+      ]
+    },
+
+    {
+      "numero": 14,
+      "palavras": [
+        { "original": "Ἀζὼρ", "traducao": "Azor" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Σαδώκ,", "traducao": "Sadoque," },
+        { "original": "Σαδὼκ", "traducao": "Sadoque" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἀχίμ,", "traducao": "Aquim," },
+        { "original": "Ἀχὶμ", "traducao": "Aquim" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἐλιούδ,", "traducao": "Eliúde," }
+      ]
+    },
+
+    {
+      "numero": 15,
+      "palavras": [
+        { "original": "Ἐλιοὺδ", "traducao": "Eliúde" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἐλεάζαρ,", "traducao": "Eleazar," },
+        { "original": "Ἐλεάζαρ", "traducao": "Eleazar" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ματθάν,", "traducao": "Matã," },
+        { "original": "Ματθὰν", "traducao": "Matã" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰακώβ,", "traducao": "Jacó," }
+      ]
+    },
+
+    {
+      "numero": 16,
+      "palavras": [
+        { "original": "Ἰακὼβ", "traducao": "Jacó" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ἐγέννησεν", "traducao": "gerou" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "Ἰωσὴφ", "traducao": "José" },
+        { "original": "τὸν", "traducao": "o" },
+        { "original": "ἄνδρα", "traducao": "marido" },
+        { "original": "Μαρίας,", "traducao": "Maria," },
+        { "original": "ἐξ", "traducao": "de" },
+        { "original": "ἧς", "traducao": "quem" },
+        { "original": "ἐγεννήθη", "traducao": "foi gerado" },
+        { "original": "Ἰησοῦς", "traducao": "Jesus" },
+        { "original": "ὁ", "traducao": "o" },
+        { "original": "λεγόμενος", "traducao": "chamado" },
+        { "original": "χριστός.", "traducao": "Ungido." }
+      ]
+    },
+
+    {
+      "numero": 17,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "Πᾶσαι", "traducao": "Todas" },
+        { "original": "οὖν", "traducao": "portanto" },
+        { "original": "αἱ", "traducao": "as" },
+        { "original": "γενεαὶ", "traducao": "gerações" },
+        { "original": "ἀπὸ", "traducao": "desde" },
+        { "original": "Ἀβραὰμ", "traducao": "Abraão" },
+        { "original": "ἕως", "traducao": "até" },
+        { "original": "Δαυὶδ", "traducao": "Davi" },
+        { "original": "γενεαὶ", "traducao": "[foram] gerações" },
+        { "original": "δεκατέσσαρες,", "traducao": "catorze," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἀπὸ", "traducao": "desde" },
+        { "original": "Δαυὶδ", "traducao": "Davi" },
+        { "original": "ἕως", "traducao": "até" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "μετοικεσίας", "traducao": "deportação" },
+        { "original": "Βαβυλῶνος", "traducao": "de Babilônia" },
+        { "original": "γενεαὶ", "traducao": "gerações" },
+        { "original": "δεκατέσσαρες,", "traducao": "catorze," },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "ἀπὸ", "traducao": "desde" },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "μετοικεσίας", "traducao": "deportação" },
+        { "original": "Βαβυλῶνος", "traducao": "de Babilônia" },
+        { "original": "ἕως", "traducao": "até" },
+        { "original": "τοῦ", "traducao": "o" },
+        { "original": "χριστοῦ", "traducao": "Ungido" },
+        { "original": "γενεαὶ", "traducao": "gerações" },
+        { "original": "δεκατέσσαρες.", "traducao": "catorze." }
+      ]
+    },
+
+    {
+      "numero": 18,
+      "palavras": [
+        { "paragrafo": "inicio" },
+        { "original": "Τοῦ", "traducao": "Do" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "Ἰησοῦ", "traducao": "Jesus" },
+        { "original": "χριστοῦ", "traducao": "Ungido" },
+        { "original": "ἡ", "traducao": "a" },
+        {
+          "original": "γένεσις",
+          "traducao": "origem",
+          "nota": "Ou, possivelmente: “nascimento; geração”."
+        },
+        { "original": "οὕτως", "traducao": "assim" },
+        { "original": "ἦν.", "traducao": "era." },
+        {
+          "original": "Μνηστευθείσης",
+          "traducao": "Tendo sido prometida em casamento"
+        },
+        { "original": "τῆς", "traducao": "a" },
+        { "original": "μητρὸς", "traducao": "mãe" },
+        { "original": "αὐτοῦ", "traducao": "dele" },
+        { "original": "Μαρίας", "traducao": "Maria" },
+        { "original": "τῷ", "traducao": "ao" },
+        { "original": "Ἰωσήφ,", "traducao": "José," },
+        { "original": "πρὶν", "traducao": "antes" },
+        { "original": "ἢ", "traducao": "que" },
+        { "original": "συνελθεῖν", "traducao": "unirem-se" },
+        { "original": "αὐτοὺς", "traducao": "eles" },
+        { "original": "εὑρέθη", "traducao": "foi achada" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "γαστρὶ", "traducao": "ventre" },
+        {
+          "original": "ἔχουσα",
+          "traducao": "tendo",
+          "nota": "Isto é: “grávida."
+        },
+        { "original": "ἐκ", "traducao": "de" },
+        { "original": "πνεύματος", "traducao": "espírito" },
+        { "original": "ἁγίου.", "traducao": "santo." }
+      ]
+    },
+
+    { "CONTINUAR DAQUI": "" },
+
+    {
+      "numero": 19,
+      "palavras": [
+        { "original": "Ἰωσὴφ", "traducao": "José" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "ὁ", "traducao": "o" },
+        { "original": "ἀνὴρ", "traducao": "marido" },
+        { "original": "αὐτῆς,", "traducao": "dela," },
+        { "original": "δίκαιος", "traducao": "justo" },
+        { "original": "ὢν", "traducao": "sendo" },
+        { "original": "καὶ", "traducao": "e" },
+        { "original": "μὴ", "traducao": "não" },
+        { "original": "θέλων", "traducao": "querendo" },
+        { "original": "αὐτὴν", "traducao": "a ela" },
+        { "original": "δειγματίσαι", "traducao": "expor publicamente" },
+        { "original": "ἐβουλήθη", "traducao": "quis" },
+        { "original": "λάθρᾳ", "traducao": "secretamente" },
+        { "original": "ἀπολῦσαι", "traducao": "soltar" },
+        { "original": "αὐτήν", "traducao": "a ela" }
+      ]
+    },
+
+    {
+      "numero": 20,
+      "palavras": [
+        { "original": "ταῦτα", "traducao": "estas coisas" },
+        { "original": "δὲ", "traducao": "porém" },
+        { "original": "αὐτοῦ", "traducao": "dele" },
+        { "original": "ἐνθυμηθέντος", "traducao": "tendo ponderado" },
+        { "original": "ἰδοὺ", "traducao": "eis" },
+        { "original": "ἄγγελος", "traducao": "anjo" },
+        { "original": "κυρίου", "traducao": "de Sᴇɴʜᴏʀ" },
+        { "original": "κατ’", "traducao": "em" },
+        { "original": "ὄναρ", "traducao": "sonho" },
+        { "original": "ἐφάνη", "traducao": "apareceu" },
+        { "original": "αὐτῷ", "traducao": "a ele" },
+        { "original": "λέγων", "traducao": "dizendo" },
+        { "original": "Ἰωσὴφ", "traducao": "José" },
+        { "original": "υἱὸς", "traducao": "filho" },
+        { "original": "Δαυίδ", "traducao": "Davi" },
+        { "original": "μὴ", "traducao": "não" },
+        { "original": "φοβηθῇς", "traducao": "temas" },
+        { "original": "παραλαβεῖν", "traducao": "receber" },
+        { "original": "Μαρίαν", "traducao": "Maria" },
+        { "original": "τὴν", "traducao": "a" },
+        { "original": "γυναῖκά", "traducao": "mulher" },
+        { "original": "σου", "traducao": "tua" },
+        { "original": "τὸ", "traducao": "o" },
+        { "original": "γὰρ", "traducao": "pois" },
+        { "original": "ἐν", "traducao": "em" },
+        { "original": "αὐτῇ", "traducao": "ela" },
+        { "original": "γεννηθὲν", "traducao": "gerado" },
+        { "original": "ἐκ", "traducao": "do" },
+        { "original": "πνεύματος", "traducao": "Espírito" },
+        { "original": "ἁγίου", "traducao": "Santo" }
+      ]
+    }
+  ]
+}
