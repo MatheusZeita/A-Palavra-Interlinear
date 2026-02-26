@@ -28,27 +28,64 @@
     />
     <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
 
-    <!-- Styles -->
+    <!-- Framework -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/index.css" />
   </head>
   <body class="bg-gray-200">
     <div
       id="wrapper"
-      class="w-full max-w-[1200px] min-h-screen mx-auto shadow-2xl bg-gray-50"
+      class="w-full max-w-[1200px] min-h-screen mx-auto shadow-2xl bg-gray-100 flex flex-col"
     >
       <!-- Cabeçalho -->
-      <div id="header"></header>
+      <div id="header"></div>
 
-      <div>
+      <main
+        id="main"
+        class="w-full max-w-[700px] px-8 max-[420px]:px-4 md:px-16 pt-4 sm:pt-5 md:pt-6 pb-12 sm:pb-16 md:pb-20 mx-auto shadow-2xl bg-gray-50 relative z-0 flex flex-col gap-2 md:gap-3 flex-1"
+      >
+        <h1
+          class="page-title text-[1.25rem] sm:text-[1.7rem] md:text-[2rem] font-bold text-blue-900 text-center"
+        >
+          A Palavra Interlinear —<br />Tradução da Bíblia Sagrada
+        </h1>
         <!-- Conteúdo principal -->
-        <main id="books-catalog">a</main>
-      </div>
+        <div id="scriptures-catalog" class="scriptures-catalog mx-auto">
+          <h2
+            class="section-title text-[1rem] sm:text-[1.25rem] md:text-[1.5rem] font-semibold text-gray-500 text-left"
+          >
+            <span class="section-title__large">E</span
+            ><span class="section-title__small">SCRITURAS</span>
+            <span class="section-title__large"> G</span
+            ><span class="section-title__small">REGAS</span>
+            <span class="section-title__large"> C</span
+            ><span class="section-title__small">RISTÃS</span>
+          </h2>
+          <div
+            id="christian-scriptures-catalog"
+            class="christian-scriptures-catalog"
+          ></div>
+        </div>
+      </main>
 
       <!-- Rodapé -->
-      <footer id="footer"></footer>
+      <div id="footer"></div>
     </div>
 
+    <!-- Scripts -->
     <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

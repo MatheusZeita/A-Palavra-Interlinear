@@ -1,40 +1,121 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.header-container,
-.footer-container {
-  min-width: 320px;
-  position: fixed;
-  max-width: 1200px;
+/* Layout */
+.scriptures-catalog {
   width: 100%;
-  background-color: #f2f1ef;
 }
 
-.logo {
-  height: 50px;
+.christian-scriptures-catalog {
+  display: grid;
+  gap: 2px;
+  width: 100%;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(clamp(96px, 18vw, 140px), 1fr)
+  );
+  padding: 8px 0;
 }
 
-#main-content {
+/* Cards */
+.scripture-card {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-  gap: 15px;
+  align-items: center;
+  justify-content: flex-start;
+  height: 48px;
+  width: 100%;
+  padding: 0 15px;
+  border-radius: 0;
+  font-size: 1rem;
+  line-height: 2;
+  text-align: left;
+  min-width: 0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  color: #f8fafc;
+  transition: filter 150ms ease, box-shadow 150ms ease;
 }
 
-.livro-card {
-  border: 1px solid #ccc;
-  padding: 20px;
-  width: 150px;
-  text-align: center;
+.scripture-card:hover {
   cursor: pointer;
-  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #142443;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
 }
 
-.livro-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+.scripture-card span {
+  display: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.scripture-card .label-full {
+  display: block;
+}
+
+/* Typography */
+.page-title,
+.section-title {
+  font-family: "Crimson Pro", serif;
+}
+
+.page-title {
+  line-height: 1.1;
+  font-size: clamp(1.7rem, 2.9vw, 2.2rem);
+}
+
+.section-title__large {
+  font-size: 1em;
+}
+
+.section-title__small {
+  font-size: 0.85em;
+}
+
+/* Utilities */
+.bg-blue-875 {
+  background-color: #1b2f59;
+}
+
+.bg-blue-850 {
+  background-color: #1d386d;
+}
+
+@media (max-width: 600px) {
+  .scripture-card .label-full {
+    display: none;
+  }
+
+  .scripture-card .label-medium {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .christian-scriptures-catalog {
+    grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+  }
+}
+
+@media (max-width: 420px) {
+  .page-title {
+    font-size: 1.35rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+  }
+
+  .christian-scriptures-catalog {
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  }
+
+  .scripture-card {
+    font-size: 1rem;
+  }
+
+  .scripture-card .label-medium {
+    display: none;
+  }
+
+  .scripture-card .label-short {
+    display: block;
+  }
 }

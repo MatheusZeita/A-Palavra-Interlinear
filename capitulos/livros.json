@@ -3,7 +3,7 @@
     {
       "ordem": 1,
       "completo": "Mateus",
-      "medio": "Mat.",
+      "medio": "Mateus",
       "curto": "Mt",
       "capitulos": 28,
       "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΜΑΤΘΑΙΟΝ",
@@ -12,7 +12,7 @@
     {
       "ordem": 2,
       "completo": "Marcos",
-      "medio": "Mar.",
+      "medio": "Marcos",
       "curto": "Mr",
       "capitulos": 16,
       "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΜΑΡΚΟΝ",
@@ -21,7 +21,7 @@
     {
       "ordem": 3,
       "completo": "Lucas",
-      "medio": "Luc.",
+      "medio": "Lucas",
       "curto": "Lu",
       "capitulos": 24,
       "titulo original": "[ΕΥΑΓΓΕΛΙΟΝ] ΚΑΤΑ ΛΟΥΚΑΝ",
@@ -155,17 +155,17 @@
     },
     {
       "ordem": 18,
-      "completo": "Filemom",
-      "medio": "Filêm.",
+      "completo": "Filêmon",
+      "medio": "Filêmon",
       "curto": "Flm",
       "capitulos": 1,
       "titulo original": "ΠΡΟΣ ΦΙΛΗΜΟΝΑ",
-      "titulo traduzido": "[CARTA] A FILEMOM"
+      "titulo traduzido": "[CARTA] A FILÊMON"
     },
     {
       "ordem": 19,
       "completo": "Hebreus",
-      "medio": "Heb.",
+      "medio": "Hebreus",
       "curto": "He",
       "capitulos": 13,
       "titulo original": "ΠΡΟΣ ΕΒΡΑΙΟΥΣ",
@@ -174,7 +174,7 @@
     {
       "ordem": 20,
       "completo": "Tiago",
-      "medio": "Tia.",
+      "medio": "Tiago",
       "curto": "Tg",
       "capitulos": 5,
       "titulo original": "ΙΑΚΩΒΟΥ",
@@ -183,7 +183,7 @@
     {
       "ordem": 21,
       "completo": "1 Pedro",
-      "medio": "1 Ped.",
+      "medio": "1 Pedro",
       "curto": "1Pe",
       "capitulos": 5,
       "titulo original": "ΠΕΤΡΟΥ Α",
@@ -192,7 +192,7 @@
     {
       "ordem": 22,
       "completo": "2 Pedro",
-      "medio": "2 Ped.",
+      "medio": "2 Pedro",
       "curto": "2Pe",
       "capitulos": 3,
       "titulo original": "ΠΕΤΡΟΥ Β",
