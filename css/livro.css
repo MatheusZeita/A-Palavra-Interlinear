@@ -1,0 +1,29 @@
+﻿.chapter-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 48px);
+  gap: 2px;
+  padding: 6px 0;
+}
+
+.chapter-card {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #f8fafc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15);
+  transition: filter 150ms ease, box-shadow 150ms ease;
+}
+
+.chapter-card:hover {
+  cursor: pointer;
+  background-color: #142443;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-blue-850 {
+  background-color: #1d386d;
+}

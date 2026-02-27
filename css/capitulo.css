@@ -1,0 +1,45 @@
+.chapter-layout {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  --aside-width: 400px;
+}
+
+.chapter-aside {
+  width: var(--aside-width);
+  flex: 0 0 var(--aside-width);
+}
+
+@media (max-width: 1200px) {
+  .chapter-layout {
+    --aside-width: 350px;
+  }
+}
+
+@media (max-width: 900px) {
+  .chapter-layout {
+    --aside-width: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .notes-toggle-button {
+    display: inline-flex;
+  }
+
+  .chapter-aside {
+    display: none;
+  }
+
+  .notes-toggle-input:checked ~ .chapter-layout .chapter-aside {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: min(90vw, 320px);
+    z-index: 20;
+    box-shadow: -8px 0 20px rgba(0, 0, 0, 0.25);
+  }
+}

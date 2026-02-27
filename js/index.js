@@ -1,23 +1,42 @@
-const CATEGORY_RANGES = [
-  { min: 1, max: 4, className: "bg-blue-900" }, // Evangelhos
-  { min: 5, max: 5, className: "bg-blue-800" }, // Atos
-  { min: 6, max: 19, className: "bg-blue-850" }, // Cartas de Paulo
-  { min: 20, max: 26, className: "bg-blue-875" }, // Cartas Gerais
+﻿const CATEGORY_RANGES = [
+  { min: 1, max: 5, className: "bg-blue-900" }, // Lei de Moisés
+  { min: 6, max: 17, className: "bg-blue-800" }, // Livros Históricos
+  { min: 18, max: 22, className: "bg-blue-850" }, // Livros Poéticos
+  { min: 23, max: 39, className: "bg-blue-875" }, // Profetas
+  { min: 40, max: 43, className: "bg-blue-900" }, // Evangelhos
+  { min: 44, max: 44, className: "bg-blue-800" }, // Atos
+  { min: 45, max: 58, className: "bg-blue-850" }, // Cartas de Paulo
+  { min: 59, max: 65, className: "bg-blue-875" }, // Cartas Gerais
 ];
 
 const DEFAULT_CATEGORY_CLASS = "bg-blue-900"; // Apocalipse
 
-const getCategoryClass = (ordem) => {
+const getCategoryClass = (posicao) => {
   const match = CATEGORY_RANGES.find(
-    (range) => ordem >= range.min && ordem <= range.max
+    (range) => posicao >= range.min && posicao <= range.max
   );
   return match ? match.className : DEFAULT_CATEGORY_CLASS;
 };
 
 const createCard = (livro) => {
   const card = document.createElement("div");
-  card.className = `scripture-card ${getCategoryClass(livro.ordem)}`;
+  card.className = `scripture-card ${getCategoryClass(livro.posicao)}`;
   card.title = livro.completo;
+  card.setAttribute("role", "button");
+  card.tabIndex = 0;
+
+  const goToBook = () => {
+    const posicao = encodeURIComponent(livro.posicao);
+    window.location.href = `livro.html?posicao=${posicao}`;
+  };
+
+  card.addEventListener("click", goToBook);
+  card.addEventListener("keydown", (event) => {
+    if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      goToBook();
+    }
+  });
 
   const full = document.createElement("span");
   full.className = "label-full";
@@ -35,9 +54,9 @@ const createCard = (livro) => {
   return card;
 };
 
-const renderChristianScriptures = (livros) => {
-  const container = document.getElementById("christian-scriptures-catalog");
-  if (!container) return;
+const renderScriptures = (livros, containerId) => {
+  const container = document.getElementById(containerId);
+  if (!container || !Array.isArray(livros) || livros.length === 0) return;
 
   const fragment = document.createDocumentFragment();
 
@@ -49,14 +68,16 @@ const renderChristianScriptures = (livros) => {
   container.appendChild(fragment);
 };
 
-fetch("capitulos/livros.json")
+fetch("data-interlinear/livros.json")
   .then((r) => r.json())
   .then((data) => {
-    const livros = data?.EscriturasCristas;
-    if (!Array.isArray(livros)) return;
+    const crist = data?.EscriturasCristas;
+    const heb = data?.EscriturasHebraicas;
 
-    renderChristianScriptures(livros);
+    renderScriptures(crist, "christian-scriptures-catalog");
+    renderScriptures(heb, "hebrew-scriptures-catalog");
   })
   .catch((err) => {
     console.error("Falha ao carregar livros.json", err);
   });
+

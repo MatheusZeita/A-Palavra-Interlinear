@@ -3,7 +3,8 @@
   width: 100%;
 }
 
-.christian-scriptures-catalog {
+.christian-scriptures-catalog,
+.hebrew-scriptures-catalog {
   display: grid;
   gap: 2px;
   width: 100%;
@@ -21,7 +22,7 @@
   justify-content: flex-start;
   height: 48px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 10px 0 13px;
   border-radius: 0;
   font-size: 1rem;
   line-height: 2;
@@ -89,7 +90,8 @@
 }
 
 @media (max-width: 500px) {
-  .christian-scriptures-catalog {
+  .christian-scriptures-catalog,
+  .hebrew-scriptures-catalog {
     grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
   }
 }
@@ -103,8 +105,9 @@
     font-size: 1rem;
   }
 
-  .christian-scriptures-catalog {
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  .christian-scriptures-catalog,
+  .hebrew-scriptures-catalog {
+    grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
   }
 
   .scripture-card {

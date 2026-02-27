@@ -50,21 +50,35 @@
       class="w-full max-w-[1200px] min-h-screen mx-auto shadow-2xl bg-gray-100 flex flex-col"
     >
       <!-- Cabeçalho -->
-      <div id="header"></div>
+      <div id="header" class="sticky top-0 z-30"></div>
 
       <main
         id="main"
-        class="w-full max-w-[700px] px-8 max-[420px]:px-4 md:px-16 pt-4 sm:pt-5 md:pt-6 pb-12 sm:pb-16 md:pb-20 mx-auto shadow-2xl bg-gray-50 relative z-0 flex flex-col gap-2 md:gap-3 flex-1"
+        class="w-full max-w-[700px] px-8 max-[420px]:px-4 min-[700px]:px-16 pt-4 sm:pt-5 min-[700px]:pt-6 pb-12 sm:pb-16 min-[700px]:pb-20 mx-auto shadow-2xl bg-gray-50 relative z-0 flex flex-col gap-2 md:gap-3 flex-1"
       >
         <h1
-          class="page-title text-[1.25rem] sm:text-[1.7rem] md:text-[2rem] font-bold text-blue-900 text-center"
+          class="page-title text-[1.7rem] max-[420px]:text-[1.25rem] min-[700px]:text-[2rem] font-bold text-blue-900 text-center"
         >
           A Palavra Interlinear —<br />Tradução da Bíblia Sagrada
         </h1>
         <!-- Conteúdo principal -->
         <div id="scriptures-catalog" class="scriptures-catalog mx-auto">
-          <h2
+          <!-- <h2
             class="section-title text-[1rem] sm:text-[1.25rem] md:text-[1.5rem] font-semibold text-gray-500 text-left"
+          >
+            <span class="section-title__large">E</span
+            ><span class="section-title__small">SCRITURAS</span>
+            <span class="section-title__large"> H</span
+            ><span class="section-title__small">EBRAICO-</span
+            ><span class="section-title__large">A</span
+            ><span class="section-title__small">RAMAICAS</span>
+          </h2>
+          <div
+            id="hebrew-scriptures-catalog"
+            class="hebrew-scriptures-catalog"
+          ></div> -->
+          <h2
+            class="section-title text-[1.25rem] max-[420px]:text-[1rem] min-[700px]:text-[1.5rem] font-semibold text-gray-500 text-left"
           >
             <span class="section-title__large">E</span
             ><span class="section-title__small">SCRITURAS</span>

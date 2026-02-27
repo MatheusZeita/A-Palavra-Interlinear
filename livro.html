@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Title -->
+    <title>Livro — A Palavra Interlinear</title>
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+
+    <!-- Framework -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/livro.css" />
+  </head>
+  <body class="bg-gray-200">
+    <div
+      id="wrapper"
+      class="w-full max-w-[1200px] min-h-screen mx-auto shadow-2xl bg-gray-100 flex flex-col"
+    >
+      <!-- Cabecalho -->
+      <div id="header" class="sticky top-0 z-30"></div>
+
+      <main
+        id="main"
+        class="w-full max-w-[700px] px-8 max-[420px]:px-4 md:px-16 pt-4 sm:pt-5 md:pt-6 pb-12 sm:pb-16 md:pb-20 mx-auto shadow-2xl bg-gray-50 relative z-0 flex flex-col gap-2 md:gap-3 flex-1"
+      >
+        <div class="flex flex-col items-center gap-0">
+          <h1
+            id="book-title"
+            class="text-[1.7rem] sm:text-[2rem] font-bold leading-[1.05] text-blue-900 text-center"
+            style="font-family: 'Crimson Pro', serif"
+          >
+            Livro
+          </h1>
+          <p
+            id="book-title-original"
+            class="mt-[2px] text-[1.3rem] sm:text-[1.6rem] text-gray-600 text-center"
+            style="font-family: 'Crimson Pro', serif"
+          ></p>
+        </div>
+        <h2
+          id="book-message"
+          class="section-title text-[1.25rem] min-[700px]:text-[1.5rem] font-semibold text-gray-500 text-left"
+          style="font-family: 'Crimson Pro', serif"
+        ></h2>
+        <div id="chapters-grid" class="chapter-grid"></div>
+      </main>
+
+      <!-- Rodape -->
+      <div id="footer"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/livro.js"></script>
+  </body>
+</html>

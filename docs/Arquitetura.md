@@ -14,7 +14,7 @@ O projeto tem como objetivo apresentar uma tradução interlinear das Escrituras
 
 Para facilitar o aprendizado e evitar complexidade, a implementação pode ser feita em passos pequenos:
 
-1. Página inicial lista os livros usando `capitulos/livros.json`.
+1. Página inicial lista os livros usando `data-interlinear/livros.json`.
 2. `livro.html` exibe a lista de capítulos do livro selecionado.
 3. `capitulo.html` carrega o JSON do capítulo e renderiza o texto interlinear básico.
 4. Notas, breadcrumbs e melhorias visuais.
@@ -58,7 +58,7 @@ A-Palavra-Interlinear/
 │   ├── favicon.ico
 │   └── ...
 │
-├── capitulos/                      # Arquivos JSON com os textos interlineares
+├── data-interlinear/                      # Arquivos JSON com os textos interlineares
 │   ├── mateus/                     # Arquivos JSON do livro em questão
 │   │   ├── 01.json                 # Estrutura com versículos, palavras, traduções e notas
 │   │   ├── 02.json
@@ -197,3 +197,4 @@ Vantagens:
 - O sistema pode funcionar offline se os arquivos estiverem localmente disponíveis.
 - A estrutura modular permite que sejam adicionados novos livros ou capítulos com facilidade.
 - A arquitetura facilita a internacionalização futura (por exemplo, traduções em outros idiomas).
+
