@@ -21,13 +21,12 @@
         { "original": "υἱοῦ", "traducao": "filho" },
         { "original": "Δαυὶδ", "traducao": "de Davi" },
         { "original": "υἱοῦ", "traducao": "filho" },
-        { "original": "Ἀβραάμ.", "traducao": "de Abraão." }
+        { "original": "Ἀβραάμ.", "traducao": "de Abraão.", "fimParagrafo": true }
       ]
     },
     {
       "numero": 2,
       "palavras": [
-        { "paragrafo": "inicio" },
         { "original": "Ἀβραὰμ", "traducao": "Abraão" },
         { "original": "ἐγέννησεν", "traducao": "gerou" },
         { "original": "τὸν", "traducao": "o" },
@@ -129,8 +128,7 @@
         { "original": "τὸν", "traducao": "o" },
         { "original": "Δαυὶδ", "traducao": "Davi" },
         { "original": "τὸν", "traducao": "o" },
-        { "original": "βασιλέα.", "traducao": "rei." },
-        { "paragrafo": "inicio" },
+        { "original": "βασιλέα.", "traducao": "rei.", "fimParagrafo": true },
         { "original": "Δαυὶδ", "traducao": "Davi" },
         { "original": "δὲ", "traducao": "porém" },
         { "original": "ἐγέννησεν", "traducao": "gerou" },
@@ -242,14 +240,13 @@
         { "original": "ἐπὶ", "traducao": "em [o tempo]" },
         { "original": "τῆς", "traducao": "da" },
         { "original": "μετοικεσίας", "traducao": "deportação" },
-        { "original": "Βαβυλῶνος.", "traducao": "de Babilônia." }
+        { "original": "Βαβυλῶνος.", "traducao": "de Babilônia.", "fimParagrafo": true }
       ]
     },
 
     {
       "numero": 12,
       "palavras": [
-        { "paragrafo": "inicio" },
         { "original": "Μετὰ", "traducao": "Depois" },
         { "original": "δὲ", "traducao": "porém" },
         { "original": "τὴν", "traducao": "a" },
@@ -347,14 +344,13 @@
         { "original": "Ἰησοῦς", "traducao": "Jesus" },
         { "original": "ὁ", "traducao": "o" },
         { "original": "λεγόμενος", "traducao": "chamado" },
-        { "original": "χριστός.", "traducao": "Ungido." }
+        { "original": "χριστός.", "traducao": "Ungido.", "fimParagrafo": true }
       ]
     },
 
     {
       "numero": 17,
       "palavras": [
-        { "paragrafo": "inicio" },
         { "original": "Πᾶσαι", "traducao": "Todas" },
         { "original": "οὖν", "traducao": "portanto" },
         { "original": "αἱ", "traducao": "as" },
@@ -383,14 +379,13 @@
         { "original": "τοῦ", "traducao": "o" },
         { "original": "χριστοῦ", "traducao": "Ungido" },
         { "original": "γενεαὶ", "traducao": "gerações" },
-        { "original": "δεκατέσσαρες.", "traducao": "catorze." }
+        { "original": "δεκατέσσαρες.", "traducao": "catorze.", "fimParagrafo": true }
       ]
     },
 
     {
       "numero": 18,
       "palavras": [
-        { "paragrafo": "inicio" },
         { "original": "Τοῦ", "traducao": "Do" },
         { "original": "δὲ", "traducao": "porém" },
         { "original": "Ἰησοῦ", "traducao": "Jesus" },

@@ -1,14 +1,43 @@
 .chapter-layout {
   width: 100%;
   display: flex;
-  align-items: flex-start;
-  gap: 16px;
+  align-items: stretch;
+  gap: 0;
   --aside-width: 400px;
+  min-height: 0;
+}
+
+#wrapper {
+  --header-height: 0px;
+  --chapter-header-height: 0px;
+  --footer-height: 0px;
+  --footer-overlap: 0px;
 }
 
 .chapter-aside {
   width: var(--aside-width);
   flex: 0 0 var(--aside-width);
+  transition: width 320ms cubic-bezier(0.22, 1, 0.36, 1),
+    opacity 320ms ease,
+    transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
+  overflow: hidden;
+  min-height: 0;
+}
+
+.notes-overlay {
+  display: none;
+}
+
+.notes-toggle-input:not(:checked) ~ #chapterContent .chapter-layout {
+  gap: 0;
+}
+
+.notes-toggle-input:not(:checked) ~ #chapterContent .chapter-layout .chapter-aside {
+  width: 0;
+  flex: 0 0 0;
+  opacity: 0;
+  transform: translateX(16px);
+  pointer-events: none;
 }
 
 @media (max-width: 1200px) {
@@ -28,18 +57,45 @@
     display: inline-flex;
   }
 
-  .chapter-aside {
-    display: none;
-  }
-
-  .notes-toggle-input:checked ~ .chapter-layout .chapter-aside {
+  .notes-overlay {
     display: block;
     position: fixed;
-    top: 0;
+    top: calc(var(--header-height) + var(--chapter-header-height));
+    left: 0;
     right: 0;
-    height: 100vh;
-    width: min(90vw, 320px);
+    bottom: var(--footer-overlap);
+    background: rgba(15, 23, 42, 0.2);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 300ms ease;
     z-index: 20;
-    box-shadow: -8px 0 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .notes-toggle-input:checked ~ .notes-overlay {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .chapter-aside {
+    position: fixed;
+    top: calc(var(--header-height) + var(--chapter-header-height));
+    right: 0;
+    height: calc(
+      100vh - var(--header-height) - var(--chapter-header-height) -
+        var(--footer-overlap)
+    );
+    width: min(90vw, 320px);
+    z-index: 30;
+    box-shadow: -10px 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateX(40px);
+    opacity: 0;
+    pointer-events: none;
+    overflow-y: auto;
+  }
+
+  .notes-toggle-input:checked ~ #chapterContent .chapter-layout .chapter-aside {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
   }
 }
