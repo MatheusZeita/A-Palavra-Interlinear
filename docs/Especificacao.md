@@ -109,27 +109,31 @@ Esta seção define princípios objetivos para a tradução interlinear no modo 
 
 ### Diretrizes por tempo verbal (modo indicativo)
 
-Presente (aspecto linear/contínuo)
-
+#### Presente (aspecto linear/contínuo)
 - Diretriz: refletir ação em progresso, repetida ou característica.
 - Preferir: "estou fazendo"; alternativa neutra: "faço".
 - Se habitual: "costumo fazer".
-  Imperfeito (aspecto linear no passado)
+
+#### Imperfeito (aspecto linear no passado)
 - Diretriz: marcar continuidade no passado.
-- Preferir: "estava fazendo"; alternativa: "fazia" (habitual).
-  Futuro (aspecto geral no futuro)
+- Preferir: "fazia"; alternativa: "estava fazendo".
+
+#### Futuro (aspecto geral no futuro)
 - Diretriz: ação futura simples.
 - Usar: "farei", "fará", "farão".
 - Não inserir certeza absoluta além do contexto.
-  Aoristo (aspecto pontual/global)
+
+#### Aoristo (aspecto pontual/global)
 - Diretriz: evento visto como um todo, sem foco no processo.
 - Preferir: pretérito perfeito simples ("fiz", "fez").
 - Evitar formas contínuas ("estava fazendo").
 - Observação: o aoristo é aspectual, não necessariamente instantâneo.
-  Perfeito (aspecto resultativo)
+
+#### Perfeito (aspecto resultativo)
 - Diretriz: ação concluída com resultado presente.
 - Preferir: "tenho feito" ou forma resultativa ("está feito").
-  Mais-que-perfeito (resultado no passado)
+
+#### Mais-que-perfeito (resultado no passado)
 - Diretriz: ação concluída com resultado existente no passado.
 - Usar: "tinha feito" ou "estava feito".
 
