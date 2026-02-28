@@ -8,7 +8,7 @@ Este documento descreve os **requisitos funcionais e não funcionais**, os **cri
 
 O projeto visa disponibilizar online uma tradução interlinear da Bíblia, exibindo:
 
-- O texto no idioma original — a saber, grego *koiné*
+- O texto no idioma original — a saber, grego _koiné_
 - Tradução palavra por palavra em português
 - Notas explicativas adicionais sobre vocabulário, variações e alternativas
 
@@ -37,19 +37,27 @@ Ele tem fins **educacionais e de estudo bíblico**, com foco em precisão textua
 
 ## ✅ Requisitos Funcionais (RF) — _Usando MoSCoW_
 
-| Prioridade | Requisito                                                                                       |
-| ---------- | ----------------------------------------------------------------------------------------------- |
-| **Must**   | RF01 - O sistema **deve** exibir a lista interativa dos livros.                                 |
-| **Must**   | RF02 - O sistema **deve** permitir navegação entre capítulos de um livro.                       |
-| **Must**   | RF03 - O sistema **deve** renderizar o texto interlinear (idioma original + tradução literal).            |
-| **Must**   | RF04 - O sistema **deve** carregar dinamicamente os dados dos capítulos via arquivos JSON.      |
-| **Must**   | RF05 - O sistema **deve** exibir notas explicativas relacionadas às palavras.                   |
+| Prioridade | Requisito                                                                                      |
+| ---------- | ---------------------------------------------------------------------------------------------- |
+| **Must**   | RF01 - O sistema **deve** exibir a lista interativa dos livros.                                |
+| **Must**   | RF02 - O sistema **deve** permitir navegação entre capítulos de um livro.                      |
+| **Must**   | RF03 - O sistema **deve** renderizar o texto interlinear (idioma original + tradução literal). |
+
+| **Must** | RF04 - O sistema **deve** carregar dinamicamente os dados dos capítulos via arquivos JSON. |
+
+| **Must** | RF05 - O sistema **deve** exibir notas explicativas relacionadas às palavras. |
+
 | **Should** | RF06 - O sistema **deveria** permitir clicar em um asterisco e rolar até a nota correspondente. |
-| **Should** | RF07 - O sistema **deveria** manter breadcrumbs de navegação.                                   |
-| **Could**  | RF08 - O sistema **poderia** implementar busca por palavras gregas.                             |
-| **Could**  | RF09 - O sistema **poderia** permitir alternância entre traduções alternativas.                 |
-| **Could**  | RF10 - O sistema **poderia** suportar traduções em múltiplos idiomas no futuro.                 |
-| **Won’t**  | RF11 - O sistema **não terá** login de usuário na primeira versão.                              |
+
+| **Should** | RF07 - O sistema **deveria** manter breadcrumbs de navegação. |
+
+| **Could** | RF08 - O sistema **poderia** implementar busca por palavras gregas. |
+
+| **Could** | RF09 - O sistema **poderia** permitir alternância entre traduções alternativas. |
+
+| **Could** | RF10 - O sistema **poderia** suportar traduções em múltiplos idiomas no futuro. |
+
+| **Won’t** | RF11 - O sistema **não terá** login de usuário na primeira versão. |
 
 ---
 
@@ -84,9 +92,86 @@ Os dados estão organizados em arquivos `.json` por capítulo. Cada entrada cont
 
 ---
 
+## Diretrizes de Tradução Interlinear (Grego Koiné)
+
+Esta seção define princípios objetivos para a tradução interlinear no modo indicativo, com foco em aspecto verbal e fidelidade gramatical. A interlinear deve refletir tempo, aspecto, voz e modo sem harmonizar automaticamente com o português.
+
+### Princípios gerais
+
+- Priorizar o aspecto verbal sobre a fluidez estilística.
+- Evitar "teologizar" o verbo: primeiro vem o valor gramatical.
+- Não ajustar automaticamente o tempo verbal para soar mais natural.
+- Distinguir sempre:
+  - Tempo (quando ocorre)
+  - Aspecto (como a ação é vista)
+  - Voz (quem realiza a ação)
+  - Modo (realidade, possibilidade, ordem etc.)
+
+### Diretrizes por tempo verbal (modo indicativo)
+
+Presente (aspecto linear/contínuo)
+
+- Diretriz: refletir ação em progresso, repetida ou característica.
+- Preferir: "estou fazendo"; alternativa neutra: "faço".
+- Se habitual: "costumo fazer".
+  Imperfeito (aspecto linear no passado)
+- Diretriz: marcar continuidade no passado.
+- Preferir: "estava fazendo"; alternativa: "fazia" (habitual).
+  Futuro (aspecto geral no futuro)
+- Diretriz: ação futura simples.
+- Usar: "farei", "fará", "farão".
+- Não inserir certeza absoluta além do contexto.
+  Aoristo (aspecto pontual/global)
+- Diretriz: evento visto como um todo, sem foco no processo.
+- Preferir: pretérito perfeito simples ("fiz", "fez").
+- Evitar formas contínuas ("estava fazendo").
+- Observação: o aoristo é aspectual, não necessariamente instantâneo.
+  Perfeito (aspecto resultativo)
+- Diretriz: ação concluída com resultado presente.
+- Preferir: "tenho feito" ou forma resultativa ("está feito").
+  Mais-que-perfeito (resultado no passado)
+- Diretriz: ação concluída com resultado existente no passado.
+- Usar: "tinha feito" ou "estava feito".
+
+### Voz verbal (complemento)
+
+- Ativa: sujeito realiza a ação.
+- Média: sujeito participa/é afetado diretamente.
+  - Geralmente traduzir como ativa, observando nuance reflexiva quando explícita.
+- Passiva: sujeito recebe a ação.
+  - Manter construção passiva sempre que possível.
+
+### Regra especial para interlinear
+
+A interlinear não deve:
+
+- Interpretar intenções.
+- Ajustar estilo literário.
+- Harmonizar tempos por fluidez.
+
+A interlinear deve:
+
+- Refletir a forma verbal.
+- Indicar continuidade quando houver.
+- Marcar resultado quando presente no perfeito.
+- Diferenciar claramente aoristo de imperfeito.
+
+### Resumo operacional (indicativo)
+
+| Tempo             | Diretriz principal   |
+| ----------------- | -------------------- |
+| Presente          | Processo atual       |
+| Imperfeito        | Processo passado     |
+| Futuro            | Ação futura          |
+| Aoristo           | Evento completo      |
+| Perfeito          | Resultado presente   |
+| Mais-que-perfeito | Resultado no passado |
+
+---
+
 ## 🧪 Critérios de Aceitação
 
-- A navegação entre livros e capítulos funciona sem erros.
+- A navegação entre livros e capítulos funciona sem erros
 - O texto no idioma original e as traduções são exibidos corretamente.
 - As notas explicativas são exibidas ao lado e acessíveis por clique.
 - O sistema pode ser aberto e usado localmente sem conexão com servidor externo.
