@@ -1,4 +1,6 @@
-﻿const getQueryParam = (name) => {
+﻿import { transliterarGrego } from './transliterarGrego.js';
+
+const getQueryParam = (name) => {
   const params = new URLSearchParams(window.location.search);
   return params.get(name);
 };
@@ -29,11 +31,20 @@ const renderChapters = (livro) => {
   const titleOriginal = document.getElementById("book-title-original");
   const grid = document.getElementById("chapters-grid");
 
-  if (title)
+  if (title) {
     title.textContent =
       livro?.["titulo traduzido"] || livro?.completo || "Livro";
-  if (titleOriginal)
-    titleOriginal.textContent = livro?.["titulo original"] || "";
+  }
+  if (titleOriginal) {
+    const tituloOriginal = livro?.["titulo original"] || "";
+    titleOriginal.textContent = tituloOriginal;
+    const isGreek = Number.isFinite(livro?.posicao) && livro.posicao >= 40;
+    if (tituloOriginal && isGreek) {
+      titleOriginal.title = transliterarGrego(tituloOriginal);
+    } else {
+      titleOriginal.removeAttribute("title");
+    }
+  }
   updateDocumentTitle(livro);
   if (!grid) return;
 
@@ -100,3 +111,4 @@ if (!Number.isFinite(posicao)) {
       setMessage("Falha ao carregar a lista de livros.");
     });
 }
+

@@ -8,7 +8,7 @@ Este documento descreve os **requisitos funcionais e não funcionais**, os **cri
 
 O projeto visa disponibilizar online uma tradução interlinear da Bíblia, exibindo:
 
-- O texto no idioma original — a saber, grego _koiné_
+- O texto no idioma original — a saber, grego coiné
 - Tradução palavra por palavra em português
 - Notas explicativas adicionais sobre vocabulário, variações e alternativas
 
@@ -92,7 +92,7 @@ Os dados estão organizados em arquivos `.json` por capítulo. Cada entrada cont
 
 ---
 
-## Diretrizes de Tradução Interlinear (Grego Koiné)
+## Diretrizes de Tradução Interlinear (Grego Coiné)
 
 Esta seção define princípios objetivos para a tradução interlinear no modo indicativo, com foco em aspecto verbal e fidelidade gramatical. A interlinear deve refletir tempo, aspecto, voz e modo sem harmonizar automaticamente com o português.
 

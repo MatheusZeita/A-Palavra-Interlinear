@@ -1,0 +1,105 @@
+{
+  "livro": "Salmos",
+  "capitulo": 150,
+  "idioma": "hebraico",
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "יָהּ", "traducao": "[a] Jah!" },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "אֵל", "traducao": "[a] Deus" },
+        { "original": "בְּ", "traducao": "em" },
+        { "original": "קָדְשׁוֹ", "traducao": "santuário dele." },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בִּ", "traducao": "em" },
+        { "original": "רְקִיעַ", "traducao": "firmamento de" },
+        {
+          "original": "עֻזּוֹ",
+          "traducao": "poder dele.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בִּ", "traducao": "por" },
+        { "original": "גְבוּרֹתָיו", "traducao": "atos poderosos dele." },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "כְּ", "traducao": "segundo" },
+        { "original": "רֹב", "traducao": "abundância de" },
+        {
+          "original": "גֻּדְלוֹ",
+          "traducao": "grandeza dele.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "palavras": [
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בְּ", "traducao": "com" },
+        { "original": "תֵקַע", "traducao": "toque de" },
+        { "original": "שׁוֹפָר", "traducao": "trombeta de chifre." },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בְּ", "traducao": "com" },
+        { "original": "נֵבֶל", "traducao": "harpa" },
+        { "original": "וְ", "traducao": "e" },
+        { "original": "כִנּוֹר", "traducao": "lira.", "fimParagrafo": true }
+      ]
+    },
+    {
+      "numero": 4,
+      "palavras": [
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בְּ", "traducao": "com" },
+        { "original": "תֹף", "traducao": "pandeiro" },
+        { "original": "וּ", "traducao": "e" },
+        { "original": "מָחוֹל", "traducao": "dança." },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בְּ", "traducao": "com" },
+        { "original": "מִנִּים", "traducao": "cordas" },
+        { "original": "וְ", "traducao": "e" },
+        { "original": "עוּגָב", "traducao": "flauta.", "fimParagrafo": true }
+      ]
+    },
+    {
+      "numero": 5,
+      "palavras": [
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בְּ", "traducao": "com" },
+        { "original": "צִלְצְלֵי", "traducao": "címbalos de" },
+        { "original": "שָׁמַע", "traducao": "som." },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "הוּ", "traducao": "a ele" },
+        { "original": "בְּ", "traducao": "com" },
+        { "original": "צִלְצְלֵי", "traducao": "címbalos de" },
+        { "original": "תְרוּעָה", "traducao": "grito.", "fimParagrafo": true }
+      ]
+    },
+    {
+      "numero": 6,
+      "palavras": [
+        { "original": "כֹּל", "traducao": "Todo" },
+        { "original": "הַ", "traducao": "o" },
+        { "original": "נְּשָׁמָה", "traducao": "fôlego" },
+        { "original": "תְּהַלֵּל", "traducao": "louve" },
+        { "original": "יָהּ", "traducao": "[a] Jah." },
+        { "original": "הַלְלוּ", "traducao": "Louvem" },
+        { "original": "יָהּ", "traducao": "[a] Jah!", "fimParagrafo": true }
+      ]
+    }
+  ]
+}

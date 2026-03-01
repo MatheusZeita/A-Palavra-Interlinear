@@ -6,7 +6,7 @@ Este documento descreve a arquitetura geral do projeto, incluindo a **estrutura 
 
 ## 🔍 Visão Geral
 
-O projeto tem como objetivo apresentar uma tradução interlinear das Escrituras, exibindo o texto no idioma original (hebraico clássico ou grego *koiné*) e a tradução palavra por palavra, com notas explicativas (opcionais) ao lado. O conteúdo é estruturado em arquivos JSON, um para cada capítulo, e renderizado dinamicamente via HTML + JavaScript.
+O projeto tem como objetivo apresentar uma tradução interlinear das Escrituras, exibindo o texto no idioma original (hebraico clássico ou grego coiné) e a tradução palavra por palavra, com notas explicativas (opcionais) ao lado. O conteúdo é estruturado em arquivos JSON, um para cada capítulo, e renderizado dinamicamente via HTML + JavaScript.
 
 ---
 
@@ -124,7 +124,7 @@ Cada capítulo bíblico é representado por um arquivo `.json` com a seguinte es
     - `original`: Palavra no idioma original.
     - `traducao`: Tradução da palavra correspondente em português.
     - `nota` *(opcional)*: Nota explicativa vinculada à palavra.
-    - `paragrafo` *(opcional)*: Indicação especial para marcar o início de parágrafo.
+    - `fimParagrafo` *(opcional)*: Indicação especial para marcar o início de parágrafo.
 
 ### Exemplo:
 

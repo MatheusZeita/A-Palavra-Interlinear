@@ -1,3 +1,6 @@
+import { transliterarGrego } from "./transliterarGrego.js";
+import { transliterarHebraico } from "./transliterarHebraico.js";
+
 const NOTES_BREAKPOINT = 800;
 
 const getQueryParam = (name) => {
@@ -23,6 +26,9 @@ const getLayoutElements = () => ({
   notesToggle: document.getElementById("notes-toggle"),
   notesToggleButton: document.getElementById("notes-toggle-button"),
   chapterIdentification: document.getElementById("chapterIdentification"),
+  interlinear: document.getElementById("interlinear"),
+  bookTitle: document.getElementById("book-title"),
+  bookTitleOriginal: document.getElementById("book-title-original"),
 });
 
 const setChapterLink = (elements, livro, capitulo) => {
@@ -33,11 +39,30 @@ const setChapterLink = (elements, livro, capitulo) => {
   const titleSpan = container.querySelector(".chapter-title");
   if (!link || !titleSpan) return;
 
-  const title = livro?.completo || livro?.curto || "Livro";
+  const rawTitle = livro?.completo || livro?.curto || "Livro";
+  const isPsalms = rawTitle === "Salmos";
+  const title = isPsalms ? "Salmo" : rawTitle;
   const chapterText = capitulo ? `${title} ${capitulo}` : title;
 
   link.href = `livro.html?posicao=${encodeURIComponent(livro?.posicao ?? "")}`;
   titleSpan.textContent = chapterText;
+};
+
+const setBookTitles = (elements, livro) => {
+  if (elements.bookTitle) {
+    elements.bookTitle.textContent =
+      livro?.["titulo traduzido"] || livro?.completo || "Livro";
+  }
+  if (elements.bookTitleOriginal) {
+    const tituloOriginal = livro?.["titulo original"] || "";
+    elements.bookTitleOriginal.textContent = tituloOriginal;
+    const isGreek = Number.isFinite(livro?.posicao) && livro.posicao >= 40;
+    if (tituloOriginal && isGreek) {
+      elements.bookTitleOriginal.title = transliterarGrego(tituloOriginal);
+    } else {
+      elements.bookTitleOriginal.removeAttribute("title");
+    }
+  }
 };
 
 const updateLayoutVars = (elements) => {
@@ -92,9 +117,11 @@ const initNotesControls = (elements) => {
 };
 
 const observeLayoutTargets = (elements) => {
-  const targets = [elements.header, elements.chapterHeader, elements.footer].filter(
-    Boolean
-  );
+  const targets = [
+    elements.header,
+    elements.chapterHeader,
+    elements.footer,
+  ].filter(Boolean);
   if (targets.length === 0) return;
 
   const observer = new MutationObserver(() => {
@@ -122,7 +149,159 @@ const initLayoutHandlers = (elements) => {
   window.addEventListener("scroll", () => updateLayoutVars(elements), {
     passive: true,
   });
-  window.addEventListener("DOMContentLoaded", () => observeLayoutTargets(elements));
+  window.addEventListener("DOMContentLoaded", () =>
+    observeLayoutTargets(elements)
+  );
+};
+
+const getChapterFileName = (capitulo) => {
+  if (!Number.isFinite(capitulo)) return null;
+  const pad = capitulo >= 100 ? 3 : 2;
+  return String(capitulo).padStart(pad, "0");
+};
+
+const createToken = (traducao, original, idioma, strongId) => {
+  const token = document.createElement("span");
+  token.className = "token inline-flex flex-col items-center";
+
+  var strongId = 5485;
+  if (strongId) {
+    const strongIdAnchor = document.createElement("a");
+    strongIdAnchor.className =
+      "strongId text-[0.7rem] text-sky-600 hover:text-sky-400";
+    strongIdAnchor.textContent = strongId;
+    strongIdAnchor.href = `https://biblehub.com/greek/${strongId}.htm`;
+    strongIdAnchor.target = "_blank";
+    strongIdAnchor.rel = "noopener noreferrer";
+    token.appendChild(strongIdAnchor);
+  }
+
+  if (original) {
+    const originalSpan = document.createElement("span");
+    originalSpan.className = "original text-[1.3rem] text-slate-600";
+    originalSpan.textContent = original;
+
+    const idiomaNormalizado = String(idioma || "").toLowerCase();
+    const titlePorIdioma = {
+      grego: () => (originalSpan.title = transliterarGrego(original)),
+      hebraico: () => (originalSpan.title = transliterarHebraico(original)),
+      aramaico: () => originalSpan.removeAttribute("title"), //(originalSpan.title = transliterarAramaico(original)),
+    };
+    titlePorIdioma[idiomaNormalizado]?.() ||
+      originalSpan.removeAttribute("title");
+
+    token.appendChild(originalSpan);
+  }
+
+  if (traducao) {
+    const translation = document.createElement("span");
+    translation.className = "traducao text-[1.3rem] text-slate-900";
+    translation.textContent = traducao;
+    token.appendChild(translation);
+  }
+
+  return token;
+};
+
+const createNumberToken = (number, className) => {
+  const span = document.createElement("span");
+  span.className = className;
+  span.textContent = number;
+  return span;
+};
+
+const createParagraphBreak = () => {
+  const fragment = document.createDocumentFragment();
+
+  const paragraphBreak = document.createElement("span");
+  paragraphBreak.className = "paragraph-break block w-full h-2";
+
+  const paragraphIndentation = document.createElement("div");
+  paragraphIndentation.className = "paragraph-indentation inline-flex w-4";
+
+  fragment.appendChild(paragraphBreak);
+  fragment.appendChild(paragraphIndentation);
+
+  return fragment;
+};
+
+const renderInterlinear = (elements, data, capituloNumero) => {
+  const container = elements.interlinear;
+  if (!container) return;
+
+  container.innerHTML = "";
+
+  const versiculos = Array.isArray(data?.versiculos) ? data.versiculos : [];
+  const chapterNumber = Number.isFinite(capituloNumero)
+    ? capituloNumero
+    : Number(data?.capitulo);
+
+  let chapterNumberInserted = false;
+
+  versiculos.forEach((versiculo) => {
+    const words = Array.isArray(versiculo?.palavras) ? versiculo.palavras : [];
+    const verseNumber = Number(versiculo?.numero);
+    let verseNumberInserted = false;
+
+    words.forEach((word) => {
+      if (!chapterNumberInserted && Number.isFinite(chapterNumber)) {
+        container.appendChild(
+          createNumberToken(
+            chapterNumber,
+            "chapter-number inline-flex text-[3rem] text-blue-900 font-bold leading-none mr-3"
+          )
+        );
+        chapterNumberInserted = true;
+      }
+
+      if (
+        !verseNumberInserted &&
+        Number.isFinite(verseNumber) &&
+        verseNumber !== 1
+      ) {
+        container.appendChild(
+          createNumberToken(
+            verseNumber,
+            "verse-number inline-flex text-[1.3em] text-blue-900 font-semibold leading-none"
+          )
+        );
+        verseNumberInserted = true;
+      }
+
+      if (word?.traducao || word?.original) {
+        container.appendChild(
+          createToken(word.traducao, word.original, data?.idioma)
+        );
+      }
+
+      if (word?.fimParagrafo) {
+        container.appendChild(createParagraphBreak());
+      }
+    });
+  });
+};
+
+const applyTextDirection = (elements, idioma) => {
+  if (!elements.interlinear) return;
+
+  const isHebrew = String(idioma || "").toLowerCase() === "hebraico";
+  elements.interlinear.classList.toggle("is-rtl", isHebrew);
+  if (isHebrew) {
+    elements.interlinear.setAttribute("dir", "rtl");
+    elements.interlinear.setAttribute("lang", "he");
+  } else {
+    elements.interlinear.removeAttribute("dir");
+    elements.interlinear.removeAttribute("lang");
+  }
+};
+
+const fetchChapterData = (livroPosicao, capituloNumero) => {
+  const chapterFile = getChapterFileName(capituloNumero);
+  if (!chapterFile || !Number.isFinite(livroPosicao)) {
+    return Promise.resolve(null);
+  }
+  const path = `data-interlinear/${livroPosicao}/${chapterFile}.json`;
+  return fetch(path).then((r) => r.json());
 };
 
 const initChapterPage = () => {
@@ -148,10 +327,20 @@ const initChapterPage = () => {
         return;
       }
 
-      const capitulo = Number.isFinite(capituloNumero)
-        ? capituloNumero
-        : null;
+      const capitulo = Number.isFinite(capituloNumero) ? capituloNumero : null;
       setChapterLink(elements, livro, capitulo);
+      setBookTitles(elements, livro);
+
+      if (!Number.isFinite(capituloNumero)) return;
+      fetchChapterData(livroPosicao, capituloNumero)
+        .then((chapterData) => {
+          if (!chapterData) return;
+          applyTextDirection(elements, chapterData.idioma);
+          renderInterlinear(elements, chapterData, capituloNumero);
+        })
+        .catch(() => {
+          if (elements.interlinear) elements.interlinear.innerHTML = "";
+        });
     })
     .catch(() => {
       setChapterLink(elements, null, capituloNumero);

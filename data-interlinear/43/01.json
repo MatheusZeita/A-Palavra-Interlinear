@@ -26,8 +26,8 @@
         { "original": "καὶ", "traducao": "e" },
         { "original": "ὁ", "traducao": "o" },
         { "original": "λόγος", "traducao": "Palavra" },
-        { 
-          "original": "ἦν", 
+        {
+          "original": "ἦν",
           "traducao": "era",
           "nota": "Ou: “existia”; Possivelmente: “estava”."
         },
@@ -53,8 +53,8 @@
       "numero": 2,
       "palavras": [
         { "original": "οὗτος", "traducao": "Este" },
-        { 
-          "original": "ἦν", 
+        {
+          "original": "ἦν",
           "traducao": "era",
           "nota": "Ou: “existia”; Possivelmente: “estava”."
         },
@@ -68,17 +68,16 @@
     {
       "numero": 3,
       "palavras": [
-        { "original": "πάντα", "traducao": "Tudo" },
-        { "original": "διʼ", "traducao": "por meio de" },
-        { "original": "αὐτοῦ", "traducao": "ele" },
+        { "original": "πάντα", "traducao": "Todas [as coisas]" },
+        { "original": "διʼ", "traducao": "através" },
+        { "original": "αὐτοῦ", "traducao": "dele" },
         { "original": "ἐγένετο,", "traducao": "veio à existência," },
         { "original": "καὶ", "traducao": "e" },
         { "original": "χωρὶς", "traducao": "sem" },
         { "original": "αὐτοῦ", "traducao": "ele" },
         { "original": "ἐγένετο", "traducao": "veio à existência" },
         { "original": "οὐδὲ", "traducao": "nem mesmo" },
-        { "original": "ἕν.", "traducao": "uma [coisa]." },
-        { "paragrafo": "inicio" },
+        { "original": "ἕν.", "traducao": "uma [coisa].", "fimParagrafo": true },
         { "original": "ὃ", "traducao": "O que" },
         { "original": "γέγονεν", "traducao": "veio à existência" }
       ]
@@ -117,7 +116,6 @@
         { "original": "οὐ", "traducao": "não" },
         { "original": "κατέλαβεν.", "traducao": "dominou." }
       ]
-    },
-    CONTINUAR
+    }
   ]
 }

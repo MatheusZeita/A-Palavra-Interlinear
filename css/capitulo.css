@@ -17,8 +17,7 @@
 .chapter-aside {
   width: var(--aside-width);
   flex: 0 0 var(--aside-width);
-  transition: width 320ms cubic-bezier(0.22, 1, 0.36, 1),
-    opacity 320ms ease,
+  transition: width 320ms cubic-bezier(0.22, 1, 0.36, 1), opacity 320ms ease,
     transform 320ms cubic-bezier(0.22, 1, 0.36, 1);
   overflow: hidden;
   min-height: 0;
@@ -28,11 +27,39 @@
   display: none;
 }
 
+.traducao,
+.verse-number,
+.chapter-number {
+  font-family: "Crimson Pro", serif;
+}
+
+.verse-number {
+  align-self: center;
+}
+
+.interlinear.is-rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.interlinear.is-rtl .token {
+  align-items: center;
+}
+
+.interlinear.is-rtl .traducao {
+  direction: ltr;
+  unicode-bidi: plaintext;
+  text-align: right;
+}
+
 .notes-toggle-input:not(:checked) ~ #chapterContent .chapter-layout {
   gap: 0;
 }
 
-.notes-toggle-input:not(:checked) ~ #chapterContent .chapter-layout .chapter-aside {
+.notes-toggle-input:not(:checked)
+  ~ #chapterContent
+  .chapter-layout
+  .chapter-aside {
   width: 0;
   flex: 0 0 0;
   opacity: 0;
