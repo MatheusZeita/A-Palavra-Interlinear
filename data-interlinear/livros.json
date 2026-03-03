@@ -7,6 +7,7 @@
       "curto": "Gên",
       "capitulos": 50,
       "titulo original": "בראשית",
+      "transliteracao": "Bərēʾšît",
       "titulo traduzido": "GÊNESIS"
     },
     {
@@ -16,6 +17,7 @@
       "curto": "Êx",
       "capitulos": 40,
       "titulo original": "שמות",
+      "transliteracao": "Šəmôt",
       "titulo traduzido": "ÊXODO"
     },
     {
@@ -25,6 +27,7 @@
       "curto": "Le",
       "capitulos": 27,
       "titulo original": "ויקרא",
+      "transliteracao": "Wayyiqrāʾ",
       "titulo traduzido": "LEVÍTICO"
     },
     {
@@ -34,6 +37,7 @@
       "curto": "Núm",
       "capitulos": 36,
       "titulo original": "במדבר",
+      "transliteracao": "Bəmîḏbar",
       "titulo traduzido": "NÚMEROS"
     },
     {
@@ -43,6 +47,7 @@
       "curto": "De",
       "capitulos": 34,
       "titulo original": "דברים",
+      "transliteracao": "Dəḇārîm",
       "titulo traduzido": "DEUTERONÔMIO"
     },
     {
@@ -52,6 +57,7 @@
       "curto": "Jos",
       "capitulos": 24,
       "titulo original": "יהושע",
+      "transliteracao": "Yəhôšuaʿ",
       "titulo traduzido": "JOSUÉ"
     },
     {
@@ -61,6 +67,7 @@
       "curto": "Jz",
       "capitulos": 21,
       "titulo original": "שופטים",
+      "transliteracao": "Šōp̄əṭîm",
       "titulo traduzido": "JUÍZES"
     },
     {
@@ -70,6 +77,7 @@
       "curto": "Ru",
       "capitulos": 4,
       "titulo original": "רות",
+      "transliteracao": "Rût",
       "titulo traduzido": "RUTE"
     },
     {
@@ -79,6 +87,7 @@
       "curto": "1Sa",
       "capitulos": 31,
       "titulo original": "שמואל א",
+      "transliteracao": "Šəmûʾēl ʾĀlep̄",
       "titulo traduzido": "PRIMEIRO DE SAMUEL"
     },
     {
@@ -88,6 +97,7 @@
       "curto": "2Sa",
       "capitulos": 24,
       "titulo original": "שמואל ב",
+      "transliteracao": "Šəmûʾēl Bêt",
       "titulo traduzido": "SEGUNDO DE SAMUEL"
     },
     {
@@ -97,6 +107,7 @@
       "curto": "1Rs",
       "capitulos": 22,
       "titulo original": "מלכים א",
+      "transliteracao": "Məlāḵîm ʾĀlep̄",
       "titulo traduzido": "PRIMEIRO DOS REIS"
     },
     {
@@ -106,6 +117,7 @@
       "curto": "2Rs",
       "capitulos": 25,
       "titulo original": "מלכים ב",
+      "transliteracao": "Məlāḵîm Bêt",
       "titulo traduzido": "SEGUNDO DOS REIS"
     },
     {
@@ -115,6 +127,7 @@
       "curto": "1Cr",
       "capitulos": 29,
       "titulo original": "דברי הימים א",
+      "transliteracao": "Dibrê Hayyāmîm ʾĀlep̄",
       "titulo traduzido": "PRIMEIRO DAS CRÔNICAS"
     },
     {
@@ -124,6 +137,7 @@
       "curto": "2Cr",
       "capitulos": 36,
       "titulo original": "דברי הימים ב",
+      "transliteracao": "Dibrê Hayyāmîm Bêt",
       "titulo traduzido": "SEGUNDO DAS CRÔNICAS"
     },
     {
@@ -133,6 +147,7 @@
       "curto": "Esd",
       "capitulos": 10,
       "titulo original": "עזרא",
+      "transliteracao": "ʿEzrāʾ",
       "titulo traduzido": "ESDRAS"
     },
     {
@@ -142,6 +157,7 @@
       "curto": "Ne",
       "capitulos": 13,
       "titulo original": "נחמיה",
+      "transliteracao": "Nəḥemyāh",
       "titulo traduzido": "NEEMIAS"
     },
     {
@@ -151,6 +167,7 @@
       "curto": "Est",
       "capitulos": 10,
       "titulo original": "אסתר",
+      "transliteracao": "ʾEstēr",
       "titulo traduzido": "ESTER"
     },
     {
@@ -160,6 +177,7 @@
       "curto": "Jó",
       "capitulos": 42,
       "titulo original": "איוב",
+      "transliteracao": "ʾÎyyôḇ",
       "titulo traduzido": "JÓ"
     },
     {
@@ -169,6 +187,7 @@
       "curto": "Sal",
       "capitulos": 150,
       "titulo original": "תהילים",
+      "transliteracao": "Təhillîm",
       "titulo traduzido": "SALMOS"
     },
     {
@@ -178,6 +197,7 @@
       "curto": "Pr",
       "capitulos": 31,
       "titulo original": "משלי",
+      "transliteracao": "Mišlê",
       "titulo traduzido": "PROVÉRBIOS"
     },
     {
@@ -187,6 +207,7 @@
       "curto": "Ec",
       "capitulos": 12,
       "titulo original": "קהלת",
+      "transliteracao": "Qōhelet",
       "titulo traduzido": "ECLESIASTES"
     },
     {
@@ -196,6 +217,7 @@
       "curto": "Cân",
       "capitulos": 8,
       "titulo original": "שיר השירים",
+      "transliteracao": "Šîr Haššîrîm",
       "titulo traduzido": "CÂNTICO DOS CÂNTICOS"
     },
     {
@@ -205,6 +227,7 @@
       "curto": "Is",
       "capitulos": 66,
       "titulo original": "ישעיהו",
+      "transliteracao": "Yəšaʿyāhû",
       "titulo traduzido": "ISAÍAS"
     },
     {
@@ -214,6 +237,7 @@
       "curto": "Je",
       "capitulos": 52,
       "titulo original": "ירמיהו",
+      "transliteracao": "Yirməyāhû",
       "titulo traduzido": "JEREMIAS"
     },
     {
@@ -223,6 +247,7 @@
       "curto": "La",
       "capitulos": 5,
       "titulo original": "איכה",
+      "transliteracao": "ʾÊḵāh",
       "titulo traduzido": "LAMENTAÇÕES"
     },
     {
@@ -232,6 +257,7 @@
       "curto": "Ez",
       "capitulos": 48,
       "titulo original": "יחזקאל",
+      "transliteracao": "Yəḥezqēʾl",
       "titulo traduzido": "EZEQUIEL"
     },
     {
@@ -241,6 +267,7 @@
       "curto": "Da",
       "capitulos": 12,
       "titulo original": "דניאל",
+      "transliteracao": "Dānîʾēl",
       "titulo traduzido": "DANIEL"
     },
     {
@@ -250,6 +277,7 @@
       "curto": "Os",
       "capitulos": 14,
       "titulo original": "הושע",
+      "transliteracao": "Hôšēaʿ",
       "titulo traduzido": "OSEIAS"
     },
     {
@@ -259,6 +287,7 @@
       "curto": "Jl",
       "capitulos": 3,
       "titulo original": "יואל",
+      "transliteracao": "Yôʾēl",
       "titulo traduzido": "JOEL"
     },
     {
@@ -268,6 +297,7 @@
       "curto": "Am",
       "capitulos": 9,
       "titulo original": "עמוס",
+      "transliteracao": "ʿĀmôs",
       "titulo traduzido": "AMÓS"
     },
     {
@@ -277,6 +307,7 @@
       "curto": "Ob",
       "capitulos": 1,
       "titulo original": "עובדיה",
+      "transliteracao": "ʿÔḇaḏyāh",
       "titulo traduzido": "OBADIAS"
     },
     {
@@ -286,6 +317,7 @@
       "curto": "Jon",
       "capitulos": 4,
       "titulo original": "יונה",
+      "transliteracao": "Yônāh",
       "titulo traduzido": "JONAS"
     },
     {
@@ -295,6 +327,7 @@
       "curto": "Miq",
       "capitulos": 7,
       "titulo original": "מיכה",
+      "transliteracao": "Mîḵāh",
       "titulo traduzido": "MIQUEIAS"
     },
     {
@@ -304,6 +337,7 @@
       "curto": "Na",
       "capitulos": 3,
       "titulo original": "נחום",
+      "transliteracao": "Naḥûm",
       "titulo traduzido": "NAUM"
     },
     {
@@ -313,6 +347,7 @@
       "curto": "Hab",
       "capitulos": 3,
       "titulo original": "חבקוק",
+      "transliteracao": "Ḥăḇaqqûq",
       "titulo traduzido": "HABACUQUE"
     },
     {
@@ -322,6 +357,7 @@
       "curto": "Sof",
       "capitulos": 3,
       "titulo original": "צפניה",
+      "transliteracao": "Ṣəp̄anyāh",
       "titulo traduzido": "SOFONIAS"
     },
     {
@@ -331,6 +367,7 @@
       "curto": "Ag",
       "capitulos": 2,
       "titulo original": "חגי",
+      "transliteracao": "Ḥaggay",
       "titulo traduzido": "AGEU"
     },
     {
@@ -340,6 +377,7 @@
       "curto": "Za",
       "capitulos": 14,
       "titulo original": "זכריה",
+      "transliteracao": "Zəḵaryāh",
       "titulo traduzido": "ZACARIAS"
     },
     {
@@ -349,6 +387,7 @@
       "curto": "Mal",
       "capitulos": 4,
       "titulo original": "מלאכי",
+      "transliteracao": "Malʾāḵî",
       "titulo traduzido": "MALAQUIAS"
     }
   ],

@@ -1,4 +1,4 @@
-﻿.chapter-grid {
+.chapter-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, 48px);
   gap: 2px;

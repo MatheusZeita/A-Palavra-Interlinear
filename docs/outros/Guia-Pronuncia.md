@@ -1,70 +1,87 @@
 # Guia de Pronúncia Reconstruída do Grego Coiné (Século I EC)
 
-Este guia apresenta a pronúncia do grego coiné conforme falado no primeiro século da Era Comum (período das Escrituras Cristãs). Diferente da pronúncia "Erasmiana", esta reconstrução histórica reflete como os autores bíblicos e seus primeiros leitores realmente soavam.
+Este guia apresenta a pronúncia do grego coiné (comum) conforme falado no primeiro século da Era Comum (período das Escrituras Cristãs).
+
+- **Importante:** A transliteração acadêmica usada em interlineares (ex.: agapē, phōs, Iēsous) representa as letras gregas, não a pronúncia histórica. O sistema abaixo descreve a reconstrução fonética baseada em evidências linguísticas, papirológicas e comparativas.
 
 ---
 
-## 1. Vogais e Ditongos (O Fenômeno do Iotacismo)
+## 1. Vogais e ditongos
 
-No século I, o grego passava por uma transição fonética. Muitas vogais estavam convergindo para o som de **"i"**.
+### Vogais
 
-### Vogais Simples
-| Letra | Som (IPA) | Equivalente em Português | Exemplo |
-| :--- | :---: | :--- | :--- |
-| **Α α** | /a/ | **A**pa (aberto) | *Abba* |
-| **Ε ε** | /e̞/ | P**é** (aberto e curto) | *Ergon* |
-| **Η η** | /e/ | Voc**ê** (fechado e longo) | *Agápē* |
-| **Ι ι** | /i/ | D**i**a | *Iisous* |
-| **Ο ο** | /o/ | **O**vo (médio/curto) | *Logos* |
-| **Ω ω** | /o/ | **O**uro (soava igual ao Omicron) | *Phōs* |
-| **Υ υ** | /y/ | Som de **"ü"** (boca de 'u', som de 'i') | *Kyrios* |
+No grego clássico, a diferença entre uma vogal curta (ε) e uma longa (η) era a duração do som. No grego coiné, essa distinção de tempo (quantidade) desaparece, dando lugar à distinção de qualidade (timbre).
+
+| Letra   | Nome    |     Som (IPA) | Som equivalente       | Observações                                       |
+| :------ | :------ | ------------: | :-------------------- | :------------------------------------------------ |
+| **Α α** | Alfa    |       **/a/** | **A**bismo            |                                                   |
+| **Ε ε** | Épsilon |       **/e/** | **E**nergia           |                                                   |
+| **Η η** | Eta     | **/e̝/ → /i/** | M**e**nino            | Em muitas regiões, já era pronunciado como /i/.   |
+| **Ι ι** | Iota    |       **/i/** | **I**dioma            |                                                   |
+| **Ο ο** | Ômicron |       **/o/** | **O**ráculo           | Soava igual ao ômega (Ω).                         |
+| **Υ υ** | Úpsilon |       **/y/** | _M**ü**ller_ (alemão) | Boca de "u", som de "i"; não existe em português. |
+| **Ω ω** | Ômega   |       **/o/** | **O**ceano            | Soava igual ao ômicron (Ο).                       |
+
+- **Nota:** Em letras como **ᾳ, ῃ, ῳ**, o iota subscrito **não é pronunciado**; leia apenas a vogal principal. De fato, iota subscrito, acentos tonais, comprimento das vogais, trema e formas dialetais antigas eram ignorados na fala, mas permaneciam na escrita formal, poética ou musical.
 
 ### Ditongos (Encontros Vocálicos)
-Os ditongos são a chave para a sonoridade do Novo Testamento. No século I, a maioria já havia se tornado sons simples (monotongos).
 
-| Ditongo | Pronúncia | Dica para Brasileiros |
-| :--- | :---: | :--- |
-| **αι** | **/e̞/** | Soa como o nosso **"é"**. (ex: *chaire* → "cheré") |
-| **ει** | **/i/** | Soa exatamente como o nosso **"i"**. (ex: *pisteis* → "pístis") |
-| **οι** | **/y/** | Soa como o **"ü"** francês (biquinho). (ex: *oikos* → "ükos") |
-| **ου** | **/u/** | Como o nosso **"u"** em "uva". (ex: *doulos* → "dulos") |
-| **υι** | **/y/** | Também soa como o **"ü"** francês. |
-| **ᾳ, ῃ, ῳ** | /a/, /e/, /o/ | O Iota subscrito **não é pronunciado**. Leia apenas a vogal principal. |
+No primeiro século, a maioria dos ditongos já haviam se tornado monotongos (um único som).
+
+| Ditongo |       Som (IPA) | Som equivalente            | Observações                                                                 |
+| :------ | --------------: | :------------------------- | :-------------------------------------------------------------------------- |
+| **αι**  |         **/e/** | F**e**nômeno               |                                                                             |
+| **ει**  |         **/i/** | C**i**rurgia               |                                                                             |
+| **οι**  |   **/y/ → /i/** | H**i**per                  | Em muitas regiões, já era pronunciado como /i/.                             |
+| **υι**  |   **/y/ → /i/** | H**i**per                  | Raro; em muitas regiões, já era pronunciado como /i/.                       |
+| **ου**  |         **/u/** | M**ú**sica                 |                                                                             |
+| **αυ**  | **/av/ ~ /af/** | **Av**ersão / **Af**ta     | Antes de consoante sonora ou vogal = /av/; antes de consoante surda = /af/. |
+| **ευ**  | **/ev/ ~ /ef/** | **Ev**angelho / **Ef**eito | Antes de consoante sonora ou vogal = /ev/; antes de consoante surda = /ef/. |
+| **ηυ**  | **/ev/ ~ /ef/** | **Ev**angelho / **Ef**eito | Muito raro; foneticamente equivalente a ευ.                                 |
 
 ---
 
 ## 2. Consoantes (A Mudança para Fricativas)
 
-Diferente do grego clássico, no Koiné do NT as letras **Β, Γ, Δ** já não tinham sons "duros" (B, G, D), mas sons "soprados".
+Diferente do grego clássico, no coiné as letras **Β, Γ, Δ** já não tinham sons "duros" (B, G, D), mas sons "soprados".
 
-| Letra | Som (IPA) | Como pronunciar (Referência BR) |
-| :--- | :---: | :--- |
-| **Β β** | /v/ | Como o **V** de "Vida". |
-| **Γ γ** | /ɣ/ ou /j/ | Um **G** suave (espanhol *fuego*). Antes de 'e' ou 'i', soa como **I** (*iogurte*). |
-| **Δ δ** | /ð/ | Como o **D** em espanhol (*nada*) ou o *th* inglês em *this*. |
-| **Ζ ζ** | /z/ | Como o **Z** de "Zebra". |
-| **Θ θ** | /θ/ | Como o *th* inglês em *think* (assoprado entre os dentes). |
-| **Κ κ** | /k/ | Como o **C** de "Casa". |
-| **Φ φ** | /f/ | Como o **F** de "Faca". |
-| **Χ χ** | /x/ | Como o **RR** de "Carro" (sotaque carioca ou mineiro). |
-| **Σ σ/ς** | /s/ | Sempre como o **S** de "Sapo" (nunca tem som de Z). |
+| Letra     | Nome   |      Som (IPA) | Som equivalente                   | Observações                                                                                                                                              |
+| :-------- | :----- | -------------: | :-------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Β β**   | Beta   |        **/v/** | **V**ida                          | Já não era /b/ clássico.                                                                                                                                 |
+| **Γ γ**   | Gama   |  **/ɣ/ ~ /ʝ/** | _Fue**g**o_ / _**Y**o_ (espanhol) | Já não era /g/ clássico; não existe em português. Soava como "g" espanhol suave [ɣ]; antes de vogais anteriores, (ε, ει, ι) soava como "y" espanhol [ʝ]. |
+| **Δ δ**   | Delta  |        **/ð/** | _**Th**is_ (inglês)               | Já não era /d/ clássico; havia variação entre dialetos.                                                                                                  |
+| **Ζ ζ**   | Zeta   | **/dz/ → /z/** | **Z**elo                          | Já não era /dz/ clássico.                                                                                                                                |
+| **Θ θ**   | Teta   |        **/θ/** | _**Th**eater_ (inglês)            | Já não era /tʰ/ clássico; não existe em português.                                                                                                       |
+| **Κ κ**   | Kapa   |        **/k/** | **C**ósmico                       |                                                                                                                                                          |
+| **Λ λ**   | Lambda |        **/l/** | **L**ógica                        |                                                                                                                                                          |
+| **Μ μ**   | Mi     |        **/m/** | **M**úsica                        |                                                                                                                                                          |
+| **Ν ν**   | Ni     |        **/n/** | **N**ostalgia                     |                                                                                                                                                          |
+| **Χ χ**   | Chi    |  **/x/ ~ /ç/** | **R**ato                          | Já não era /kʰ/ clássico.                                                                                                                                |
+| **Π π**   | Pi     |        **/p/** | **P**áscoa                        |                                                                                                                                                          |
+| **Ρ ρ**   | Rô     |        **/r/** | Pa**r**ábola                      | Trata-se de /r/, vibrante, como em "caro"; e não de /ʁ/, fricativo, como em "carro".                                                                     |
+| **Σ σ/ς** | Sigma  |        **/s/** | **S**ímbolo                       | A forma σ ocorre no início ou meio da palavra, enquanto ς ocorre no final da palavra; mas ambas representam a mesma letra e som.                         |
+| **Φ φ**   | Fi     |        **/f/** | **F**ilosofia                     | Já não era /pʰ/ clássico.                                                                                                                                |
+| **Ξ ξ**   | Xi     |       **/ks/** | Tó**x**ico                        | Grupo consonantal /k/ + /s/.                                                                                                                             |
+| **Ψ ψ**   | Psi    |       **/ps/** | **Ps**icologia                    | Grupo consonantal /p/ + /s/.                                                                                                                             |
 
-### O caso especial de ΑΥ e ΕΥ
-Nestas combinações, o **Upsilon** funciona como uma consoante (V ou F):
-* **Som de "V":** Antes de vogais ou consoantes sonoras (β, γ, δ, ζ, λ, μ, ν, ρ). 
-    * *Ex: Euangelion* → **Ev-an-guél-i-on**
-* **Som de "F":** Antes de consoantes surdas (θ, κ, ξ, π, σ, τ, φ, χ, ψ).
-    * *Ex: Eucharistia* → **Ef-cha-ris-tí-a**
+### Notas
 
----
+**Gama nasal:** Quando o gama (γ) aparecia **antes outra consoante velar** (γ, κ, χ, ξ), ele era pronunciado como uma nasal velar [ŋ].
 
-## 3. Regras de Ouro para a Fluidez
+- Exemplo: Συγχρονία → **Synchronia**
+- Exemplo: Εὐαγγέλιον → **Evanguelion**
 
-> **A Aspiração (Espírito Áspero):** No primeiro século, o som de "H" aspirado (como em *Hellen*) estava desaparecendo. Para uma pronúncia historicamente precisa, **não pronuncie** o sinal de aspiração inicial. Leia *Hagios* simplesmente como **"águios"**.
+**Úpsilon como consoante:** Como já mencionado, nas **combinações αυ e ευ**, o úpsilon (υ) funcionava como uma consoante (V ou F):
 
-1.  **Gama Nasal:** Um **Γ** antes de outro Γ, Κ, Χ ou Ξ soa como **"N"**. (*Aggelos* → "Ánguelos").
-2.  **Iotacismo:** Lembre-se que **ει** e **ι** soam exatamente iguais (/i/).
-3.  **Acento Tônico:** No Koiné, o acento (agudo, grave ou circunflexo) indica qual sílaba deve ser enfatizada com maior volume/intensidade, de forma similar ao português.
+- **Som de "V":** Antes de vogais ou consoantes sonoras (β, γ, δ, ζ, λ, μ, ν, ρ).
+  - Exemplo: Εὐαγγέλιον → **Evanguelion**
+- **Som de "F":** Antes de consoantes surdas (θ, κ, ξ, π, σ, τ, φ, χ, ψ).
+  - Exemplo: Εὐχαριστία → **Efcharistia**
 
----
-*Este guia foi desenvolvido com base nos dados fonéticos de KoineGreek.com e Benjamin Kantor.*
+## Ainda falta falar de
+
+- Acento tônico
+- Espírito áspero
+- Geminação
+- Assimilação nasal
+- Ritmo e prosódia geral

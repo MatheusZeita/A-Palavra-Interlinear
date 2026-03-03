@@ -1,5 +1,6 @@
-import { transliterarGrego } from "./transliterarGrego.js";
-import { transliterarHebraico } from "./transliterarHebraico.js";
+import { transliterarGrego } from "./linguagem/transliterarGrego.js";
+import { transliterarHebraico } from "./linguagem/transliterarHebraico.js";
+import { decifrarMorfologiaGrega } from "./linguagem/decifrarMorfologiaGrega.js";
 
 const NOTES_BREAKPOINT = 800;
 
@@ -31,6 +32,21 @@ const getLayoutElements = () => ({
   bookTitleOriginal: document.getElementById("book-title-original"),
 });
 
+const buildChapterTitle = (livro, capitulo) => {
+  const rawTitle =
+    livro?.completo || livro?.["titulo traduzido"] || livro?.curto || "Livro";
+  const isPsalms =
+    rawTitle === "Salmos" ||
+    String(livro?.["titulo traduzido"] || "").toUpperCase() === "SALMOS";
+  const title = isPsalms ? "Salmo" : rawTitle;
+
+  if (Number.isFinite(capitulo)) {
+    return rawTitle === "Livro" ? `Capítulo ${capitulo}` : `${title} ${capitulo}`;
+  }
+
+  return rawTitle === "Livro" ? "Capítulo" : title;
+};
+
 const setChapterLink = (elements, livro, capitulo) => {
   const container = elements.chapterIdentification;
   if (!container) return;
@@ -39,13 +55,15 @@ const setChapterLink = (elements, livro, capitulo) => {
   const titleSpan = container.querySelector(".chapter-title");
   if (!link || !titleSpan) return;
 
-  const rawTitle = livro?.completo || livro?.curto || "Livro";
-  const isPsalms = rawTitle === "Salmos";
-  const title = isPsalms ? "Salmo" : rawTitle;
-  const chapterText = capitulo ? `${title} ${capitulo}` : title;
+  const chapterText = buildChapterTitle(livro, capitulo);
 
-  link.href = `livro.html?posicao=${encodeURIComponent(livro?.posicao ?? "")}`;
+  if (Number.isFinite(livro?.posicao)) {
+    link.href = `livro.html?posicao=${encodeURIComponent(livro.posicao)}`;
+  } else {
+    link.href = "livro.html";
+  }
   titleSpan.textContent = chapterText;
+  document.title = `${chapterText} — A Palavra Interlinear`;
 };
 
 const setBookTitles = (elements, livro) => {
@@ -57,8 +75,11 @@ const setBookTitles = (elements, livro) => {
     const tituloOriginal = livro?.["titulo original"] || "";
     elements.bookTitleOriginal.textContent = tituloOriginal;
     const isGreek = Number.isFinite(livro?.posicao) && livro.posicao >= 40;
+    const isHebrew = Number.isFinite(livro?.posicao) && livro.posicao < 40;
     if (tituloOriginal && isGreek) {
       elements.bookTitleOriginal.title = transliterarGrego(tituloOriginal);
+    } else if (tituloOriginal && isHebrew && livro?.transliteracao) {
+      elements.bookTitleOriginal.title = livro.transliteracao;
     } else {
       elements.bookTitleOriginal.removeAttribute("title");
     }
@@ -160,17 +181,40 @@ const getChapterFileName = (capitulo) => {
   return String(capitulo).padStart(pad, "0");
 };
 
-const createToken = (traducao, original, idioma, strongId) => {
+const getStrongBaseUrl = (idiomaNormalizado) => {
+  switch (idiomaNormalizado) {
+    case "hebraico":
+    case "aramaico":
+      return "https://biblehub.com/hebrew/";
+    case "grego":
+    default:
+      return "https://biblehub.com/greek/";
+  }
+};
+
+const createToken = (
+  original,
+  traducao,
+  traducao2,
+  strongId,
+  morfologia,
+  idioma
+) => {
+  const idiomaNormalizado = String(idioma || "").toLowerCase();
   const token = document.createElement("span");
   token.className = "token inline-flex flex-col items-center";
 
-  var strongId = 5485;
   if (strongId) {
     const strongIdAnchor = document.createElement("a");
     strongIdAnchor.className =
       "strongId text-[0.7rem] text-sky-600 hover:text-sky-400";
     strongIdAnchor.textContent = strongId;
-    strongIdAnchor.href = `https://biblehub.com/greek/${strongId}.htm`;
+    strongIdAnchor.href = `${getStrongBaseUrl(
+      idiomaNormalizado
+    )}${strongId}.htm`;
+    if (idiomaNormalizado === "hebraico") {
+      strongIdAnchor.setAttribute("dir", "ltr");
+    }
     strongIdAnchor.target = "_blank";
     strongIdAnchor.rel = "noopener noreferrer";
     token.appendChild(strongIdAnchor);
@@ -181,10 +225,9 @@ const createToken = (traducao, original, idioma, strongId) => {
     originalSpan.className = "original text-[1.3rem] text-slate-600";
     originalSpan.textContent = original;
 
-    const idiomaNormalizado = String(idioma || "").toLowerCase();
     const titlePorIdioma = {
       grego: () => (originalSpan.title = transliterarGrego(original)),
-      hebraico: () => (originalSpan.title = transliterarHebraico(original)),
+      hebraico: () => originalSpan.removeAttribute("title"), //(originalSpan.title = transliterarHebraico(original)),
       aramaico: () => originalSpan.removeAttribute("title"), //(originalSpan.title = transliterarAramaico(original)),
     };
     titlePorIdioma[idiomaNormalizado]?.() ||
@@ -197,7 +240,25 @@ const createToken = (traducao, original, idioma, strongId) => {
     const translation = document.createElement("span");
     translation.className = "traducao text-[1.3rem] text-slate-900";
     translation.textContent = traducao;
+    if (traducao2) {
+      translation.title = traducao2;
+    }
     token.appendChild(translation);
+  }
+
+  if (morfologia && String(idioma || "").toLowerCase() === "grego") {
+    const morfologiaAnchor = document.createElement("a");
+    morfologiaAnchor.className =
+      "morfologia text-[0.7rem] text-cyan-700 hover:text-cyan-500";
+    morfologiaAnchor.textContent = morfologia;
+    const morfologiaDecifrada = decifrarMorfologiaGrega(morfologia);
+    if (morfologiaDecifrada) {
+      morfologiaAnchor.title = morfologiaDecifrada;
+    }
+    morfologiaAnchor.href = "morfologia.html";
+    morfologiaAnchor.target = "_blank";
+    morfologiaAnchor.rel = "noopener noreferrer";
+    token.appendChild(morfologiaAnchor);
   }
 
   return token;
@@ -270,7 +331,14 @@ const renderInterlinear = (elements, data, capituloNumero) => {
 
       if (word?.traducao || word?.original) {
         container.appendChild(
-          createToken(word.traducao, word.original, data?.idioma)
+          createToken(
+            word.original,
+            word.traducao,
+            word.traducao2,
+            word.strongId,
+            word.morfologia,
+            data?.idioma
+          )
         );
       }
 

@@ -1,0 +1,169 @@
+:root {
+  --blue-900: #1e3a8a;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --slate-900: #0f172a;
+  --shadow-soft: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body.page {
+  margin: 0;
+  background: var(--gray-200);
+  color: var(--slate-900);
+}
+
+.page-shell {
+  width: 100%;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background: var(--gray-100);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header-slot {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+}
+
+.page-main {
+  width: 100%;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 3.5rem;
+  background: var(--gray-50);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex: 1;
+  position: relative;
+  z-index: 0;
+}
+
+.page-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  color: var(--blue-900);
+}
+
+.page-subtitle {
+  margin: 0;
+  max-width: 620px;
+  text-align: center;
+  color: var(--gray-600);
+}
+
+.section-title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--gray-700);
+}
+
+.morpho-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.morpho-section--split {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.morpho-grid {
+  display: block;
+}
+
+.morpho-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.morpho-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.morpho-row {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  width: 100%;
+  break-inside: avoid;
+}
+
+.morpho-grid > .morpho-row {
+  margin-bottom: 0.75rem;
+}
+
+.morpho-code {
+  min-width: 64px;
+  font-weight: 600;
+  color: var(--slate-900);
+}
+
+.morpho-desc {
+  color: var(--slate-900);
+}
+
+@media (max-width: 420px) {
+  .page-main {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .page-title {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 640px) {
+  .morpho-grid {
+    columns: 2;
+    column-gap: 2rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .page-main {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .morpho-section--split {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

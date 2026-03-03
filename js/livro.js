@@ -1,4 +1,4 @@
-﻿import { transliterarGrego } from './transliterarGrego.js';
+﻿import { transliterarGrego } from './linguagem/transliterarGrego.js';
 
 const getQueryParam = (name) => {
   const params = new URLSearchParams(window.location.search);
@@ -39,8 +39,11 @@ const renderChapters = (livro) => {
     const tituloOriginal = livro?.["titulo original"] || "";
     titleOriginal.textContent = tituloOriginal;
     const isGreek = Number.isFinite(livro?.posicao) && livro.posicao >= 40;
+    const isHebrew = Number.isFinite(livro?.posicao) && livro.posicao < 40;
     if (tituloOriginal && isGreek) {
       titleOriginal.title = transliterarGrego(tituloOriginal);
+    } else if (tituloOriginal && isHebrew && livro?.transliteracao) {
+      titleOriginal.title = livro.transliteracao;
     } else {
       titleOriginal.removeAttribute("title");
     }

@@ -8,277 +8,451 @@
       "palavras": [
         {
           "original": "Εἴ",
-          "traducao": "Se [há]"
+          "traducao": "Se [há]",
+          "strongId": "1487",
+          "morfologia": "Conj"
         },
         {
           "original": "τις",
-          "traducao": "algum"
+          "traducao": "alguma",
+          "traducao2": "algum",
+          "nota": "Pronome feminino. Concorda com παράκλησις (encorajamento).",
+          "strongId": "5100",
+          "morfologia": "IPro-NFS"
         },
         {
           "original": "οὖν",
-          "traducao": "portanto"
+          "traducao": "portanto",
+          "strongId": "3767",
+          "morfologia": "Conj"
         },
         {
           "original": "παράκλησις",
           "traducao": "encorajamento",
-          "nota": "Ou, possivelmente: “exortação; consolo”; Transliteração: “paráclesis”."
+          "nota": "Ou, possivelmente: “exortação; consolo”; Transliteração: “paráclesis”.",
+          "strongId": "3874",
+          "morfologia": "N-NFS"
         },
         {
           "original": "ἐν",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
         },
         {
           "original": "Χριστῷ,",
           "traducao": "Ungido,",
-          "nota": "Transliteração: “Cristo”."
+          "traducao2": "Cristo",
+          "nota": "Transliteração: “Cristo”.",
+          "strongId": "5547",
+          "morfologia": "N-DMS"
         },
         {
           "original": "εἴ",
-          "traducao": "se"
+          "traducao": "se",
+          "strongId": "1487",
+          "morfologia": "Conj"
         },
         {
           "original": "τι",
-          "traducao": "algum"
+          "traducao": "algum",
+          "strongId": "5100",
+          "morfologia": "IPro-NNS"
         },
         {
           "original": "παραμύθιον",
-          "traducao": "consolo"
+          "traducao": "consolo",
+          "strongId": "3890",
+          "morfologia": "N-NNS"
         },
         {
           "original": "ἀγάπης,",
-          "traducao": "de amor,"
+          "traducao": "de amor,",
+          "strongId": "26",
+          "morfologia": "N-GFS"
         },
         {
           "original": "εἴ",
-          "traducao": "se"
+          "traducao": "se",
+          "strongId": "1487",
+          "morfologia": "Conj"
         },
         {
           "original": "τις",
-          "traducao": "algum"
+          "traducao": "alguma",
+          "traducao2": "algum",
+          "nota": "Pronome feminino. Concorda com κοινωνία (compartilhamento).",
+          "strongId": "5100",
+          "morfologia": "IPro-NFS"
         },
         {
           "original": "κοινωνία",
-          "traducao": "compartilhamento"
+          "traducao": "compartilhamento",
+          "traducao2": "companheirismo",
+          "strongId": "2842",
+          "morfologia": "N-NFS"
         },
         {
           "original": "πνεύματος,",
-          "traducao": "de espírito,"
+          "traducao": "de espírito,",
+          "traducao2": "espiritual",
+          "strongId": "4151",
+          "morfologia": "N-GNS"
         },
         {
           "original": "εἴ",
-          "traducao": "se"
+          "traducao": "se",
+          "strongId": "1487",
+          "morfologia": "Conj"
         },
         {
           "original": "τις",
-          "traducao": "alguma"
+          "traducao": "alguma",
+          "strongId": "5100",
+          "morfologia": "IPro-NFS"
         },
         {
           "original": "σπλάγχνα",
           "traducao": "entranhas",
-          "nota": "Ou: “[sentimentos] viscerais”; Isto é: “ternos sentimentos”. Refere-se literalmente às entranhas de uma pessoa e figurativamente a sentimentos profundos e emoções intensas."
+          "traducao2": "ternos sentimentos",
+          "nota": "Ou: “[sentimentos] viscerais”; Isto é: “ternos sentimentos”. Refere-se literalmente às entranhas de uma pessoa e figurativamente a sentimentos profundos e emoções intensas.",
+          "strongId": "4698",
+          "morfologia": "N-NNP"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "οἰκτιρμοί,",
-          "traducao": "compaixões,"
+          "traducao": "compaixões,",
+          "strongId": "3628",
+          "morfologia": "N-NMP"
         }
       ]
     },
-
     {
       "numero": 2,
       "palavras": [
         {
           "original": "πληρώσατέ",
           "traducao": "encham",
-          "nota": "Ou: “completem”."
+          "traducao2": "completem",
+          "nota": "Ou: “completem”.",
+          "strongId": "4137",
+          "morfologia": "V-AMA-2P"
         },
         {
           "original": "μου",
-          "traducao": "minha"
-        },
-        {
-          "original": "τὴν",
-          "traducao": "a"
-        },
-        {
-          "original": "χαρὰν",
-          "traducao": "alegria"
-        },
-        {
-          "original": "ἵνα",
-          "traducao": "para que"
-        },
-        {
-          "original": "τὸ",
-          "traducao": "a"
-        },
-        {
-          "original": "αὐτὸ",
-          "traducao": "mesma [coisa]"
-        },
-        {
-          "original": "φρονῆτε,",
-          "traducao": "tenham em mente,"
+          "traducao": "minha",
+          "strongId": "1473",
+          "morfologia": "PPro-G1S"
         },
         {
           "original": "τὴν",
           "traducao": "a",
-          "nota": "Artigo feminino. Concorda com “ἀγάπην” (amor)."
+          "strongId": "3588",
+          "morfologia": "Art-AFS"
+        },
+        {
+          "original": "χαρὰν",
+          "traducao": "alegria",
+          "strongId": "5479",
+          "morfologia": "N-AFS"
+        },
+        {
+          "original": "ἵνα",
+          "traducao": "para que",
+          "strongId": "2443",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "τὸ",
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-ANS"
+        },
+        {
+          "original": "αὐτὸ",
+          "traducao": "mesma [coisa]",
+          "strongId": "846",
+          "morfologia": "PPro-AN3S"
+        },
+        {
+          "original": "φρονῆτε,",
+          "traducao": "tenham em mente,",
+          "strongId": "5426",
+          "morfologia": "V-PSA-2P"
+        },
+        {
+          "original": "τὴν",
+          "traducao": "a",
+          "traducao2": "o",
+          "nota": "Artigo feminino. Concorda com “ἀγάπην” (amor).",
+          "strongId": "3588",
+          "morfologia": "Art-AFS"
         },
         {
           "original": "αὐτὴν",
-          "traducao": "mesma"
+          "traducao": "mesma",
+          "traducao2": "mesmo",
+          "strongId": "846",
+          "morfologia": "PPro-AF3S"
         },
         {
           "original": "ἀγάπην",
-          "traducao": "amor"
+          "traducao": "amor",
+          "strongId": "26",
+          "morfologia": "N-AFS"
         },
-        { "original": "ἔχοντες,", "traducao": "tendo," },
+        {
+          "original": "ἔχοντες,",
+          "traducao": "tendo,",
+          "strongId": "2192",
+          "morfologia": "V-PPA-NMP"
+        },
         {
           "original": "σύμψυχοι,",
           "traducao": "unidos em alma,",
-          "nota": "Isto é: “plenamente unidos”."
-        },
-        { "original": "τὸ", "traducao": "a" },
-        { "original": "ἓν", "traducao": "uma [coisa]" },
-        { "original": "φρονοῦντες,", "traducao": "tendo em mente," }
-      ]
-    },
-
-    {
-      "numero": 3,
-      "palavras": [
-        { "original": "μηδὲν", "traducao": "nada" },
-        { "original": "κατʼ", "traducao": "por" },
-        { "original": "ἐριθείαν", "traducao": "rivalidade" },
-        { "original": "μηδὲ", "traducao": "nem" },
-        { "original": "κατὰ", "traducao": "por" },
-        {
-          "original": "κενοδοξίαν,",
-          "traducao": "vanglória,",
-          "nota": "Ou: “presunção; vaidade”."
+          "traducao2": "completamente unidos",
+          "nota": "Isto é: “plenamente unidos”.",
+          "strongId": "4861",
+          "morfologia": "Adj-NMP"
         },
         {
-          "original": "ἀλλὰ",
-          "traducao": "mas"
+          "original": "τὸ",
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-ANS"
         },
         {
-          "original": "τῇ",
-          "traducao": "à"
+          "original": "ἓν",
+          "traducao": "uma [coisa]",
+          "strongId": "1520",
+          "morfologia": "Adj-ANS"
         },
         {
-          "original": "ταπεινοφροσύνῃ",
-          "traducao": "com humildade mental"
-        },
-        {
-          "original": "ἀλλήλους",
-          "traducao": "uns aos outros"
-        },
-        {
-          "original": "ἡγούμενοι",
-          "traducao": "considerando"
-        },
-        {
-          "original": "ὑπερέχοντας",
-          "traducao": "superiores"
-        },
-        {
-          "original": "ἑαυτῶν,",
-          "traducao": "a si mesmos,"
+          "original": "φρονοῦντες,",
+          "traducao": "tendo em mente,",
+          "strongId": "5426",
+          "morfologia": "V-PPA-NMP"
         }
       ]
     },
-
+    {
+      "numero": 3,
+      "palavras": [
+        {
+          "original": "μηδὲν",
+          "traducao": "nada",
+          "strongId": "3367",
+          "morfologia": "Adj-ANS"
+        },
+        {
+          "original": "κατʼ",
+          "traducao": "segundo",
+          "traducao2": "por",
+          "strongId": "2596",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "ἐριθείαν",
+          "traducao": "rivalidade",
+          "strongId": "2052",
+          "morfologia": "N-AFS"
+        },
+        {
+          "original": "μηδὲ",
+          "traducao": "nem",
+          "strongId": "3366",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "κατὰ",
+          "traducao": "segundo",
+          "traducao2": "por",
+          "strongId": "2596",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "κενοδοξίαν,",
+          "traducao": "vanglória,",
+          "traducao2": "presunção,",
+          "nota": "Ou: “presunção; vaidade”.",
+          "strongId": "2754",
+          "morfologia": "N-AFS"
+        },
+        {
+          "original": "ἀλλὰ",
+          "traducao": "mas",
+          "strongId": "235",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "τῇ",
+          "traducao": "à",
+          "strongId": "3588",
+          "morfologia": "Art-DFS"
+        },
+        {
+          "original": "ταπεινοφροσύνῃ",
+          "traducao": "humildade mental",
+          "strongId": "5012",
+          "morfologia": "N-DFS"
+        },
+        {
+          "original": "ἀλλήλους",
+          "traducao": "uns aos outros",
+          "strongId": "240",
+          "morfologia": "RecPro-AMP"
+        },
+        {
+          "original": "ἡγούμενοι",
+          "traducao": "considerando",
+          "strongId": "2233",
+          "morfologia": "V-PPM/P-NMP"
+        },
+        {
+          "original": "ὑπερέχοντας",
+          "traducao": "tendo como superiores",
+          "strongId": "5242",
+          "morfologia": "V-PPA-AMP"
+        },
+        {
+          "original": "ἑαυτῶν,",
+          "traducao": "de si mesmos,",
+          "strongId": "1438",
+          "morfologia": "RefPro-GM3P"
+        }
+      ]
+    },
     {
       "numero": 4,
       "palavras": [
         {
           "original": "μὴ",
-          "traducao": "não"
+          "traducao": "não",
+          "strongId": "3361",
+          "morfologia": "Adv"
         },
         {
           "original": "τὰ",
-          "traducao": "as [coisas]"
+          "traducao": "as [coisas]",
+          "strongId": "3588",
+          "morfologia": "Art-ANP"
         },
         {
           "original": "ἑαυτῶν",
-          "traducao": "de si mesmos"
+          "traducao": "de si mesmos",
+          "strongId": "1438",
+          "morfologia": "RefPro-GM3P"
         },
         {
           "original": "ἕκαστοι",
-          "traducao": "cada um"
+          "traducao": "cada [um]",
+          "strongId": "1538",
+          "morfologia": "Adj-NMP"
         },
         {
           "original": "σκοποῦντες,",
           "traducao": "observando,",
-          "nota": "Ou: “atentando; tendo em vista; considerando”."
+          "traducao2": "considerando",
+          "nota": "Ou: “atentando; tendo em vista; considerando”.",
+          "strongId": "4648",
+          "morfologia": "V-PPA-NMP"
         },
         {
           "original": "ἀλλὰ",
-          "traducao": "mas"
+          "traducao": "mas",
+          "strongId": "235",
+          "morfologia": "Conj"
         },
         {
           "original": "καὶ",
-          "traducao": "também"
+          "traducao": "também",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "τὰ",
-          "traducao": "as [coisas]"
+          "traducao": "as [coisas]",
+          "strongId": "3588",
+          "morfologia": "Art-ANP"
         },
         {
           "original": "ἑτέρων",
-          "traducao": "dos outros"
+          "traducao": "dos outros",
+          "strongId": "2087",
+          "morfologia": "Adj-GMP"
         },
         {
           "original": "ἕκαστοι.",
           "traducao": "cada um.",
-          "fimParagrafo": true
+          "fimParagrafo": true,
+          "strongId": "1538",
+          "morfologia": "Adj-NMP"
         }
       ]
     },
-
     {
       "numero": 5,
       "palavras": [
         {
           "original": "τοῦτο",
-          "traducao": "Isto"
+          "traducao": "Isto",
+          "strongId": "3778",
+          "morfologia": "DPro-ANS"
         },
         {
           "original": "φρονεῖτε",
-          "traducao": "tenham em mente"
+          "traducao": "tenham em mente",
+          "strongId": "5426",
+          "morfologia": "V-PMA-2P"
         },
         {
           "original": "ἐν",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
         },
         {
           "original": "ὑμῖν",
-          "traducao": "vocês"
+          "traducao": "vocês",
+          "strongId": "4771",
+          "morfologia": "PPro-D2P"
         },
         {
           "original": "ὃ",
-          "traducao": "o que"
+          "traducao": "o que",
+          "strongId": "3739",
+          "morfologia": "RelPro-ANS"
         },
         {
           "original": "καὶ",
-          "traducao": "também"
+          "traducao": "também",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐν",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
         },
         {
           "original": "Χριστῷ",
-          "traducao": "Ungido"
+          "traducao": "Ungido",
+          "traducao2": "Cristo",
+          "strongId": "5547",
+          "morfologia": "N-DMS"
         },
         {
           "original": "Ἰησοῦ,",
-          "traducao": "Jesus,"
+          "traducao": "Jesus,",
+          "strongId": "2424",
+          "morfologia": "N-DMS"
         }
       ]
     },
@@ -287,188 +461,679 @@
       "palavras": [
         {
           "original": "ὃς",
-          "traducao": "o qual"
+          "traducao": "o qual",
+          "strongId": "3739",
+          "morfologia": "RelPro-NMS"
         },
         {
           "original": "ἐν",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
         },
         {
           "original": "μορφῇ",
-          "traducao": "forma"
+          "traducao": "forma",
+          "strongId": "3444",
+          "morfologia": "N-DFS"
         },
         {
           "original": "θεοῦ",
-          "traducao": "de Deus"
+          "traducao": "de Deus",
+          "traducao2": "de deus",
+          "strongId": "2316",
+          "morfologia": "N-GMS"
         },
         {
           "original": "ὑπάρχων",
-          "traducao": "existindo"
+          "traducao": "existindo",
+          "strongId": "5225",
+          "morfologia": "V-PPA-NMS"
         },
         {
           "original": "οὐχ",
-          "traducao": "não"
+          "traducao": "não",
+          "strongId": "3756",
+          "morfologia": "Adv"
         },
         {
           "original": "ἁρπαγμὸν",
           "traducao": "algo a ser usurpado",
-          "nota": "Ou: “usurpação”. Derivada do verbo “ἁρπάζω”, que significa “usurpar; arrancar; apoderar-se”."
+          "traducao2": "usurpação",
+          "nota": "Ou: “usurpação”. Derivada do verbo “ἁρπάζω”, que significa “usurpar; arrancar; apoderar-se”.",
+          "strongId": "725",
+          "morfologia": "N-AMS"
         },
-        { "original": "ἡγήσατο", "traducao": "considerou" },
-        { "original": "τὸ", "traducao": "o" },
-        { "original": "εἶναι", "traducao": "ser" },
-        { "original": "ἴσα", "traducao": "igual" },
-        { "original": "θεῷ,", "traducao": "a Deus," }
+        {
+          "original": "ἡγήσατο",
+          "traducao": "considerou",
+          "strongId": "2233",
+          "morfologia": "V-AIM-3S"
+        },
+        {
+          "original": "τὸ",
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-ANS"
+        },
+        {
+          "original": "εἶναι",
+          "traducao": "ser",
+          "strongId": "1510",
+          "morfologia": "V-PNA"
+        },
+        {
+          "original": "ἴσα",
+          "traducao": "[coisas] iguais",
+          "strongId": "2470",
+          "morfologia": "Adj-ANP"
+        },
+        {
+          "original": "θεῷ,",
+          "traducao": "a Deus,",
+          "strongId": "2316",
+          "morfologia": "N-DMS"
+        }
       ]
     },
     {
       "numero": 7,
       "palavras": [
-        { "original": "ἀλλὰ", "traducao": "mas" },
-        { "original": "ἑαυτὸν", "traducao": "a si mesmo" },
-        { "original": "ἐκένωσεν", "traducao": "esvaziou" },
-        { "original": "μορφὴν", "traducao": "forma" },
-        { "original": "δούλου", "traducao": "de escravo" },
-        { "original": "λαβών,", "traducao": "tendo tomado," },
-        { "original": "ἐν", "traducao": "em" },
-        { "original": "ὁμοιώματι", "traducao": "semelhança" },
-        { "original": "ἀνθρώπων", "traducao": "de homens" },
-        { "original": "γενόμενος·", "traducao": "tendo se tornado;" }
+        {
+          "original": "ἀλλὰ",
+          "traducao": "mas",
+          "strongId": "235",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "ἑαυτὸν",
+          "traducao": "a si mesmo",
+          "strongId": "1438",
+          "morfologia": "RefPro-AM3S"
+        },
+        {
+          "original": "ἐκένωσεν",
+          "traducao": "esvaziou",
+          "strongId": "2758",
+          "morfologia": "V-AIA-3S"
+        },
+        {
+          "original": "μορφὴν",
+          "traducao": "forma",
+          "strongId": "3444",
+          "morfologia": "N-AFS"
+        },
+        {
+          "original": "δούλου",
+          "traducao": "de escravo",
+          "strongId": "1401",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "λαβών,",
+          "traducao": "tendo tomado,",
+          "strongId": "2983",
+          "morfologia": "V-APA-NMS"
+        },
+        {
+          "original": "ἐν",
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "ὁμοιώματι",
+          "traducao": "semelhança",
+          "strongId": "3667",
+          "morfologia": "N-DNS"
+        },
+        {
+          "original": "ἀνθρώπων",
+          "traducao": "de homens",
+          "traducao2": "de humanos",
+          "strongId": "444",
+          "morfologia": "N-GMP"
+        },
+        {
+          "original": "γενόμενος·",
+          "traducao": "tendo se tornado;",
+          "strongId": "1096",
+          "morfologia": "V-APM-NMS"
+        }
       ]
     },
     {
       "numero": 8,
       "palavras": [
-        { "original": "καὶ", "traducao": "e" },
-        { "original": "σχήματι", "traducao": "em aparência" },
-        { "original": "εὑρεθεὶς", "traducao": "sendo achado" },
-        { "original": "ὡς", "traducao": "como" },
-        { "original": "ἄνθρωπος", "traducao": "homem" },
-        { "original": "ἐταπείνωσεν", "traducao": "humilhou" },
-        { "original": "ἑαυτὸν", "traducao": "a si mesmo" },
-        { "original": "γενόμενος", "traducao": "tornando-se" },
-        { "original": "ὑπήκοος", "traducao": "obediente" },
-        { "original": "μέχρι", "traducao": "até" },
-        { "original": "θανάτου,", "traducao": "morte," },
-        { "original": "θανάτου", "traducao": "morte" },
-        { "original": "δὲ", "traducao": "mas" },
-        { "original": "σταυροῦ·", "traducao": "de estaca;" }
+        {
+          "original": "καὶ",
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "σχήματι",
+          "traducao": "em aparência",
+          "strongId": "4976",
+          "morfologia": "N-DNS"
+        },
+        {
+          "original": "εὑρεθεὶς",
+          "traducao": "tendo sido achado",
+          "strongId": "2147",
+          "morfologia": "V-APP-NMS"
+        },
+        {
+          "original": "ὡς",
+          "traducao": "como",
+          "strongId": "5613",
+          "morfologia": "Adv"
+        },
+        {
+          "original": "ἄνθρωπος",
+          "traducao": "homem",
+          "traducao2": "humano",
+          "strongId": "444",
+          "morfologia": "N-NMS"
+        },
+        {
+          "original": "ἐταπείνωσεν",
+          "traducao": "rebaixou",
+          "traducao2": "humilhou",
+          "strongId": "5013",
+          "morfologia": "V-AIA-3S"
+        },
+        {
+          "original": "ἑαυτὸν",
+          "traducao": "a si mesmo",
+          "strongId": "1438",
+          "morfologia": "RefPro-AM3S"
+        },
+        {
+          "original": "γενόμενος",
+          "traducao": "tornando-se",
+          "strongId": "1096",
+          "morfologia": "V-APM-NMS"
+        },
+        {
+          "original": "ὑπήκοος",
+          "traducao": "obediente",
+          "strongId": "5255",
+          "morfologia": "Adj-NMS"
+        },
+        {
+          "original": "μέχρι",
+          "traducao": "até",
+          "strongId": "3360",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "θανάτου,",
+          "traducao": "morte,",
+          "strongId": "2288",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "θανάτου",
+          "traducao": "morte",
+          "strongId": "2288",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "δὲ",
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "σταυροῦ·",
+          "traducao": "de estaca;",
+          "strongId": "4716",
+          "morfologia": "N-GMS"
+        }
       ]
     },
     {
       "numero": 9,
       "palavras": [
-        { "original": "διὸ", "traducao": "por isso" },
-        { "original": "καὶ", "traducao": "também" },
+        {
+          "original": "διὸ",
+          "traducao": "por isso",
+          "strongId": "1352",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "καὶ",
+          "traducao": "também",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
         {
           "original": "ὁ",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-NMS"
         },
-        { "original": "θεὸς", "traducao": "Deus" },
+        {
+          "original": "θεὸς",
+          "traducao": "Deus",
+          "strongId": "2316",
+          "morfologia": "N-NMS"
+        },
         {
           "original": "αὐτὸν",
-          "traducao": "ele"
+          "traducao": "ele",
+          "strongId": "846",
+          "morfologia": "PPro-AM3S"
         },
-        { "original": "ὑπερύψωσεν,", "traducao": "elevou altamente," },
-        { "original": "καὶ", "traducao": "e" },
+        {
+          "original": "ὑπερύψωσεν,",
+          "traducao": "elevou altamente,",
+          "strongId": "5251",
+          "morfologia": "V-AIA-3S"
+        },
+        {
+          "original": "καὶ",
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
         {
           "original": "ἐχαρίσατο",
           "traducao": "deu bondosamente",
-          "nota": "Ou: “concedeu”. Relacionada à palavra grega para “graça; favor; bondade”."
+          "nota": "Ou: “concedeu”. Relacionada à palavra grega para “graça; favor; bondade”.",
+          "strongId": "5483",
+          "morfologia": "V-AIM-3S"
         },
-        { "original": "αὐτῷ", "traducao": "a ele" },
+        {
+          "original": "αὐτῷ",
+          "traducao": "a ele",
+          "strongId": "846",
+          "morfologia": "PPro-DM3S"
+        },
         {
           "original": "τὸ",
           "traducao": "o",
-          "nota": "Alguns manuscritos, especialmente bizantinos, omitem este artigo."
+          "nota": "Alguns manuscritos, especialmente bizantinos, omitem este artigo.",
+          "strongId": "3588",
+          "morfologia": "Art-ANS"
         },
-        { "original": "ὄνομα", "traducao": "nome" },
-        { "original": "τὸ", "traducao": "o" },
-        { "original": "ὑπὲρ", "traducao": "acima de" },
-        { "original": "πᾶν", "traducao": "todo" },
-        { "original": "ὄνομα,", "traducao": "nome," }
+        {
+          "original": "ὄνομα",
+          "traducao": "nome",
+          "strongId": "3686",
+          "morfologia": "N-ANS"
+        },
+        {
+          "original": "τὸ",
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-ANS"
+        },
+        {
+          "original": "ὑπὲρ",
+          "traducao": "acima de",
+          "strongId": "5228",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "πᾶν",
+          "traducao": "todo",
+          "strongId": "3956",
+          "morfologia": "Adj-ANS"
+        },
+        {
+          "original": "ὄνομα,",
+          "traducao": "nome,",
+          "strongId": "3686",
+          "morfologia": "N-ANS"
+        }
       ]
     },
     {
       "numero": 10,
       "palavras": [
-        { "original": "ἵνα", "traducao": "para que" },
-        { "original": "ἐν", "traducao": "em" },
-        { "original": "τῷ", "traducao": "o" },
-        { "original": "ὀνόματι", "traducao": "nome" },
-        { "original": "Ἰησοῦ", "traducao": "de Jesus" },
-        { "original": "πᾶν", "traducao": "todo" },
-        { "original": "γόνυ", "traducao": "joelho" },
-        { "original": "κάμψῃ", "traducao": "se dobre" },
-        { "original": "ἐπουρανίων", "traducao": "de celestiais" },
-        { "original": "καὶ", "traducao": "e" },
-        { "original": "ἐπιγείων", "traducao": "de terrestres" },
-        { "original": "καὶ", "traducao": "e" },
-        { "original": "καταχθονίων,", "traducao": "de subterrâneos," }
+        {
+          "original": "ἵνα",
+          "traducao": "para que",
+          "strongId": "2443",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "ἐν",
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "τῷ",
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-DNS"
+        },
+        {
+          "original": "ὀνόματι",
+          "traducao": "nome",
+          "strongId": "3686",
+          "morfologia": "N-DNS"
+        },
+        {
+          "original": "Ἰησοῦ",
+          "traducao": "de Jesus",
+          "strongId": "2424",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "πᾶν",
+          "traducao": "todo",
+          "strongId": "3956",
+          "morfologia": "Adj-NNS"
+        },
+        {
+          "original": "γόνυ",
+          "traducao": "joelho",
+          "strongId": "1119",
+          "morfologia": "N-NNS"
+        },
+        {
+          "original": "κάμψῃ",
+          "traducao": "se dobre",
+          "strongId": "2578",
+          "morfologia": "V-ASA-3S"
+        },
+        {
+          "original": "ἐπουρανίων",
+          "traducao": "de celestiais",
+          "strongId": "2032",
+          "morfologia": "Adj-GMP"
+        },
+        {
+          "original": "καὶ",
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "ἐπιγείων",
+          "traducao": "de terrestres",
+          "strongId": "1919",
+          "morfologia": "Adj-GMP"
+        },
+        {
+          "original": "καὶ",
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "καταχθονίων,",
+          "traducao": "de subterrâneos,",
+          "strongId": "2709",
+          "morfologia": "Adj-GMP"
+        }
       ]
     },
     {
       "numero": 11,
       "palavras": [
-        { "original": "καὶ", "traducao": "e" },
-        { "original": "πᾶσα", "traducao": "toda" },
-        { "original": "γλῶσσα", "traducao": "língua" },
+        {
+          "original": "καὶ",
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "πᾶσα",
+          "traducao": "toda",
+          "strongId": "3956",
+          "morfologia": "Adj-NFS"
+        },
+        {
+          "original": "γλῶσσα",
+          "traducao": "língua",
+          "strongId": "1100",
+          "morfologia": "N-NFS"
+        },
         {
           "original": "ἐξομολογήσηται",
           "traducao": "reconheça abertamente",
-          "nota": "Ou: “declare publicamente; confesse”."
+          "nota": "Ou: “declare publicamente; confesse”.",
+          "strongId": "1843",
+          "morfologia": "V-ASM-3S"
         },
-        { "original": "ὅτι", "traducao": "que" },
-        { "original": "κύριος", "traducao": "[é] Senhor" },
-        { "original": "Ἰησοῦς", "traducao": "Jesus" },
+        {
+          "original": "ὅτι",
+          "traducao": "que",
+          "strongId": "3754",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "κύριος",
+          "traducao": "[é] Senhor",
+          "strongId": "2962",
+          "morfologia": "N-NMS"
+        },
+        {
+          "original": "Ἰησοῦς",
+          "traducao": "Jesus",
+          "strongId": "2424",
+          "morfologia": "N-NMS"
+        },
         {
           "original": "Χριστὸς",
           "traducao": "Ungido",
-          "nota": "Alguns manuscritos, especialmente ocidentais, omitem esta palavra."
+          "traducao2": "Cristo",
+          "nota": "Alguns manuscritos, especialmente ocidentais, omitem esta palavra.",
+          "strongId": "5547",
+          "morfologia": "N-NMS"
         },
-        { "original": "εἰς", "traducao": "para" },
-        { "original": "δόξαν", "traducao": "glória" },
-        { "original": "θεοῦ", "traducao": "de Deus" },
-        { "original": "πατρός.", "traducao": "Pai." }
+        {
+          "original": "εἰς",
+          "traducao": "para",
+          "strongId": "1519",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "δόξαν",
+          "traducao": "glória",
+          "strongId": "1391",
+          "morfologia": "N-AFS"
+        },
+        {
+          "original": "θεοῦ",
+          "traducao": "de Deus",
+          "strongId": "2316",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "πατρός.",
+          "traducao": "Pai.",
+          "strongId": "3962",
+          "morfologia": "N-GMS"
+        }
       ]
     },
     {
       "numero": 12,
       "palavras": [
-        { "original": "Ὥστε", "traducao": "" },
-        { "original": "ἀγαπητοί", "traducao": "" },
-        { "original": "μου", "traducao": "" },
-        { "original": "καθὼς", "traducao": "" },
-        { "original": "πάντοτε", "traducao": "" },
-        { "original": "ὑπηκούσατε", "traducao": "" },
-        { "original": "μὴ", "traducao": "" },
+        {
+          "original": "Ὥστε",
+          "traducao": "Portanto",
+          "strongId": "5620",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "ἀγαπητοί",
+          "traducao": "amados",
+          "strongId": "27",
+          "morfologia": "Adj-VMP"
+        },
+        {
+          "original": "μου,",
+          "traducao": "meus",
+          "strongId": "1473",
+          "morfologia": "PPro-G1S"
+        },
+        {
+          "original": "καθὼς,",
+          "traducao": "assim como",
+          "strongId": "2531",
+          "morfologia": "Adv"
+        },
+        {
+          "original": "πάντοτε",
+          "traducao": "sempre",
+          "strongId": "3842",
+          "morfologia": "Adv"
+        },
+        {
+          "original": "ὑπηκούσατε",
+          "traducao": "[vocês] obedeceram",
+          "strongId": "5219",
+          "morfologia": "V-AIA-2P"
+        },
+        {
+          "original": "μὴ",
+          "traducao": "não",
+          "strongId": "3361",
+          "morfologia": "Adv"
+        },
         {
           "original": "ὡς",
-          "traducao": "como"
+          "traducao": "como",
+          "strongId": "5613",
+          "morfologia": "Adv"
         },
-        { "original": "ἐν", "traducao": "" },
-        { "original": "τῇ", "traducao": "" },
-        { "original": "παρουσίᾳ", "traducao": "" },
-        { "original": "μου", "traducao": "" },
-        { "original": "μόνον", "traducao": "" },
-        { "original": "ἀλλὰ", "traducao": "" },
-        { "original": "νῦν", "traducao": "" },
-        { "original": "πολλῷ", "traducao": "" },
-        { "original": "μᾶλλον", "traducao": "" },
-        { "original": "ἐν", "traducao": "" },
-        { "original": "τῇ", "traducao": "" },
-        { "original": "ἀπουσίᾳ", "traducao": "" },
-        { "original": "μου", "traducao": "" },
-        { "original": "μετὰ", "traducao": "" },
-        { "original": "φόβου", "traducao": "" },
-        { "original": "καὶ", "traducao": "" },
-        { "original": "τρόμου", "traducao": "" },
-        { "original": "τὴν", "traducao": "" },
-        { "original": "ἑαυτῶν", "traducao": "" },
-        { "original": "σωτηρίαν", "traducao": "" },
-        { "original": "κατεργάζεσθε", "traducao": "" }
+        {
+          "original": "ἐν",
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "τῇ",
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-DFS"
+        },
+        {
+          "original": "παρουσίᾳ",
+          "traducao": "presença",
+          "strongId": "3952",
+          "morfologia": "N-DFS"
+        },
+        {
+          "original": "μου",
+          "traducao": "minha",
+          "strongId": "1473",
+          "morfologia": "PPro-G1S"
+        },
+        {
+          "original": "μόνον",
+          "traducao": "somente",
+          "strongId": "3440",
+          "morfologia": "Adv"
+        },
+        {
+          "original": "ἀλλὰ",
+          "traducao": "mas",
+          "strongId": "235",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "νῦν",
+          "traducao": "agora",
+          "strongId": "3568",
+          "morfologia": "Adv"
+        },
+        {
+          "original": "πολλῷ",
+          "traducao": "a muito",
+          "strongId": "4183",
+          "morfologia": "Adj-DNS"
+        },
+        {
+          "original": "μᾶλλον",
+          "traducao": "mais",
+          "strongId": "3123",
+          "morfologia": "Adv"
+        },
+        {
+          "original": "ἐν",
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "τῇ",
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-DFS"
+        },
+        {
+          "original": "ἀπουσίᾳ",
+          "traducao": "ausência",
+          "strongId": "666",
+          "morfologia": "N-DFS"
+        },
+        {
+          "original": "μου",
+          "traducao": "minha",
+          "strongId": "1473",
+          "morfologia": "PPro-G1S"
+        },
+        {
+          "original": "μετὰ",
+          "traducao": "com",
+          "strongId": "3326",
+          "morfologia": "Prep"
+        },
+        {
+          "original": "φόβου",
+          "traducao": "medo",
+          "traducao2": "temor",
+          "nota": "Ou: “temor; reverência”.",
+          "strongId": "5401",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "καὶ",
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
+        },
+        {
+          "original": "τρόμου",
+          "traducao": "tremor",
+          "strongId": "5156",
+          "morfologia": "N-GMS"
+        },
+        {
+          "original": "τὴν",
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-AFS"
+        },
+        {
+          "original": "ἑαυτῶν",
+          "traducao": "sua própria",
+          "strongId": "1438",
+          "morfologia": "RefPro-GM3P"
+        },
+        {
+          "original": "σωτηρίαν",
+          "traducao": "salvação",
+          "strongId": "4991",
+          "morfologia": "N-AFS"
+        },
+        {
+          "original": "κατεργάζεσθε",
+          "traducao": "trabalhem plenamente",
+          "traducao2": "produzam até o fim",
+          "strongId": "2716",
+          "morfologia": "V-PMM/P-2P"
+        }
       ]
-    },
-    "https://pt.scribd.com/document/556893645/Variantes-Textual-Do-Novo-Testamento-Filipenses"
+    }
   ]
 }

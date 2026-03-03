@@ -9,38 +9,53 @@
         {
           "original": "Βίβλος",
           "traducao": "Livro",
-          "strongId": "976"
+          "strongId": "976",
+          "morfologia": "N-NFS"
         },
         {
           "original": "γενέσεως",
           "traducao": "de origem",
+          "strongId": "1078",
+          "morfologia": "N-GFS",
           "nota": "Ou, possivelmente: “de genealogia; geração; nascimento”."
         },
         {
           "original": "Ἰησοῦ",
-          "traducao": "de Jesus"
+          "traducao": "de Jesus",
+          "strongId": "2424",
+          "morfologia": "N-GMS"
         },
         {
           "original": "χριστοῦ",
           "traducao": "Ungido",
+          "strongId": "5547",
+          "morfologia": "N-GMS",
           "nota": "Transliteração: “Cristo”; Em hebraico: “Messias”."
         },
         {
           "original": "υἱοῦ",
-          "traducao": "filho"
+          "traducao": "filho",
+          "strongId": "5207",
+          "morfologia": "N-GMS"
         },
         {
           "original": "Δαυὶδ",
-          "traducao": "de Davi"
+          "traducao": "de Davi",
+          "strongId": "1138",
+          "morfologia": "N-GMS"
         },
         {
           "original": "υἱοῦ",
-          "traducao": "filho"
+          "traducao": "filho",
+          "strongId": "5207",
+          "morfologia": "N-GMS"
         },
         {
           "original": "Ἀβραάμ.",
           "traducao": "de Abraão.",
-          "fimParagrafo": true
+          "fimParagrafo": true,
+          "strongId": "11",
+          "morfologia": "N-GMS"
         }
       ]
     },
@@ -49,75 +64,111 @@
       "palavras": [
         {
           "original": "Ἀβραὰμ",
-          "traducao": "Abraão"
+          "traducao": "Abraão",
+          "strongId": "11",
+          "morfologia": "N-NMS"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰσαάκ,",
-          "traducao": "Isaque,"
+          "traducao": "Isaque,",
+          "strongId": "2464",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἰσαὰκ",
-          "traducao": "Isaque"
+          "traducao": "Isaque",
+          "strongId": "2464",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰακώβ,",
-          "traducao": "Jacó,"
+          "traducao": "Jacó,",
+          "strongId": "2384",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἰακὼβ",
-          "traducao": "Jacó"
+          "traducao": "Jacó",
+          "strongId": "2384",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰούδαν,",
-          "traducao": "Judá,"
+          "traducao": "Judá,",
+          "strongId": "2455",
+          "morfologia": "N-AMS"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "τοὺς",
-          "traducao": "os"
+          "traducao": "os",
+          "strongId": "3588",
+          "morfologia": "Art-AMP"
         },
         {
           "original": "ἀδελφούς",
-          "traducao": "irmãos"
+          "traducao": "irmãos",
+          "strongId": "80",
+          "morfologia": "N-AMP"
         },
         {
           "original": "αὐτοῦ,",
-          "traducao": "dele,"
+          "traducao": "dele,",
+          "strongId": "846",
+          "morfologia": "PPro-GM3S"
         }
       ]
     },
@@ -126,87 +177,129 @@
       "palavras": [
         {
           "original": "Ἰούδας",
-          "traducao": "Judá"
+          "traducao": "Judá",
+          "strongId": "2455",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Φαρὲς",
-          "traducao": "Peres"
+          "traducao": "Peres",
+          "strongId": "5329",
+          "morfologia": "N-AMS"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ζάρα",
-          "traducao": "Zerá"
+          "traducao": "Zerá",
+          "strongId": "2196",
+          "morfologia": "N-AMS"
         },
         {
           "original": "ἐκ",
-          "traducao": "de"
+          "traducao": "de",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "Θαμάρ,",
-          "traducao": "Tamar,"
+          "traducao": "Tamar,",
+          "strongId": "2283",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Φαρὲς",
-          "traducao": "Peres"
+          "traducao": "Peres",
+          "strongId": "5329",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἑσρώμ,",
-          "traducao": "Esrom,"
+          "traducao": "Esrom,",
+          "strongId": "2074",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἑσρὼμ",
-          "traducao": "Esrom"
+          "traducao": "Esrom",
+          "strongId": "2074",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀράμ,",
-          "traducao": "Rão,"
+          "traducao": "Rão,",
+          "strongId": "689",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -215,63 +308,93 @@
       "palavras": [
         {
           "original": "Ἀρὰμ",
-          "traducao": "Rão"
+          "traducao": "Rão",
+          "strongId": "689",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀμιναδάβ,",
-          "traducao": "Aminadabe,"
+          "traducao": "Aminadabe,",
+          "strongId": "284",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἀμιναδὰβ",
-          "traducao": "Aminadabe"
+          "traducao": "Aminadabe",
+          "strongId": "284",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ναασσών,",
-          "traducao": "Nasom,"
+          "traducao": "Nasom,",
+          "strongId": "3476",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ναασσὼν",
-          "traducao": "Nasom"
+          "traducao": "Nasom",
+          "strongId": "3476",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Σαλμών,",
-          "traducao": "Salmom,"
+          "traducao": "Salmom,",
+          "strongId": "4533",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -280,87 +403,129 @@
       "palavras": [
         {
           "original": "Σαλμὼν",
-          "traducao": "Salmom"
+          "traducao": "Salmom",
+          "strongId": "4533",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Βόες",
-          "traducao": "Boaz"
+          "traducao": "Boaz",
+          "strongId": "1003",
+          "morfologia": "N-AMS"
         },
         {
           "original": "ἐκ",
-          "traducao": "de"
+          "traducao": "de",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "Ῥαχάβ,",
-          "traducao": "Raabe,"
+          "traducao": "Raabe,",
+          "strongId": "4477",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Βόες",
-          "traducao": "Boaz"
+          "traducao": "Boaz",
+          "strongId": "1003",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰωβὴδ",
-          "traducao": "Obede"
+          "traducao": "Obede",
+          "strongId": "5601",
+          "morfologia": "N-AMS"
         },
         {
           "original": "ἐκ",
-          "traducao": "de"
+          "traducao": "de",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "Ῥούθ,",
-          "traducao": "Rute,"
+          "traducao": "Rute,",
+          "strongId": "4503",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Ἰωβὴδ",
-          "traducao": "Obede"
+          "traducao": "Obede",
+          "strongId": "5601",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰεσσαί,",
-          "traducao": "Jessé,"
+          "traducao": "Jessé,",
+          "strongId": "2421",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -369,68 +534,100 @@
       "palavras": [
         {
           "original": "Ἰεσσαὶ",
-          "traducao": "Jessé"
+          "traducao": "Jessé",
+          "strongId": "2421",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Δαυὶδ",
-          "traducao": "Davi"
+          "traducao": "Davi",
+          "strongId": "1138",
+          "morfologia": "N-AMS"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "βασιλέα.",
           "traducao": "rei.",
-          "fimParagrafo": true
+          "fimParagrafo": true,
+          "strongId": "935",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Δαυὶδ",
-          "traducao": "Davi"
+          "traducao": "Davi",
+          "strongId": "1138",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Σολομῶνα",
-          "traducao": "Salomão"
+          "traducao": "Salomão",
+          "strongId": "4672",
+          "morfologia": "N-AMS"
         },
         {
           "original": "ἐκ",
-          "traducao": "de"
+          "traducao": "de",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "da [mulher]"
+          "traducao": "da [mulher]",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "τοῦ",
-          "traducao": "do"
+          "traducao": "do",
+          "strongId": "3588",
+          "morfologia": "Art-GMS"
         },
         {
           "original": "Οὐρίου,",
-          "traducao": "Urias,"
+          "traducao": "Urias,",
+          "strongId": "3774",
+          "morfologia": "N-GMS"
         }
       ]
     },
@@ -439,63 +636,93 @@
       "palavras": [
         {
           "original": "Σολομὼν",
-          "traducao": "Salomão"
+          "traducao": "Salomão",
+          "strongId": "4672",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ῥοβοάμ,",
-          "traducao": "Roboão,"
+          "traducao": "Roboão,",
+          "strongId": "4497",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ῥοβοὰμ",
-          "traducao": "Roboão"
+          "traducao": "Roboão",
+          "strongId": "4497",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀβιά,",
-          "traducao": "Abias,"
+          "traducao": "Abias,",
+          "strongId": "7",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἀβιὰ",
-          "traducao": "Abias"
+          "traducao": "Abias",
+          "strongId": "7",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀσάφ,",
-          "traducao": "Asa,"
+          "traducao": "Asa,",
+          "strongId": "760",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -504,63 +731,93 @@
       "palavras": [
         {
           "original": "Ἀσὰφ",
-          "traducao": "Asa"
+          "traducao": "Asa",
+          "strongId": "760",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰωσαφάτ,",
-          "traducao": "Jeosafá,"
+          "traducao": "Jeosafá,",
+          "strongId": "2498",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἰωσαφὰτ",
-          "traducao": "Jeosafá"
+          "traducao": "Jeosafá",
+          "strongId": "2498",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰωράμ,",
-          "traducao": "Jeorão,"
+          "traducao": "Jeorão,",
+          "strongId": "2496",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἰωρὰμ",
-          "traducao": "Jeorão"
+          "traducao": "Jeorão",
+          "strongId": "2496",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ὀζίαν,",
-          "traducao": "Uzias,"
+          "traducao": "Uzias,",
+          "strongId": "3604",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -569,63 +826,93 @@
       "palavras": [
         {
           "original": "Ὀζίας",
-          "traducao": "Uzias"
+          "traducao": "Uzias",
+          "strongId": "3604",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰωαθάμ,",
-          "traducao": "Jotão,"
+          "traducao": "Jotão,",
+          "strongId": "2488",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἰωαθὰμ",
-          "traducao": "Jotão"
+          "traducao": "Jotão",
+          "strongId": "2488",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀχάζ,",
-          "traducao": "Acaz,"
+          "traducao": "Acaz,",
+          "strongId": "881",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἀχὰζ",
-          "traducao": "Acaz"
+          "traducao": "Acaz",
+          "strongId": "881",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἑζεκίαν,",
-          "traducao": "Ezequias,"
+          "traducao": "Ezequias,",
+          "strongId": "1478",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -634,63 +921,93 @@
       "palavras": [
         {
           "original": "Ἑζεκίας",
-          "traducao": "Ezequias"
+          "traducao": "Ezequias",
+          "strongId": "1478",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Μανασσῆ,",
-          "traducao": "Manassés,"
+          "traducao": "Manassés,",
+          "strongId": "3128",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Μανασσῆς",
-          "traducao": "Manassés"
+          "traducao": "Manassés",
+          "strongId": "3128",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀμώς,",
-          "traducao": "Amós,"
+          "traducao": "Amós,",
+          "strongId": "301",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἀμὼς",
-          "traducao": "Amós"
+          "traducao": "Amós",
+          "strongId": "301",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰωσίαν,",
-          "traducao": "Josias,"
+          "traducao": "Josias,",
+          "strongId": "2502",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -699,56 +1016,82 @@
       "palavras": [
         {
           "original": "Ἰωσίας",
-          "traducao": "Josias"
+          "traducao": "Josias",
+          "strongId": "2502",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰεχονίαν",
-          "traducao": "Jeconias"
+          "traducao": "Jeconias",
+          "strongId": "2423",
+          "morfologia": "N-AMS"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "τοὺς",
-          "traducao": "os"
+          "traducao": "os",
+          "strongId": "3588",
+          "morfologia": "Art-AMP"
         },
         {
           "original": "ἀδελφοὺς",
-          "traducao": "irmãos"
+          "traducao": "irmãos",
+          "strongId": "80",
+          "morfologia": "N-AMP"
         },
         {
           "original": "αὐτοῦ",
-          "traducao": "dele"
+          "traducao": "dele",
+          "strongId": "846",
+          "morfologia": "PPro-GM3S"
         },
         {
           "original": "ἐπὶ",
-          "traducao": "em [o tempo]"
+          "traducao": "em [o tempo]",
+          "strongId": "1909",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "da"
+          "traducao": "da",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "μετοικεσίας",
-          "traducao": "deportação"
+          "traducao": "deportação",
+          "strongId": "3350",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Βαβυλῶνος.",
           "traducao": "de Babilônia.",
-          "fimParagrafo": true
+          "fimParagrafo": true,
+          "strongId": "897",
+          "morfologia": "N-GFS"
         }
       ]
     },
@@ -757,59 +1100,87 @@
       "palavras": [
         {
           "original": "Μετὰ",
-          "traducao": "Depois"
+          "traducao": "Depois",
+          "strongId": "3326",
+          "morfologia": "Prep"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "τὴν",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-AFS"
         },
         {
           "original": "μετοικεσίαν",
-          "traducao": "deportação"
+          "traducao": "deportação",
+          "strongId": "3350",
+          "morfologia": "N-AFS"
         },
         {
           "original": "Βαβυλῶνος",
-          "traducao": "de Babilônia"
+          "traducao": "de Babilônia",
+          "strongId": "897",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Ἰεχονίας",
-          "traducao": "Jeconias"
+          "traducao": "Jeconias",
+          "strongId": "2423",
+          "morfologia": "N-NMS"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Σαλαθιήλ,",
-          "traducao": "Saaltiel,"
+          "traducao": "Saaltiel,",
+          "strongId": "4528",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Σαλαθιὴλ",
-          "traducao": "Saaltiel"
+          "traducao": "Saaltiel",
+          "strongId": "4528",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ζοροβαβέλ,",
-          "traducao": "Zorobabel,"
+          "traducao": "Zorobabel,",
+          "strongId": "2216",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -818,63 +1189,93 @@
       "palavras": [
         {
           "original": "Ζοροβαβὲλ",
-          "traducao": "Zorobabel"
+          "traducao": "Zorobabel",
+          "strongId": "2216",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀβιούδ,",
-          "traducao": "Abiúde,"
+          "traducao": "Abiúde,",
+          "strongId": "10",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἀβιοὺδ",
-          "traducao": "Abiúde"
+          "traducao": "Abiúde",
+          "strongId": "10",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἐλιακίμ,",
-          "traducao": "Eliaquim,"
+          "traducao": "Eliaquim,",
+          "strongId": "1662",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἐλιακὶμ",
-          "traducao": "Eliaquim"
+          "traducao": "Eliaquim",
+          "strongId": "1662",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀζώρ,",
-          "traducao": "Azor,"
+          "traducao": "Azor,",
+          "strongId": "107",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -883,63 +1284,93 @@
       "palavras": [
         {
           "original": "Ἀζὼρ",
-          "traducao": "Azor"
+          "traducao": "Azor",
+          "strongId": "107",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Σαδώκ,",
-          "traducao": "Sadoque,"
+          "traducao": "Sadoque,",
+          "strongId": "4524",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Σαδὼκ",
-          "traducao": "Sadoque"
+          "traducao": "Sadoque",
+          "strongId": "4524",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἀχίμ,",
-          "traducao": "Aquim,"
+          "traducao": "Aquim,",
+          "strongId": "885",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἀχὶμ",
-          "traducao": "Aquim"
+          "traducao": "Aquim",
+          "strongId": "885",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἐλιούδ,",
-          "traducao": "Eliúde,"
+          "traducao": "Eliúde,",
+          "strongId": "1664",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -948,63 +1379,93 @@
       "palavras": [
         {
           "original": "Ἐλιοὺδ",
-          "traducao": "Eliúde"
+          "traducao": "Eliúde",
+          "strongId": "1664",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἐλεάζαρ,",
-          "traducao": "Eleazar,"
+          "traducao": "Eleazar,",
+          "strongId": "1648",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ἐλεάζαρ",
-          "traducao": "Eleazar"
+          "traducao": "Eleazar",
+          "strongId": "1648",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ματθάν,",
-          "traducao": "Matã,"
+          "traducao": "Matã,",
+          "strongId": "3157",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Ματθὰν",
-          "traducao": "Matã"
+          "traducao": "Matã",
+          "strongId": "3157",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰακώβ,",
-          "traducao": "Jacó,"
+          "traducao": "Jacó,",
+          "strongId": "2384",
+          "morfologia": "N-AMS"
         }
       ]
     },
@@ -1013,64 +1474,94 @@
       "palavras": [
         {
           "original": "Ἰακὼβ",
-          "traducao": "Jacó"
+          "traducao": "Jacó",
+          "strongId": "2384",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐγέννησεν",
-          "traducao": "gerou"
+          "traducao": "gerou",
+          "strongId": "1080",
+          "morfologia": "V-AIA-3S"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "Ἰωσὴφ",
-          "traducao": "José"
+          "traducao": "José",
+          "strongId": "2501",
+          "morfologia": "N-AMS"
         },
         {
           "original": "τὸν",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-AMS"
         },
         {
           "original": "ἄνδρα",
-          "traducao": "marido"
+          "traducao": "marido",
+          "strongId": "435",
+          "morfologia": "N-AMS"
         },
         {
           "original": "Μαρίας,",
-          "traducao": "Maria,"
+          "traducao": "Maria,",
+          "strongId": "3137",
+          "morfologia": "N-GFS"
         },
         {
           "original": "ἐξ",
-          "traducao": "de"
+          "traducao": "de",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "ἧς",
-          "traducao": "quem"
+          "traducao": "quem",
+          "strongId": "3739",
+          "morfologia": "PPro-GFS"
         },
         {
           "original": "ἐγεννήθη",
-          "traducao": "foi gerado"
+          "traducao": "foi gerado",
+          "strongId": "1080",
+          "morfologia": "V-AIP-3S"
         },
         {
           "original": "Ἰησοῦς",
-          "traducao": "Jesus"
+          "traducao": "Jesus",
+          "strongId": "2424",
+          "morfologia": "N-NMS"
         },
         {
           "original": "ὁ",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-NMS"
         },
         {
           "original": "λεγόμενος",
-          "traducao": "chamado"
+          "traducao": "chamado",
+          "strongId": "3004",
+          "morfologia": "V-PPM/P-NMS"
         },
         {
           "original": "χριστός.",
           "traducao": "Ungido.",
-          "fimParagrafo": true
+          "fimParagrafo": true,
+          "strongId": "5547",
+          "morfologia": "N-NMS"
         }
       ]
     },
@@ -1079,120 +1570,178 @@
       "palavras": [
         {
           "original": "Πᾶσαι",
-          "traducao": "Todas"
+          "traducao": "Todas",
+          "strongId": "3956",
+          "morfologia": "Adj-NFP"
         },
         {
           "original": "οὖν",
-          "traducao": "portanto"
+          "traducao": "portanto",
+          "strongId": "3767",
+          "morfologia": "Conj"
         },
         {
           "original": "αἱ",
-          "traducao": "as"
+          "traducao": "as",
+          "strongId": "3588",
+          "morfologia": "Art-NFP"
         },
         {
           "original": "γενεαὶ",
-          "traducao": "gerações"
+          "traducao": "gerações",
+          "strongId": "1074",
+          "morfologia": "N-NFP"
         },
         {
           "original": "ἀπὸ",
-          "traducao": "desde"
+          "traducao": "desde",
+          "strongId": "575",
+          "morfologia": "Prep"
         },
         {
           "original": "Ἀβραὰμ",
-          "traducao": "Abraão"
+          "traducao": "Abraão",
+          "strongId": "11",
+          "morfologia": "N-GMS"
         },
         {
           "original": "ἕως",
-          "traducao": "até"
+          "traducao": "até",
+          "strongId": "2193",
+          "morfologia": "Prep"
         },
         {
           "original": "Δαυὶδ",
-          "traducao": "Davi"
+          "traducao": "Davi",
+          "strongId": "1138",
+          "morfologia": "N-GMS"
         },
         {
           "original": "γενεαὶ",
-          "traducao": "[foram] gerações"
+          "traducao": "[foram] gerações",
+          "strongId": "1074",
+          "morfologia": "N-NFP"
         },
         {
           "original": "δεκατέσσαρες,",
-          "traducao": "catorze,"
+          "traducao": "catorze,",
+          "strongId": "1180",
+          "morfologia": "Adj-NFP"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "ἀπὸ",
-          "traducao": "desde"
+          "traducao": "desde",
+          "strongId": "575",
+          "morfologia": "Prep"
         },
         {
           "original": "Δαυὶδ",
-          "traducao": "Davi"
+          "traducao": "Davi",
+          "strongId": "1138",
+          "morfologia": "N-GMS"
         },
         {
           "original": "ἕως",
-          "traducao": "até"
+          "traducao": "até",
+          "strongId": "2193",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "μετοικεσίας",
-          "traducao": "deportação"
+          "traducao": "deportação",
+          "strongId": "3350",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Βαβυλῶνος",
-          "traducao": "de Babilônia"
+          "traducao": "de Babilônia",
+          "strongId": "897",
+          "morfologia": "N-GFS"
         },
         {
           "original": "γενεαὶ",
-          "traducao": "gerações"
+          "traducao": "gerações",
+          "strongId": "1074",
+          "morfologia": "N-NFP"
         },
         {
           "original": "δεκατέσσαρες,",
-          "traducao": "catorze,"
+          "traducao": "catorze,",
+          "strongId": "1180",
+          "morfologia": "Adj-NFP"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "ἀπὸ",
-          "traducao": "desde"
+          "traducao": "desde",
+          "strongId": "575",
+          "morfologia": "Prep"
         },
         {
           "original": "τῆς",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "μετοικεσίας",
-          "traducao": "deportação"
+          "traducao": "deportação",
+          "strongId": "3350",
+          "morfologia": "N-GFS"
         },
         {
           "original": "Βαβυλῶνος",
-          "traducao": "de Babilônia"
+          "traducao": "de Babilônia",
+          "strongId": "897",
+          "morfologia": "N-GFS"
         },
         {
           "original": "ἕως",
-          "traducao": "até"
+          "traducao": "até",
+          "strongId": "2193",
+          "morfologia": "Prep"
         },
         {
           "original": "τοῦ",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-GMS"
         },
         {
           "original": "χριστοῦ",
-          "traducao": "Ungido"
+          "traducao": "Ungido",
+          "strongId": "5547",
+          "morfologia": "N-GMS"
         },
         {
           "original": "γενεαὶ",
-          "traducao": "gerações"
+          "traducao": "gerações",
+          "strongId": "1074",
+          "morfologia": "N-NFP"
         },
         {
           "original": "δεκατέσσαρες.",
           "traducao": "catorze.",
-          "fimParagrafo": true
+          "fimParagrafo": true,
+          "strongId": "1180",
+          "morfologia": "Adj-NFP"
         }
       ]
     },
@@ -1201,181 +1750,262 @@
       "palavras": [
         {
           "original": "Τοῦ",
-          "traducao": "Do"
+          "traducao": "Do",
+          "strongId": "3588",
+          "morfologia": "Art-GMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "Ἰησοῦ",
-          "traducao": "Jesus"
+          "traducao": "Jesus",
+          "strongId": "2424",
+          "morfologia": "N-GMS"
         },
         {
           "original": "χριστοῦ",
-          "traducao": "Ungido"
+          "traducao": "Ungido",
+          "strongId": "5547",
+          "morfologia": "N-GMS"
         },
         {
           "original": "ἡ",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-NFS"
         },
         {
           "original": "γένεσις",
           "traducao": "origem",
+          "strongId": "1078",
+          "morfologia": "N-NFS",
           "nota": "Ou, possivelmente: “nascimento; geração”."
         },
         {
           "original": "οὕτως",
-          "traducao": "assim"
+          "traducao": "assim",
+          "strongId": "3779",
+          "morfologia": "Adv"
         },
         {
           "original": "ἦν.",
-          "traducao": "era."
+          "traducao": "era.",
+          "strongId": "1510",
+          "morfologia": "V-IIA-3S"
         },
         {
           "original": "Μνηστευθείσης",
-          "traducao": "Tendo sido prometida em casamento"
+          "traducao": "Tendo sido prometida em casamento",
+          "strongId": "3423",
+          "morfologia": "V-APP-GFS"
         },
         {
           "original": "τῆς",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-GFS"
         },
         {
           "original": "μητρὸς",
-          "traducao": "mãe"
+          "traducao": "mãe",
+          "strongId": "3384",
+          "morfologia": "N-GFS"
         },
         {
           "original": "αὐτοῦ",
-          "traducao": "dele"
+          "traducao": "dele",
+          "strongId": "846",
+          "morfologia": "PPro-GM3S"
         },
         {
           "original": "Μαρίας",
-          "traducao": "Maria"
+          "traducao": "Maria",
+          "strongId": "3137",
+          "morfologia": "N-GFS"
         },
         {
           "original": "τῷ",
-          "traducao": "ao"
+          "traducao": "ao",
+          "strongId": "3588",
+          "morfologia": "Art-DMS"
         },
         {
           "original": "Ἰωσήφ,",
-          "traducao": "José,"
+          "traducao": "José,",
+          "strongId": "2501",
+          "morfologia": "N-DMS"
         },
         {
           "original": "πρὶν",
-          "traducao": "antes"
+          "traducao": "antes",
+          "strongId": "4250",
+          "morfologia": "Adv"
         },
         {
           "original": "ἢ",
-          "traducao": "que"
+          "traducao": "que",
+          "strongId": "2228",
+          "morfologia": "Conj"
         },
         {
           "original": "συνελθεῖν",
-          "traducao": "unirem-se"
+          "traducao": "unirem-se",
+          "strongId": "4905",
+          "morfologia": "V-ANA"
         },
         {
           "original": "αὐτοὺς",
-          "traducao": "eles"
+          "traducao": "eles",
+          "strongId": "846",
+          "morfologia": "PPro-AM3P"
         },
         {
           "original": "εὑρέθη",
-          "traducao": "foi achada"
+          "traducao": "foi achada",
+          "strongId": "2147",
+          "morfologia": "V-AIP-3S"
         },
         {
           "original": "ἐν",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
         },
         {
           "original": "γαστρὶ",
-          "traducao": "ventre"
+          "traducao": "ventre",
+          "strongId": "1064",
+          "morfologia": "N-DFS"
         },
         {
           "original": "ἔχουσα",
           "traducao": "tendo",
+          "strongId": "2192",
+          "morfologia": "V-PPA-NFS",
           "nota": "Isto é: “grávida."
         },
         {
           "original": "ἐκ",
-          "traducao": "de"
+          "traducao": "de",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "πνεύματος",
-          "traducao": "espírito"
+          "traducao": "espírito",
+          "strongId": "4151",
+          "morfologia": "N-GNS"
         },
         {
           "original": "ἁγίου.",
-          "traducao": "santo."
+          "traducao": "santo.",
+          "strongId": "40",
+          "morfologia": "Adj-GNS"
         }
       ]
-    },
-    {
-      "CONTINUAR DAQUI": ""
     },
     {
       "numero": 19,
       "palavras": [
         {
           "original": "Ἰωσὴφ",
-          "traducao": "José"
+          "traducao": "José",
+          "strongId": "2501",
+          "morfologia": "N-NMS"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "ὁ",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-NMS"
         },
         {
           "original": "ἀνὴρ",
-          "traducao": "marido"
+          "traducao": "marido",
+          "strongId": "435",
+          "morfologia": "N-NMS"
         },
         {
           "original": "αὐτῆς,",
-          "traducao": "dela,"
+          "traducao": "dela,",
+          "strongId": "846",
+          "morfologia": "PPro-GF3S"
         },
         {
           "original": "δίκαιος",
-          "traducao": "justo"
+          "traducao": "justo",
+          "strongId": "1342",
+          "morfologia": "Adj-NMS"
         },
         {
           "original": "ὢν",
-          "traducao": "sendo"
+          "traducao": "sendo",
+          "strongId": "1510",
+          "morfologia": "V-PPA-NMS"
         },
         {
           "original": "καὶ",
-          "traducao": "e"
+          "traducao": "e",
+          "strongId": "2532",
+          "morfologia": "Conj"
         },
         {
           "original": "μὴ",
-          "traducao": "não"
+          "traducao": "não",
+          "strongId": "3361",
+          "morfologia": "Adv"
         },
         {
           "original": "θέλων",
-          "traducao": "querendo"
+          "traducao": "querendo",
+          "strongId": "2309",
+          "morfologia": "V-PPA-NMS"
         },
         {
           "original": "αὐτὴν",
-          "traducao": "a ela"
+          "traducao": "a ela",
+          "strongId": "846",
+          "morfologia": "PPro-AF3S"
         },
         {
           "original": "δειγματίσαι",
-          "traducao": "expor publicamente"
+          "traducao": "expor publicamente",
+          "strongId": "1165",
+          "morfologia": "V-ANA"
         },
         {
           "original": "ἐβουλήθη",
-          "traducao": "quis"
+          "traducao": "quis",
+          "strongId": "1014",
+          "morfologia": "V-AIP-3S"
         },
         {
           "original": "λάθρᾳ",
-          "traducao": "secretamente"
+          "traducao": "secretamente",
+          "strongId": "2977",
+          "morfologia": "Adv"
         },
         {
           "original": "ἀπολῦσαι",
-          "traducao": "soltar"
+          "traducao": "soltar",
+          "strongId": "630",
+          "morfologia": "V-ANA"
         },
         {
           "original": "αὐτήν",
-          "traducao": "a ela"
+          "traducao": "a ela",
+          "strongId": "846",
+          "morfologia": "PPro-AF3S"
         }
       ]
     },
@@ -1384,123 +2014,183 @@
       "palavras": [
         {
           "original": "ταῦτα",
-          "traducao": "estas coisas"
+          "traducao": "estas coisas",
+          "strongId": "3778",
+          "morfologia": "DPro-ANP"
         },
         {
           "original": "δὲ",
-          "traducao": "porém"
+          "traducao": "porém",
+          "strongId": "1161",
+          "morfologia": "Conj"
         },
         {
           "original": "αὐτοῦ",
-          "traducao": "dele"
+          "traducao": "dele",
+          "strongId": "846",
+          "morfologia": "PPro-GM3S"
         },
         {
           "original": "ἐνθυμηθέντος",
-          "traducao": "tendo ponderado"
+          "traducao": "tendo ponderado",
+          "strongId": "1760",
+          "morfologia": "V-APM-GMS"
         },
         {
           "original": "ἰδοὺ",
-          "traducao": "eis"
+          "traducao": "eis",
+          "strongId": "2400",
+          "morfologia": "V-AMA-2S"
         },
         {
           "original": "ἄγγελος",
-          "traducao": "anjo"
+          "traducao": "anjo",
+          "strongId": "32",
+          "morfologia": "N-NMS"
         },
         {
           "original": "κυρίου",
-          "traducao": "de SENHOR"
+          "traducao": "de SENHOR",
+          "strongId": "2962",
+          "morfologia": "N-GMS"
         },
         {
           "original": "κατ’",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "2596",
+          "morfologia": "Prep"
         },
         {
           "original": "ὄναρ",
-          "traducao": "sonho"
+          "traducao": "sonho",
+          "strongId": "3677",
+          "morfologia": "N-ANS"
         },
         {
           "original": "ἐφάνη",
-          "traducao": "apareceu"
+          "traducao": "apareceu",
+          "strongId": "5316",
+          "morfologia": "V-AIP-3S"
         },
         {
           "original": "αὐτῷ",
-          "traducao": "a ele"
+          "traducao": "a ele",
+          "strongId": "846",
+          "morfologia": "PPro-DM3S"
         },
         {
           "original": "λέγων",
-          "traducao": "dizendo"
+          "traducao": "dizendo",
+          "strongId": "3004",
+          "morfologia": "V-PPA-NMS"
         },
         {
           "original": "Ἰωσὴφ",
-          "traducao": "José"
+          "traducao": "José",
+          "strongId": "2501",
+          "morfologia": "N-VMS"
         },
         {
           "original": "υἱὸς",
-          "traducao": "filho"
+          "traducao": "filho",
+          "strongId": "5207",
+          "morfologia": "N-VMS"
         },
         {
           "original": "Δαυίδ",
-          "traducao": "Davi"
+          "traducao": "Davi",
+          "strongId": "1138",
+          "morfologia": "N-GMS"
         },
         {
           "original": "μὴ",
-          "traducao": "não"
+          "traducao": "não",
+          "strongId": "3361",
+          "morfologia": "Adv"
         },
         {
           "original": "φοβηθῇς",
-          "traducao": "temas"
+          "traducao": "temas",
+          "strongId": "5399",
+          "morfologia": "V-ASP-2S"
         },
         {
           "original": "παραλαβεῖν",
-          "traducao": "receber"
+          "traducao": "receber",
+          "strongId": "3880",
+          "morfologia": "V-ANA"
         },
         {
           "original": "Μαρίαν",
-          "traducao": "Maria"
+          "traducao": "Maria",
+          "strongId": "3137",
+          "morfologia": "N-AFS"
         },
         {
           "original": "τὴν",
-          "traducao": "a"
+          "traducao": "a",
+          "strongId": "3588",
+          "morfologia": "Art-AFS"
         },
         {
           "original": "γυναῖκά",
-          "traducao": "mulher"
+          "traducao": "mulher",
+          "strongId": "1135",
+          "morfologia": "N-AFS"
         },
         {
           "original": "σου",
-          "traducao": "tua"
+          "traducao": "tua",
+          "strongId": "4771",
+          "morfologia": "PPro-G2S"
         },
         {
           "original": "τὸ",
-          "traducao": "o"
+          "traducao": "o",
+          "strongId": "3588",
+          "morfologia": "Art-NNS"
         },
         {
           "original": "γὰρ",
-          "traducao": "pois"
+          "traducao": "pois",
+          "strongId": "1063",
+          "morfologia": "Conj"
         },
         {
           "original": "ἐν",
-          "traducao": "em"
+          "traducao": "em",
+          "strongId": "1722",
+          "morfologia": "Prep"
         },
         {
           "original": "αὐτῇ",
-          "traducao": "ela"
+          "traducao": "ela",
+          "strongId": "846",
+          "morfologia": "PPro-DF3S"
         },
         {
           "original": "γεννηθὲν",
-          "traducao": "gerado"
+          "traducao": "gerado",
+          "strongId": "1080",
+          "morfologia": "V-APP-NNS"
         },
         {
           "original": "ἐκ",
-          "traducao": "do"
+          "traducao": "do",
+          "strongId": "1537",
+          "morfologia": "Prep"
         },
         {
           "original": "πνεύματος",
-          "traducao": "Espírito"
+          "traducao": "Espírito",
+          "strongId": "4151",
+          "morfologia": "N-GNS"
         },
         {
           "original": "ἁγίου",
-          "traducao": "Santo"
+          "traducao": "Santo",
+          "strongId": "40",
+          "morfologia": "Adj-GNS"
         }
       ]
     }
