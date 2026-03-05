@@ -286,6 +286,53 @@ const createParagraphBreak = () => {
   return fragment;
 };
 
+const renderWords = (container, words, idioma, options = {}) => {
+  if (!Array.isArray(words)) return;
+  const { insertChapterNumber, chapterNumber, insertVerseNumber, verseNumber } =
+    options;
+  let chapterNumberInserted = !insertChapterNumber;
+  let verseNumberInserted = !insertVerseNumber;
+
+  words.forEach((word) => {
+    if (!chapterNumberInserted && Number.isFinite(chapterNumber)) {
+      container.appendChild(
+        createNumberToken(
+          chapterNumber,
+          "chapter-number inline-flex text-[3rem] text-blue-900 font-bold leading-none mr-3"
+        )
+      );
+      chapterNumberInserted = true;
+    }
+
+    if (!verseNumberInserted && Number.isFinite(verseNumber) && verseNumber !== 1) {
+      container.appendChild(
+        createNumberToken(
+          verseNumber,
+          "verse-number inline-flex text-[1.3em] text-blue-900 font-semibold leading-none"
+        )
+      );
+      verseNumberInserted = true;
+    }
+
+    if (word?.traducao || word?.original) {
+      container.appendChild(
+        createToken(
+          word.original,
+          word.traducao,
+          word.traducao2,
+          word.strongId,
+          word.morfologia,
+          idioma
+        )
+      );
+    }
+
+    if (word?.fimParagrafo) {
+      container.appendChild(createParagraphBreak());
+    }
+  });
+};
+
 const renderInterlinear = (elements, data, capituloNumero) => {
   const container = elements.interlinear;
   if (!container) return;
@@ -293,59 +340,33 @@ const renderInterlinear = (elements, data, capituloNumero) => {
   container.innerHTML = "";
 
   const versiculos = Array.isArray(data?.versiculos) ? data.versiculos : [];
+  const introducao = data?.introducao?.palavras || [];
   const chapterNumber = Number.isFinite(capituloNumero)
     ? capituloNumero
     : Number(data?.capitulo);
+  let chapterNumberToInsert = chapterNumber;
 
-  let chapterNumberInserted = false;
+  if (introducao.length > 0) {
+    renderWords(container, introducao, data?.idioma, {
+      insertChapterNumber: false,
+      insertVerseNumber: false,
+    });
+    if (!introducao.some((word) => word?.fimParagrafo)) {
+      container.appendChild(createParagraphBreak());
+    }
+  }
 
   versiculos.forEach((versiculo) => {
     const words = Array.isArray(versiculo?.palavras) ? versiculo.palavras : [];
     const verseNumber = Number(versiculo?.numero);
-    let verseNumberInserted = false;
-
-    words.forEach((word) => {
-      if (!chapterNumberInserted && Number.isFinite(chapterNumber)) {
-        container.appendChild(
-          createNumberToken(
-            chapterNumber,
-            "chapter-number inline-flex text-[3rem] text-blue-900 font-bold leading-none mr-3"
-          )
-        );
-        chapterNumberInserted = true;
-      }
-
-      if (
-        !verseNumberInserted &&
-        Number.isFinite(verseNumber) &&
-        verseNumber !== 1
-      ) {
-        container.appendChild(
-          createNumberToken(
-            verseNumber,
-            "verse-number inline-flex text-[1.3em] text-blue-900 font-semibold leading-none"
-          )
-        );
-        verseNumberInserted = true;
-      }
-
-      if (word?.traducao || word?.original) {
-        container.appendChild(
-          createToken(
-            word.original,
-            word.traducao,
-            word.traducao2,
-            word.strongId,
-            word.morfologia,
-            data?.idioma
-          )
-        );
-      }
-
-      if (word?.fimParagrafo) {
-        container.appendChild(createParagraphBreak());
-      }
+    renderWords(container, words, data?.idioma, {
+      insertChapterNumber: true,
+      chapterNumber: chapterNumberToInsert,
+      insertVerseNumber: true,
+      verseNumber,
     });
+    // Only insert the chapter number once, on the first verse render.
+    chapterNumberToInsert = NaN;
   });
 };
 

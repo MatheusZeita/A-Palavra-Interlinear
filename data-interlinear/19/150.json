@@ -14,8 +14,8 @@
         {
           "original": "יָ֨הּ",
           "strongId": "3050",
-          "traducao": "[a] Jah!",
-          "traducao2": "[a] Jeová!"
+          "traducao": "Jah!",
+          "traducao2": "Jeová!"
         },
         {
           "original": "הַֽלְלוּ־",
@@ -25,12 +25,13 @@
         {
           "original": "אֵ֥ל",
           "strongId": "410",
-          "traducao": "[a] Deus"
+          "traducao": "Deus"
         },
         {
           "original": "בְּקָדְשׁ֑וֹ",
           "strongId": "6944",
-          "traducao": "em seu santuário."
+          "traducao": "em sua santidade.",
+          "traducao2": "em seu santuário."
         },
         {
           "original": "הַֽ֝לְל֗וּהוּ",
@@ -40,8 +41,8 @@
         {
           "original": "בִּרְקִ֥יעַ",
           "strongId": "7549",
-          "traducao": "na vastidão do",
-          "traducao2": "no céu do"
+          "traducao": "na expansão",
+          "traducao2": "no céu"
         },
         {
           "original": "עֻזּֽוֹ׃",
@@ -72,7 +73,7 @@
         {
           "original": "כְּרֹ֣ב",
           "strongId": "7230",
-          "traducao": "segundo a abundância da"
+          "traducao": "segundo a abundância"
         },
         {
           "original": "גֻּדְלֽוֹ׃",
@@ -93,12 +94,12 @@
         {
           "original": "בְּתֵ֣קַע",
           "strongId": "8629",
-          "traducao": "com o toque de"
+          "traducao": "com o tocar"
         },
         {
           "original": "שׁוֹפָ֑ר",
           "strongId": "7782",
-          "traducao": "trombeta de chifre.",
+          "traducao": "[trombeta de] chifre.",
           "traducao2": "buzina."
         },
         {
@@ -171,7 +172,8 @@
         {
           "original": "שָׁ֑מַע",
           "strongId": "8088",
-          "traducao": "som."
+          "traducao": "ouvir.",
+          "traducao2": "som."
         },
         {
           "original": "הַֽ֝לְל֗וּהוּ",
@@ -186,7 +188,7 @@
         {
           "original": "תְרוּעָֽה׃",
           "strongId": "8643",
-          "traducao": "grito.",
+          "traducao": "aclamação.",
           "fimParagrafo": true
         }
       ]
@@ -214,8 +216,8 @@
         {
           "original": "יָ֗הּ",
           "strongId": "3050",
-          "traducao": "[a] Jah.",
-          "traducao2": "[a] Jeová."
+          "traducao": "Jah.",
+          "traducao2": "Jeová."
         },
         {
           "original": "הַֽלְלוּ־",
@@ -225,8 +227,8 @@
         {
           "original": "יָֽהּ׃",
           "strongId": "3050",
-          "traducao": "[a] Jah!",
-          "traducao2": "[a] Jeová!"
+          "traducao": "Jah!",
+          "traducao2": "Jeová!"
         }
       ]
     }
