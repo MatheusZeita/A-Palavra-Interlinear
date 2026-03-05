@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Translitera Grego Koiné para o padrão acadêmico (SBL Academic Style).
  * Trata: Espírito áspero, gamas nasais, ditongos (incluindo υι),
  * diéreses, rho inicial/duplo e capitalização inteligente.

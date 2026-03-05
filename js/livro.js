@@ -91,7 +91,7 @@ const posicao = Number(posicaoParam);
 if (!Number.isFinite(posicao)) {
   setMessage("Livro inválido ou parâmetro ausente.");
 } else {
-  fetch("data-interlinear/livros.json")
+  fetch("../data-interlinear/livros.json")
     .then((r) => r.json())
     .then((data) => {
       const livros = getAllBooks(data);

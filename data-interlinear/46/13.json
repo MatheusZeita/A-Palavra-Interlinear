@@ -95,7 +95,8 @@
         },
         {
           "original": "χαλκὸς",
-          "traducao": "cobre",
+          "traducao": "bronze",
+          "traducao2": "[pedaço de] metal",
           "strongId": "5475",
           "morfologia": "N-NMS"
         },
@@ -150,6 +151,7 @@
         {
           "original": "προφητείαν",
           "traducao": "profecia",
+          "traducao2": "[dom de] profecia",
           "strongId": "4394",
           "morfologia": "N-AFS"
         },
@@ -776,6 +778,7 @@
         {
           "original": "προφητεῖαι,",
           "traducao": "profecias,",
+          "traducao2": "[dom de] profecias,",
           "strongId": "4394",
           "morfologia": "N-NFP"
         },
@@ -794,6 +797,7 @@
         {
           "original": "γλῶσσαι,",
           "traducao": "línguas,",
+          "traducao2": "[dom de] línguas],",
           "strongId": "1100",
           "morfologia": "N-NFP"
         },
@@ -812,6 +816,7 @@
         {
           "original": "γνῶσις",
           "traducao": "conhecimento",
+          "traducao2": "[dom de] conhecimento",
           "strongId": "1108",
           "morfologia": "N-NFS"
         },
@@ -1045,7 +1050,7 @@
         {
           "original": "τοῦ",
           "traducao": "do",
-          "traducao2": "da",
+          "traducao2": "de",
           "strongId": "3588",
           "morfologia": "Art-GMS"
         },

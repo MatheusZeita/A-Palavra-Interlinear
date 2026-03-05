@@ -1,4 +1,4 @@
-// ESTÁ BUGADO, DEVE SER CONCERTADO
+﻿// ESTÁ BUGADO, DEVE SER CONCERTADO
 
 /**
  * transliterarHebraico — versão revisada (SBL-like, Tiberian heuristics)

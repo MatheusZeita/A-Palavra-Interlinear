@@ -6,18 +6,46 @@
     {
       "numero": 1,
       "palavras": [
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "יָהּ", "traducao": "[a] Jah!" },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "אֵל", "traducao": "[a] Deus" },
-        { "original": "בְּ", "traducao": "em" },
-        { "original": "קָדְשׁוֹ", "traducao": "santuário dele." },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בִּ", "traducao": "em" },
-        { "original": "רְקִיעַ", "traducao": "firmamento de" },
         {
-          "original": "עֻזּוֹ",
+          "original": "הַ֥לְלוּ",
+          "strongId": "1984",
+          "traducao": "Louvem"
+        },
+        {
+          "original": "יָ֨הּ",
+          "strongId": "3050",
+          "traducao": "[a] Jah!",
+          "traducao2": "[a] Jeová!"
+        },
+        {
+          "original": "הַֽלְלוּ־",
+          "strongId": "1984",
+          "traducao": "Louvem"
+        },
+        {
+          "original": "אֵ֥ל",
+          "strongId": "410",
+          "traducao": "[a] Deus"
+        },
+        {
+          "original": "בְּקָדְשׁ֑וֹ",
+          "strongId": "6944",
+          "traducao": "em seu santuário."
+        },
+        {
+          "original": "הַֽ֝לְל֗וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בִּרְקִ֥יעַ",
+          "strongId": "7549",
+          "traducao": "na vastidão do",
+          "traducao2": "no céu do"
+        },
+        {
+          "original": "עֻזּֽוֹ׃",
+          "strongId": "5797",
           "traducao": "poder dele.",
           "fimParagrafo": true
         }
@@ -26,16 +54,29 @@
     {
       "numero": 2,
       "palavras": [
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בִּ", "traducao": "por" },
-        { "original": "גְבוּרֹתָיו", "traducao": "atos poderosos dele." },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "כְּ", "traducao": "segundo" },
-        { "original": "רֹב", "traducao": "abundância de" },
         {
-          "original": "גֻּדְלוֹ",
+          "original": "הַֽלְל֥וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בִגְבוּרֹתָ֑יו",
+          "strongId": "1369",
+          "traducao": "por seus atos poderosos."
+        },
+        {
+          "original": "הַֽ֝לְל֗וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "כְּרֹ֣ב",
+          "strongId": "7230",
+          "traducao": "segundo a abundância da"
+        },
+        {
+          "original": "גֻּדְלֽוֹ׃",
+          "strongId": "1433",
           "traducao": "grandeza dele.",
           "fimParagrafo": true
         }
@@ -44,61 +85,149 @@
     {
       "numero": 3,
       "palavras": [
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בְּ", "traducao": "com" },
-        { "original": "תֵקַע", "traducao": "toque de" },
-        { "original": "שׁוֹפָר", "traducao": "trombeta de chifre." },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בְּ", "traducao": "com" },
-        { "original": "נֵבֶל", "traducao": "harpa" },
-        { "original": "וְ", "traducao": "e" },
-        { "original": "כִנּוֹר", "traducao": "lira.", "fimParagrafo": true }
+        {
+          "original": "הַֽ֭לְלוּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בְּתֵ֣קַע",
+          "strongId": "8629",
+          "traducao": "com o toque de"
+        },
+        {
+          "original": "שׁוֹפָ֑ר",
+          "strongId": "7782",
+          "traducao": "trombeta de chifre.",
+          "traducao2": "buzina."
+        },
+        {
+          "original": "הַֽ֝לְל֗וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בְּנֵ֣בֶל",
+          "strongId": "5035",
+          "traducao": "com harpa"
+        },
+        {
+          "original": "וְכִנּֽוֹר׃",
+          "strongId": "3658",
+          "traducao": "e lira.",
+          "fimParagrafo": true
+        }
       ]
     },
     {
       "numero": 4,
       "palavras": [
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בְּ", "traducao": "com" },
-        { "original": "תֹף", "traducao": "pandeiro" },
-        { "original": "וּ", "traducao": "e" },
-        { "original": "מָחוֹל", "traducao": "dança." },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בְּ", "traducao": "com" },
-        { "original": "מִנִּים", "traducao": "cordas" },
-        { "original": "וְ", "traducao": "e" },
-        { "original": "עוּגָב", "traducao": "flauta.", "fimParagrafo": true }
+        {
+          "original": "הַֽ֭לְלוּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בְתֹ֣ף",
+          "strongId": "8596",
+          "traducao": "com pandeiro"
+        },
+        {
+          "original": "וּמָח֑וֹל",
+          "strongId": "4234",
+          "traducao": "e dança."
+        },
+        {
+          "original": "הַֽ֝לְל֗וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בְּמִנִּ֥ים",
+          "strongId": "4482",
+          "traducao": "com [instrumentos de] cordas"
+        },
+        {
+          "original": "וְעוּגָֽב׃",
+          "strongId": "5748",
+          "traducao": "e flauta.",
+          "fimParagrafo": true
+        }
       ]
     },
     {
       "numero": 5,
       "palavras": [
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בְּ", "traducao": "com" },
-        { "original": "צִלְצְלֵי", "traducao": "címbalos de" },
-        { "original": "שָׁמַע", "traducao": "som." },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "הוּ", "traducao": "a ele" },
-        { "original": "בְּ", "traducao": "com" },
-        { "original": "צִלְצְלֵי", "traducao": "címbalos de" },
-        { "original": "תְרוּעָה", "traducao": "grito.", "fimParagrafo": true }
+        {
+          "original": "הַֽלְל֥וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בְצִלְצְלֵי־",
+          "strongId": "6767",
+          "traducao": "com címbalos de"
+        },
+        {
+          "original": "שָׁ֑מַע",
+          "strongId": "8088",
+          "traducao": "som."
+        },
+        {
+          "original": "הַֽ֝לְל֗וּהוּ",
+          "strongId": "1984",
+          "traducao": "Louvem a ele"
+        },
+        {
+          "original": "בְּֽצִלְצְלֵ֥י",
+          "strongId": "6767",
+          "traducao": "com címbalos de"
+        },
+        {
+          "original": "תְרוּעָֽה׃",
+          "strongId": "8643",
+          "traducao": "grito.",
+          "fimParagrafo": true
+        }
       ]
     },
     {
       "numero": 6,
       "palavras": [
-        { "original": "כֹּל", "traducao": "Todo" },
-        { "original": "הַ", "traducao": "o" },
-        { "original": "נְּשָׁמָה", "traducao": "fôlego" },
-        { "original": "תְּהַלֵּל", "traducao": "louve" },
-        { "original": "יָהּ", "traducao": "[a] Jah." },
-        { "original": "הַלְלוּ", "traducao": "Louvem" },
-        { "original": "יָהּ", "traducao": "[a] Jah!", "fimParagrafo": true }
+        {
+          "original": "כֹּ֣ל",
+          "strongId": "3605",
+          "traducao": "Todo",
+          "traducao2": "Tudo"
+        },
+        {
+          "original": "הַ֭נְּשָׁמָה",
+          "strongId": "5397",
+          "traducao": "o fôlego,",
+          "traducao2": "o que respira,"
+        },
+        {
+          "original": "תְּהַלֵּ֥ל",
+          "strongId": "1984",
+          "traducao": "louve"
+        },
+        {
+          "original": "יָ֗הּ",
+          "strongId": "3050",
+          "traducao": "[a] Jah.",
+          "traducao2": "[a] Jeová."
+        },
+        {
+          "original": "הַֽלְלוּ־",
+          "strongId": "1984",
+          "traducao": "Louvem"
+        },
+        {
+          "original": "יָֽהּ׃",
+          "strongId": "3050",
+          "traducao": "[a] Jah!",
+          "traducao2": "[a] Jeová!"
+        }
       ]
     }
   ]

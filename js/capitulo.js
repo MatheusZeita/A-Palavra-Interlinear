@@ -1,4 +1,4 @@
-import { transliterarGrego } from "./linguagem/transliterarGrego.js";
+﻿import { transliterarGrego } from "./linguagem/transliterarGrego.js";
 import { transliterarHebraico } from "./linguagem/transliterarHebraico.js";
 import { decifrarMorfologiaGrega } from "./linguagem/decifrarMorfologiaGrega.js";
 
@@ -368,7 +368,7 @@ const fetchChapterData = (livroPosicao, capituloNumero) => {
   if (!chapterFile || !Number.isFinite(livroPosicao)) {
     return Promise.resolve(null);
   }
-  const path = `data-interlinear/${livroPosicao}/${chapterFile}.json`;
+  const path = `../data-interlinear/${livroPosicao}/${chapterFile}.json`;
   return fetch(path).then((r) => r.json());
 };
 
@@ -385,7 +385,7 @@ const initChapterPage = () => {
     return;
   }
 
-  fetch("data-interlinear/livros.json")
+  fetch("../data-interlinear/livros.json")
     .then((r) => r.json())
     .then((data) => {
       const livros = getAllBooks(data);
