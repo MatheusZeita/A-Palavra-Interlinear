@@ -1,7 +1,7 @@
 const getSharedPath = (fileName) => {
-  const parts = window.location.pathname.split("/").filter(Boolean);
-  const depth = Math.max(0, parts.length - 1);
-  const prefix = depth > 0 ? "../".repeat(depth) : "";
+  const path = window.location.pathname;
+  const inPages = path.includes("/pages/");
+  const prefix = inPages ? "../" : "";
   return `${prefix}shared/${fileName}`;
 };
 
