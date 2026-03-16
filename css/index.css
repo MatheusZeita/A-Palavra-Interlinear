@@ -87,38 +87,39 @@
   .scripture-card .label-medium {
     display: block;
   }
-}
 
-@media (max-width: 500px) {
-  .christian-scriptures-catalog,
-  .hebrew-scriptures-catalog {
-    grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
-  }
-}
-
-@media (max-width: 420px) {
-  .page-title {
-    font-size: 1.35rem;
+  @media (max-width: 500px) {
+    .christian-scriptures-catalog,
+    .hebrew-scriptures-catalog {
+      grid-template-columns: repeat(auto-fit, minmax(88px, 1fr));
+    }
   }
 
-  .section-title {
-    font-size: 1rem;
-  }
+  @media (max-width: 420px) {
+    .page-title {
+      font-size: 1.35rem;
+    }
 
-  .christian-scriptures-catalog,
-  .hebrew-scriptures-catalog {
-    grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
-  }
+    .section-title {
+      font-size: 1rem;
+    }
 
-  .scripture-card {
-    font-size: 1rem;
-  }
+    .christian-scriptures-catalog,
+    .hebrew-scriptures-catalog {
+      grid-template-columns: repeat(auto-fit, minmax(56px, 1fr));
+    }
 
-  .scripture-card .label-medium {
-    display: none;
-  }
+    .scripture-card {
+      font-size: 1rem;
+      padding: 0 7px 0 10px;
+    }
 
-  .scripture-card .label-short {
-    display: block;
+    .scripture-card .label-medium {
+      display: none;
+    }
+
+    .scripture-card .label-short {
+      display: block;
+    }
   }
 }
