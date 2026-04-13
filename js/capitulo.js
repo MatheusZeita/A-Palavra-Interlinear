@@ -30,6 +30,7 @@ const getLayoutElements = () => ({
   interlinear: document.getElementById("interlinear"),
   bookTitle: document.getElementById("book-title"),
   bookTitleOriginal: document.getElementById("book-title-original"),
+  aside: document.getElementById("aside"),
 });
 
 const buildChapterTitle = (livro, capitulo) => {
@@ -86,6 +87,9 @@ const setBookTitles = (elements, livro) => {
   }
 };
 
+const getBookDisplayName = (livro) =>
+  livro?.completo || livro?.["titulo traduzido"] || livro?.curto || "Livro";
+
 const updateLayoutVars = (elements) => {
   if (!elements.wrapper) return;
 
@@ -109,12 +113,38 @@ const updateLayoutVars = (elements) => {
   elements.wrapper.style.setProperty("--footer-overlap", `${footerOverlap}px`);
 };
 
+const syncOriginalFont = (elements) => {
+  if (!elements.wrapper || !elements.interlinear) return;
+  const sample = elements.interlinear.querySelector(".original");
+  if (!sample) return;
+  const family = window.getComputedStyle(sample).fontFamily;
+  if (family) {
+    elements.wrapper.style.setProperty("--original-font", family);
+  }
+};
+
 const applyNotesForViewport = (elements) => {
   if (!elements.notesToggle) return;
   const isOpen = window.innerWidth > NOTES_BREAKPOINT;
   elements.notesToggle.checked = isOpen;
   if (elements.notesToggleButton) {
     elements.notesToggleButton.setAttribute("aria-pressed", String(isOpen));
+  }
+};
+
+const openNotesPanel = (elements) => {
+  if (!elements.notesToggle) return;
+  elements.notesToggle.checked = true;
+  if (elements.notesToggleButton) {
+    elements.notesToggleButton.setAttribute("aria-pressed", "true");
+  }
+};
+
+const closeNotesPanel = (elements) => {
+  if (!elements.notesToggle) return;
+  elements.notesToggle.checked = false;
+  if (elements.notesToggleButton) {
+    elements.notesToggleButton.setAttribute("aria-pressed", "false");
   }
 };
 
@@ -192,13 +222,23 @@ const getStrongBaseUrl = (idiomaNormalizado) => {
   }
 };
 
+const getNoteAnchorId = (noteId) => `note-${noteId}`;
+const getWordAnchorId = (noteId) => `word-${noteId}`;
+
+const scrollToElement = (element) => {
+  if (!element) return;
+  element.scrollIntoView({ behavior: "smooth", block: "center" });
+};
+
 const createToken = (
   original,
   traducao,
   traducao2,
   strongId,
   morfologia,
-  idioma
+  idioma,
+  noteId,
+  onNoteClick
 ) => {
   const idiomaNormalizado = String(idioma || "").toLowerCase();
   const token = document.createElement("span");
@@ -236,6 +276,23 @@ const createToken = (
     token.appendChild(originalSpan);
   }
 
+  const addNoteMarker = (target) => {
+    if (!noteId || !target) return;
+    const marker = document.createElement("a");
+    marker.className = "note-marker";
+    marker.textContent = "*";
+    marker.href = `#${getNoteAnchorId(noteId)}`;
+    marker.setAttribute("aria-label", "Ir para nota");
+    marker.addEventListener("click", (event) => {
+      event.preventDefault();
+      if (typeof onNoteClick === "function") {
+        onNoteClick(noteId);
+      }
+    });
+    target.classList.add("has-note");
+    target.appendChild(marker);
+  };
+
   if (traducao) {
     const translation = document.createElement("span");
     translation.className = "traducao text-[1.3rem] text-slate-900";
@@ -243,7 +300,11 @@ const createToken = (
     if (traducao2) {
       translation.title = traducao2;
     }
+    addNoteMarker(translation);
     token.appendChild(translation);
+  } else if (original) {
+    const lastChild = token.lastElementChild;
+    if (lastChild) addNoteMarker(lastChild);
   }
 
   if (morfologia && String(idioma || "").toLowerCase() === "grego") {
@@ -259,6 +320,10 @@ const createToken = (
     morfologiaAnchor.target = "_blank";
     morfologiaAnchor.rel = "noopener noreferrer";
     token.appendChild(morfologiaAnchor);
+  }
+
+  if (noteId) {
+    token.id = getWordAnchorId(noteId);
   }
 
   return token;
@@ -288,8 +353,13 @@ const createParagraphBreak = () => {
 
 const renderWords = (container, words, idioma, options = {}) => {
   if (!Array.isArray(words)) return;
-  const { insertChapterNumber, chapterNumber, insertVerseNumber, verseNumber } =
-    options;
+  const {
+    insertChapterNumber,
+    chapterNumber,
+    insertVerseNumber,
+    verseNumber,
+    onNoteClick,
+  } = options;
   let chapterNumberInserted = !insertChapterNumber;
   let verseNumberInserted = !insertVerseNumber;
 
@@ -322,7 +392,9 @@ const renderWords = (container, words, idioma, options = {}) => {
           word.traducao2,
           word.strongId,
           word.morfologia,
-          idioma
+          idioma,
+          word.notaId,
+          onNoteClick
         )
       );
     }
@@ -350,6 +422,11 @@ const renderInterlinear = (elements, data, capituloNumero) => {
     renderWords(container, introducao, data?.idioma, {
       insertChapterNumber: false,
       insertVerseNumber: false,
+      onNoteClick: (noteId) => {
+        openNotesPanel(elements);
+        const noteElement = document.getElementById(getNoteAnchorId(noteId));
+        requestAnimationFrame(() => scrollToElement(noteElement));
+      },
     });
     if (!introducao.some((word) => word?.fimParagrafo)) {
       container.appendChild(createParagraphBreak());
@@ -364,10 +441,97 @@ const renderInterlinear = (elements, data, capituloNumero) => {
       chapterNumber: chapterNumberToInsert,
       insertVerseNumber: true,
       verseNumber,
+      onNoteClick: (noteId) => {
+        openNotesPanel(elements);
+        const noteElement = document.getElementById(getNoteAnchorId(noteId));
+        requestAnimationFrame(() => scrollToElement(noteElement));
+      },
     });
     // Only insert the chapter number once, on the first verse render.
     chapterNumberToInsert = NaN;
   });
+
+  syncOriginalFont(elements);
+};
+
+const renderNotes = (elements, data, livro, capituloNumero) => {
+  const aside = elements.aside;
+  if (!aside) return;
+
+  aside.innerHTML = "";
+
+  const panel = document.createElement("div");
+  panel.className = "notes-panel";
+
+  const title = document.createElement("h2");
+  title.className = "notes-title";
+  title.textContent = "Notas";
+  panel.appendChild(title);
+
+  const notes = Array.isArray(data?.notas) ? data.notas : [];
+  if (notes.length === 0) {
+    aside.appendChild(panel);
+    return;
+  }
+
+  const notesByVerse = new Map();
+  notes.forEach((note) => {
+    const verse = Number(note?.versiculo);
+    if (!Number.isFinite(verse) || !note?.id) return;
+    if (!notesByVerse.has(verse)) notesByVerse.set(verse, []);
+    notesByVerse.get(verse).push(note);
+  });
+
+  const bookName = getBookDisplayName(livro);
+  const chapterNumber = Number.isFinite(capituloNumero)
+    ? capituloNumero
+    : Number(data?.capitulo);
+
+  const verseNumbers = Array.from(notesByVerse.keys()).sort((a, b) => a - b);
+  verseNumbers.forEach((verse) => {
+    const subtitle = document.createElement("h3");
+    subtitle.className = "notes-subtitle";
+    subtitle.textContent = `${bookName} ${chapterNumber}:${verse}`;
+    panel.appendChild(subtitle);
+
+    notesByVerse.get(verse).forEach((note) => {
+      const noteRow = document.createElement("div");
+      noteRow.className = "note-item";
+      noteRow.id = getNoteAnchorId(note.id);
+
+      const backLink = document.createElement("a");
+      backLink.className = "note-back";
+      backLink.textContent = "*";
+      backLink.href = `#${getWordAnchorId(note.id)}`;
+      backLink.setAttribute("aria-label", "Voltar para palavra");
+      backLink.addEventListener("click", (event) => {
+        event.preventDefault();
+        const wordElement = document.getElementById(getWordAnchorId(note.id));
+        scrollToElement(wordElement);
+        if (window.innerWidth <= NOTES_BREAKPOINT) {
+          closeNotesPanel(elements);
+        }
+      });
+
+      const bold = document.createElement("strong");
+      bold.className = "note-bold";
+      bold.textContent = note?.negrito || "";
+
+      const text = document.createElement("span");
+      text.className = "note-text";
+      text.textContent = note?.texto || "";
+
+      noteRow.appendChild(backLink);
+      if (bold.textContent) {
+        noteRow.appendChild(bold);
+        noteRow.appendChild(document.createTextNode(": "));
+      }
+      noteRow.appendChild(text);
+      panel.appendChild(noteRow);
+    });
+  });
+
+  aside.appendChild(panel);
 };
 
 const applyTextDirection = (elements, idioma) => {
@@ -426,6 +590,7 @@ const initChapterPage = () => {
           if (!chapterData) return;
           applyTextDirection(elements, chapterData.idioma);
           renderInterlinear(elements, chapterData, capituloNumero);
+          renderNotes(elements, chapterData, livro, capituloNumero);
         })
         .catch(() => {
           if (elements.interlinear) elements.interlinear.innerHTML = "";

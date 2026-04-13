@@ -12,6 +12,7 @@
   --chapter-header-height: 0px;
   --footer-height: 0px;
   --footer-overlap: 0px;
+  --original-font: "Crimson Pro", serif;
 }
 
 .chapter-aside {
@@ -50,6 +51,73 @@
   direction: ltr;
   unicode-bidi: plaintext;
   text-align: right;
+}
+
+.note-marker {
+  margin-left: 4px;
+  color: #1d4ed8;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 0.7em;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+}
+
+.note-marker:hover,
+.note-marker:focus-visible {
+  color: #2563eb;
+}
+
+
+.notes-panel {
+  padding: 16px 20px 24px;
+  font-family: "Inter", sans-serif;
+  color: #0f172a;
+}
+
+.notes-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e3a8a;
+  margin-bottom: 12px;
+}
+
+.notes-subtitle {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #334155;
+}
+
+.note-item {
+  display: block;
+  padding: 6px 0;
+  font-size: 0.98rem;
+  color: #0f172a;
+}
+
+.note-back {
+  margin-right: 6px;
+  color: #1d4ed8;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.note-back:hover,
+.note-back:focus-visible {
+  color: #2563eb;
+}
+
+.note-bold {
+  font-weight: 600;
+  font-family: var(--original-font, inherit);
+}
+
+.note-text {
+  font-weight: 400;
+  color: #1f2937;
 }
 
 .notes-toggle-input:not(:checked) ~ #chapterContent .chapter-layout {
@@ -124,5 +192,41 @@
     opacity: 1;
     transform: translateX(0);
     pointer-events: auto;
+  }
+}
+
+@media (min-width: 801px) {
+  .chapter-aside {
+    position: sticky;
+    top: calc(var(--header-height) + var(--chapter-header-height));
+    max-height: calc(
+      100vh - var(--header-height) - var(--chapter-header-height) -
+        var(--footer-overlap)
+    );
+    overflow-y: auto;
+  }
+
+  .chapter-aside {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(15, 23, 42, 0.3) transparent;
+  }
+
+  .chapter-aside::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .chapter-aside::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .chapter-aside::-webkit-scrollbar-thumb {
+    background-color: rgba(15, 23, 42, 0.25);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: padding-box;
+  }
+
+  .chapter-aside::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(15, 23, 42, 0.4);
   }
 }
