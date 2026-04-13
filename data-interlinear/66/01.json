@@ -9,13 +9,13 @@
         {
           "original": "Ἀποκάλυψις",
           "traducao": "Revelação",
-          "nota": "Ou: “Exibição; Desvendamento”; Transliteração: “Apocalipse”."
+          "notaId": "n1"
         },
         { "original": "Ἰησοῦ", "traducao": "de Jesus" },
         {
           "original": "Χριστοῦ,",
           "traducao": "Ungido,",
-          "nota": "Transliteração: “Cristo”."
+          "notaId": "n2"
         },
         { "original": "ἣν", "traducao": "a qual" },
         { "original": "ἔδωκεν", "traducao": "deu" },
@@ -52,7 +52,7 @@
         {
           "original": "τὸν",
           "traducao": "o",
-          "nota": "Artigo masculino. Concorda com “λόγον” (palavra)."
+          "notaId": "n3"
         },
         { "original": "λόγον", "traducao": "palavra" },
         { "original": "τοῦ", "traducao": "de" },
@@ -61,7 +61,7 @@
         {
           "original": "τὴν",
           "traducao": "a",
-          "nota": "Artigo feminino. Concorda com “μαρτυρίαν” (testemunho)."
+          "notaId": "n4"
         },
         { "original": "μαρτυρίαν", "traducao": "testemunho" },
         { "original": "Ἰησοῦ", "traducao": "de Jesus" },
@@ -82,7 +82,7 @@
         {
           "original": "τοὺς",
           "traducao": "os",
-          "nota": "Artigo masculino. Concorda com “λόγουςν” (palavras)."
+          "notaId": "n5"
         },
         { "original": "λόγους", "traducao": "palavras" },
         { "original": "τῆς", "traducao": "da" },
@@ -110,7 +110,7 @@
         { "original": "ἐν", "traducao": "em" },
         { "original": "τῇ", "traducao": "a" },
         { "original": "Ἀσίᾳ·", "traducao": "Ásia;" },
-        { "original": "χάρις", "traducao": "graça", "nota": "Ou: “bondade imerecida; favor”."},
+        { "original": "χάρις", "traducao": "graça", "notaId": "n6"},
         { "original": "ὑμῖν", "traducao": "a vocês" },
         { "original": "καὶ", "traducao": "e" },
         { "original": "εἰρήνη", "traducao": "paz" },
@@ -193,7 +193,7 @@
         { "original": "τὸ", "traducao": "o" },
         { "original": "κράτος", "traducao": "poder" },
         { "original": "εἰς", "traducao": "para" },
-        { "original": "τοὺς", "traducao": "os", "nota": "Artigo masculino. Concorda com “αἰῶνας” (eras)." },
+        { "original": "τοὺς", "traducao": "os", "notaId": "n7" },
         { "original": "αἰῶνας", "traducao": "eras" },
         { "original": "τῶν", "traducao": "dos" },
         { "original": "αἰώνων⸃·", "traducao": "eras;" },
@@ -593,5 +593,92 @@
         { "original": "εἰσίν.", "traducao": "são." }
       ]
     }
+  ],
+  "notas": [
+
+      {
+
+          "id":  "n1",
+
+          "versiculo":  1,
+
+          "negrito":  "Ἀποκάλυψις",
+
+          "texto":  "Ou: “Exibição; Desvendamento”; Transliteração: “Apocalipse”."
+
+      },
+
+      {
+
+          "id":  "n2",
+
+          "versiculo":  1,
+
+          "negrito":  "Χριστοῦ,",
+
+          "texto":  "Transliteração: “Cristo”."
+
+      },
+
+      {
+
+          "id":  "n3",
+
+          "versiculo":  2,
+
+          "negrito":  "τὸν",
+
+          "texto":  "Artigo masculino. Concorda com “λόγον” (palavra)."
+
+      },
+
+      {
+
+          "id":  "n4",
+
+          "versiculo":  2,
+
+          "negrito":  "τὴν",
+
+          "texto":  "Artigo feminino. Concorda com “μαρτυρίαν” (testemunho)."
+
+      },
+
+      {
+
+          "id":  "n5",
+
+          "versiculo":  3,
+
+          "negrito":  "τοὺς",
+
+          "texto":  "Artigo masculino. Concorda com “λόγουςν” (palavras)."
+
+      },
+
+      {
+
+          "id":  "n6",
+
+          "versiculo":  4,
+
+          "negrito":  "χάρις",
+
+          "texto":  "Ou: “bondade imerecida; favor”."
+
+      },
+
+      {
+
+          "id":  "n7",
+
+          "versiculo":  6,
+
+          "negrito":  "τοὺς",
+
+          "texto":  "Artigo masculino. Concorda com “αἰῶνας” (eras)."
+
+      }
+
   ]
 }

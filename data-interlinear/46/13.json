@@ -1,4 +1,4 @@
-{
+﻿{
   "livro": "1 Coríntios",
   "capitulo": 13,
   "idioma": "grego",
@@ -197,9 +197,9 @@
           "original": "πᾶσαν",
           "traducao": "toda",
           "traducao2": "todo",
-          "nota": "Adjetivo feminino. Concorda com γνῶσιν (conhecimento).",
           "strongId": "3956",
-          "morfologia": "Adj-AFS"
+          "morfologia": "Adj-AFS",
+          "notaId": "n1"
         },
         {
           "original": "τὴν",
@@ -401,9 +401,9 @@
           "original": "καυχήσωμαι,",
           "traducao": "[eu] me glorifique,",
           "traducao2": "[eu] me gabe",
-          "nota": "Alguns manuscritos, especialmente bizantinos, trazem: “[eu] seja queimado”.",
           "strongId": "2744",
-          "morfologia": "V-ASM-1S"
+          "morfologia": "V-ASM-1S",
+          "notaId": "n2"
         },
         {
           "original": "ἀγάπην",
@@ -452,9 +452,9 @@
           "original": "Ἡ",
           "traducao": "A",
           "traducao2": "O",
-          "nota": "Artigo feminino. Concorda com ἀγάπη (amor).",
           "strongId": "3588",
-          "morfologia": "Art-NFS"
+          "morfologia": "Art-NFS",
+          "notaId": "n3"
         },
         {
           "original": "ἀγάπη",
@@ -759,9 +759,9 @@
           "original": "πίπτει.",
           "traducao": "cai.",
           "traducao2": "falha.",
-          "nota": "Alguns manuscritos tardios trazem: “cai completamente; desaparece”.",
           "strongId": "4098",
-          "morfologia": "V-PIA-3S"
+          "morfologia": "V-PIA-3S",
+          "notaId": "n4"
         },
         {
           "original": "εἴτε",
@@ -1290,6 +1290,32 @@
           "morfologia": "N-NFS"
         }
       ]
+    }
+  ],
+  "notas": [
+    {
+      "id": "n1",
+      "versiculo": 2,
+      "negrito": "πᾶσαν",
+      "texto": "Adjetivo feminino. Concorda com γνῶσιν (conhecimento)."
+    },
+    {
+      "id": "n2",
+      "versiculo": 3,
+      "negrito": "καυχήσωμαι,",
+      "texto": "Alguns manuscritos, especialmente bizantinos, trazem: “[eu] seja queimado”."
+    },
+    {
+      "id": "n3",
+      "versiculo": 4,
+      "negrito": "Ἡ",
+      "texto": "Artigo feminino. Concorda com ἀγάπη (amor)."
+    },
+    {
+      "id": "n4",
+      "versiculo": 8,
+      "negrito": "πίπτει.",
+      "texto": "Alguns manuscritos tardios trazem: “cai completamente; desaparece”."
     }
   ]
 }

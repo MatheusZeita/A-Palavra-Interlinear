@@ -1,4 +1,4 @@
-{
+﻿{
   "livro": "Provérbios",
   "capitulo": 30,
   "idioma": "hebraico",
@@ -13,7 +13,7 @@
         {
           "original": "הַמַּשָּׂא",
           "traducao": "a mensagem",
-          "nota": "Literalmente: “a carga; o peso”."
+          "notaId": "n1"
         },
         { "original": "נְאֻם", "traducao": "declaração" },
         { "original": "הַגֶּבֶר", "traducao": "[de] o homem" },
@@ -29,13 +29,13 @@
         {
           "original": "בַעַר",
           "traducao": "ignorante",
-          "nota": "Ou: “bruto; irracional”."
+          "notaId": "n2"
         },
         { "original": "אָנֹכִי", "traducao": "eu [sou]" },
         {
           "original": "מֵאִישׁ",
           "traducao": "de homem",
-          "nota": "Isto é: “mais do que qualquer homem”."
+          "notaId": "n3"
         },
         { "original": "וְלֹא־", "traducao": "e não [tenho]" },
         { "original": "בִינַת", "traducao": "entendimento" },
@@ -53,7 +53,7 @@
         {
           "original": "קְדֹשִׁים",
           "traducao": "[de] o Santíssimo",
-          "nota": "Literalmente: “os santos”. Plural de excelência."
+          "notaId": "n4"
         },
         { "original": "אֵדָע.", "traducao": "conheço." }
       ]
@@ -73,5 +73,56 @@
         . . . 
       ]
     }
+  ],
+  "notas": [
+
+      {
+
+          "id":  "n1",
+
+          "versiculo":  1,
+
+          "negrito":  "הַמַּשָּׂא",
+
+          "texto":  "Literalmente: “a carga; o peso”."
+
+      },
+
+      {
+
+          "id":  "n2",
+
+          "versiculo":  2,
+
+          "negrito":  "בַעַר",
+
+          "texto":  "Ou: “bruto; irracional”."
+
+      },
+
+      {
+
+          "id":  "n3",
+
+          "versiculo":  2,
+
+          "negrito":  "מֵאִישׁ",
+
+          "texto":  "Isto é: “mais do que qualquer homem”."
+
+      },
+
+      {
+
+          "id":  "n4",
+
+          "versiculo":  3,
+
+          "negrito":  "קְדֹשִׁים",
+
+          "texto":  "Literalmente: “os santos”. Plural de excelência."
+
+      }
+
   ]
 }
