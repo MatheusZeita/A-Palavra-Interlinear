@@ -136,5 +136,5 @@ export function transliterarGrego(texto) {
     }
   }
 
-  return resultado.normalize("NFC").replace(/·/g, ";").replace(/;/g, "?");
+  return resultado.normalize("NFC").replace(/;/g, "?").replace(/·/g, ";");
 }
