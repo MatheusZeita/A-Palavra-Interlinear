@@ -42,7 +42,9 @@ const buildChapterTitle = (livro, capitulo) => {
   const title = isPsalms ? "Salmo" : rawTitle;
 
   if (Number.isFinite(capitulo)) {
-    return rawTitle === "Livro" ? `Capítulo ${capitulo}` : `${title} ${capitulo}`;
+    return rawTitle === "Livro"
+      ? `Capítulo ${capitulo}`
+      : `${title} ${capitulo}`;
   }
 
   return rawTitle === "Livro" ? "Capítulo" : title;
@@ -374,7 +376,11 @@ const renderWords = (container, words, idioma, options = {}) => {
       chapterNumberInserted = true;
     }
 
-    if (!verseNumberInserted && Number.isFinite(verseNumber) && verseNumber !== 1) {
+    if (
+      !verseNumberInserted &&
+      Number.isFinite(verseNumber) &&
+      verseNumber !== 1
+    ) {
       container.appendChild(
         createNumberToken(
           verseNumber,
@@ -553,7 +559,7 @@ const fetchChapterData = (livroPosicao, capituloNumero) => {
   if (!chapterFile || !Number.isFinite(livroPosicao)) {
     return Promise.resolve(null);
   }
-  const path = `../data-interlinear/${livroPosicao}/${chapterFile}.json`;
+  const path = `../data/interlinear/${livroPosicao}/${chapterFile}.json`;
   return fetch(path).then((r) => r.json());
 };
 
@@ -570,7 +576,7 @@ const initChapterPage = () => {
     return;
   }
 
-  fetch("../data-interlinear/livros.json")
+  fetch("../data/interlinear/livros.json")
     .then((r) => r.json())
     .then((data) => {
       const livros = getAllBooks(data);

@@ -1,4 +1,4 @@
-﻿import { transliterarGrego } from './linguagem/transliterarGrego.js';
+﻿import { transliterarGrego } from "./linguagem/transliterarGrego.js";
 
 const getQueryParam = (name) => {
   const params = new URLSearchParams(window.location.search);
@@ -91,7 +91,7 @@ const posicao = Number(posicaoParam);
 if (!Number.isFinite(posicao)) {
   setMessage("Livro inválido ou parâmetro ausente.");
 } else {
-  fetch("../data-interlinear/livros.json")
+  fetch("../data/interlinear/livros.json")
     .then((r) => r.json())
     .then((data) => {
       const livros = getAllBooks(data);
@@ -114,4 +114,3 @@ if (!Number.isFinite(posicao)) {
       setMessage("Falha ao carregar a lista de livros.");
     });
 }
-

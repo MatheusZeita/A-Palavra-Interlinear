@@ -68,7 +68,7 @@ const renderScriptures = (livros, containerId) => {
   container.appendChild(fragment);
 };
 
-fetch("../data-interlinear/livros.json")
+fetch("../data/interlinear/livros.json")
   .then((r) => r.json())
   .then((data) => {
     const crist = data?.EscriturasCristas;

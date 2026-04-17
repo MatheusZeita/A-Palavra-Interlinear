@@ -8,11 +8,11 @@ A Bíblia é um conjunto de livros inspirados por Deus para transmitir sua mensa
 
 A própria Bíblia revela que sua mensagem deveria ser anunciada a “toda nação, tribo, língua e povo” — o que torna a tradução essencial. — Apocalipse 14:6.
 
-Uma tradução interlinear apresenta o texto no idioma original acompanhado de sua tradução literal. Dessa forma, mesmo quem não conhece hebraico ou grego consegue visualizar o sentido exato de cada termo. 
+Uma tradução interlinear apresenta o texto no idioma original acompanhado de sua tradução literal. Dessa forma, mesmo quem não conhece hebraico ou grego consegue visualizar o sentido exato de cada termo.
 
 Como a gramática, o vocabulário e a sintaxe desses idiomas diferem bastante das línguas modernas, como o português, esse tipo de tradução não é prática para leitura cotidiana. Logo, uma tradução interlinear não substitui traduções normais, como a *<a href="https://wol.jw.org/pt/wol/binav/r5/lp-t" target="_blank" rel="noopener noreferrer">Tradução do Novo Mundo</a>*. Ainda assim, ela é de grande valor para quem deseja compreender com mais precisão o significado original das Escrituras.
 
-**A Palavra Interlinear** é um projeto pessoal inspirado na *<a href="https://wol.jw.org/en/wol/binav/r1/lp-e/int" target="_blank" rel="noopener noreferrer">Tradução Interlinear do Reino das Escrituras Gregas</a>*, de língua inglesa, produzida pela *Watchtower Bible and Tract Society of New York, Inc*. 
+**A Palavra Interlinear** é um projeto pessoal inspirado na *<a href="https://wol.jw.org/en/wol/binav/r1/lp-e/int" target="_blank" rel="noopener noreferrer">Tradução Interlinear do Reino das Escrituras Gregas</a>*, de língua inglesa, produzida pela *Watchtower Bible and Tract Society of New York, Inc*.
 
 Espero que essa nova tradução possa ajudar os estudantes da Bíblia de língua portuguesa a se aproximarem de Jeová Deus e do seu Filho, dando glória a eles por meio do conhecimento da Palavra de Deus.
 
@@ -33,27 +33,54 @@ Espero que essa nova tradução possa ajudar os estudantes da Bíblia de língua
 - `pages/` páginas HTML
 - `js/` scripts da aplicação
 - `css/` estilos
-- `data-interlinear/` dados em JSON (livros e capítulos)
+- `data/interlinear/` dados em JSON
 - `shared/` header e footer compartilhados
 - `assets/` imagens e favicons
 
 ## Dados
 
+### Contrato Atual dos Dados
+
+Os arquivos JSON em `data/interlinear/` formam o contrato atual entre os dados e o front-end.
+
+Convenções gerais:
+
+- Cada livro é identificado por `posicao`.
+- Cada capítulo fica em `data/interlinear/<posicao>/<capitulo>.json`.
+- O nome do arquivo do capítulo usa zero-padding:
+- `01.json` a `99.json`
+- `100.json` em diante
+- As palavras podem referenciar notas por `notaId`.
+- As notas ficam centralizadas no bloco `notas` do capítulo.
+- Capítulos em hebraico usam direção RTL no front-end.
+
 ### Livros
 
-Arquivo: `data-interlinear/livros.json`
+Arquivo: `data/interlinear/livros.json`
 
-Contém a lista de livros com campos como:
+Estrutura geral:
+
+```json
+{
+  "EscriturasHebraicas": [],
+  "EscriturasCristas": []
+}
+```
+
+Campos comuns em cada livro:
 
 - `posicao`
-- `completo`, `medio`, `curto`
+- `completo`
+- `medio`
+- `curto`
 - `capitulos`
-- `titulo original`, `titulo traduzido`
-- `transliteracao` (quando aplicável)
+- `titulo original`
+- `titulo traduzido`
+- `transliteracao` quando aplicável
 
 ### Capítulos
 
-Arquivo: `data-interlinear/<posicao>/<capitulo>.json`
+Arquivo: `data/interlinear/<posicao>/<capitulo>.json`
 
 Exemplo de estrutura:
 
@@ -62,6 +89,9 @@ Exemplo de estrutura:
   "livro": "1 Coríntios",
   "capitulo": 13,
   "idioma": "grego",
+  "introducao": {
+    "palavras": []
+  },
   "versiculos": [
     {
       "numero": 1,
@@ -70,9 +100,18 @@ Exemplo de estrutura:
           "original": "ἐὰν",
           "traducao": "Se",
           "strongId": "1437",
-          "morfologia": "Conj"
+          "morfologia": "Conj",
+          "notaId": "n1"
         }
       ]
+    }
+  ],
+  "notas": [
+    {
+      "id": "n1",
+      "versiculo": 1,
+      "negrito": "ἐὰν",
+      "texto": "Exemplo de nota."
     }
   ]
 }
@@ -85,8 +124,26 @@ Campos comuns em `palavras`:
 - `traducao2`
 - `strongId`
 - `morfologia`
-- `nota`
+- `notaId`
 - `fimParagrafo`
+
+Campos comuns em `notas`:
+
+- `id`
+- `versiculo`
+- `negrito`
+- `texto`
+
+Campos opcionais adicionais do capítulo:
+
+- `introducao.palavras`
+
+## URLs Atuais
+
+O projeto usa parâmetros simples de URL para navegação:
+
+- `pages/livro.html?posicao=40`
+- `pages/capitulo.html?livro=40&capitulo=1`
 
 ## Como executar
 

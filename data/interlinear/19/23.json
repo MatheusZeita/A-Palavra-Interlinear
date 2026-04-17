@@ -1,0 +1,346 @@
+﻿{
+  "livro": "Salmos",
+  "capitulo": 23,
+  "idioma": "hebraico",
+  "introducao": {
+    "palavras": [
+      {
+        "original": "מִזְמ֥וֹר",
+        "strongId": 4210,
+        "traducao": "Salmo",
+        "traducao2": "Cântico"
+      },
+      {
+        "original": "לְדָוִ֑ד",
+        "strongId": 1732,
+        "traducao": "de Davi"
+      }
+    ]
+  },
+  "versiculos": [
+    {
+      "numero": 1,
+      "palavras": [
+        {
+          "original": "יְהוָ֥ה",
+          "strongId": 3068,
+          "traducao": "Jeová"
+        },
+        {
+          "original": "רֹ֝עִ֗י",
+          "strongId": 7462,
+          "traducao": "meu pastor",
+          "traducao2": "[é] meu pastor"
+        },
+        {
+          "original": "לֹ֣א",
+          "strongId": 3808,
+          "traducao": "não"
+        },
+        {
+          "original": "אֶחְסָֽר׃",
+          "strongId": 2637,
+          "traducao": "tenho falta.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "palavras": [
+        {
+          "original": "בִּנְא֣וֹת",
+          "strongId": 4999,
+          "traducao": "Em pastagens de"
+        },
+        {
+          "original": "דֶּ֭שֶׁא",
+          "strongId": 1877,
+          "traducao": "relva",
+          "traducao2": "erva verde"
+        },
+        {
+          "original": "יַרְבִּיצֵ֑נִי",
+          "strongId": 7257,
+          "traducao": "[ele] me faz deitar"
+        },
+        {
+          "original": "עַל־",
+          "strongId": 5921,
+          "traducao": "sobre",
+          "traducao2": "junto a"
+        },
+        {
+          "original": "מֵ֖י",
+          "strongId": 4325,
+          "traducao": "águas de"
+        },
+        {
+          "original": "מְנֻח֣וֹת",
+          "strongId": 4496,
+          "traducao": "descansos"
+        },
+        {
+          "original": "יְנַהֲלֵֽנִי׃",
+          "strongId": 5095,
+          "traducao": "[ele] me conduz.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "palavras": [
+        {
+          "original": "נַפְשִׁ֥י",
+          "strongId": 5315,
+          "traducao": "Minha alma"
+        },
+        {
+          "original": "יְשׁוֹבֵ֑ב",
+          "strongId": 7725,
+          "traducao": "[ele] faz voltar",
+          "traducao2": "[ele] restaura"
+        },
+        {
+          "original": "יַֽנְחֵ֥נִי",
+          "strongId": 5148,
+          "traducao": "[ele] me guia"
+        },
+        {
+          "original": "בְמַעְגְּלֵי־",
+          "strongId": 4570,
+          "traducao": "em trilhas de"
+        },
+        {
+          "original": "צֶ֝֗דֶק",
+          "strongId": 6664,
+          "traducao": "justiça"
+        },
+        {
+          "original": "לְמַ֣עַן",
+          "strongId": 4616,
+          "traducao": "por causa de"
+        },
+        {
+          "original": "שְׁמֽוֹ׃",
+          "strongId": 8034,
+          "traducao": "nome dele.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "palavras": [
+        {
+          "original": "גַּ֤ם",
+          "strongId": 1571,
+          "traducao": "Também"
+        },
+        {
+          "original": "כִּֽי־",
+          "strongId": 3588,
+          "traducao": "porque"
+        },
+        {
+          "original": "אֵלֵ֨ךְ",
+          "strongId": 1980,
+          "traducao": "ando",
+          "traducao2": "andarei"
+        },
+        {
+          "original": "בְּגֵ֪יא",
+          "strongId": 1516,
+          "traducao": "em vale de"
+        },
+        {
+          "original": "צַלְמָ֡וֶת",
+          "strongId": 6757,
+          "traducao": "escuridão profunda",
+          "traducao2": "trevas profundas"
+        },
+        {
+          "original": "לֹא־",
+          "strongId": 3808,
+          "traducao": "não"
+        },
+        {
+          "original": "אִ֘ירָ֤א",
+          "strongId": 3372,
+          "traducao": "temo",
+          "traducao2": "temerei"
+        },
+        {
+          "original": "רָ֗ع",
+          "strongId": 7451,
+          "traducao": "mal",
+          "traducao2": "maldade"
+        },
+        {
+          "original": "כִּי־",
+          "strongId": 3588,
+          "traducao": "porque"
+        },
+        {
+          "original": "אַתָּ֥ה",
+          "strongId": 859,
+          "traducao": "tu"
+        },
+        {
+          "original": "עִמָּדִ֑י",
+          "strongId": 5978,
+          "traducao": "comigo mesmo"
+        },
+        {
+          "original": "שִׁבְטְךָ֥",
+          "strongId": 7626,
+          "traducao": "tua vara",
+          "traducao2": "teu bastão"
+        },
+        {
+          "original": "וּ֝מִשְׁעַנְתֶּ֗ךָ",
+          "strongId": 4938,
+          "traducao": "e teu cajado"
+        },
+        {
+          "original": "הֵ֣מָּה",
+          "strongId": 1992,
+          "traducao": "eles mesmos"
+        },
+        {
+          "original": "יְנַֽחֲמֻֽנִי׃",
+          "strongId": 5162,
+          "traducao": "me consolam.",
+          "traducao2": "me confortam.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "palavras": [
+        {
+          "original": "תַּעֲרֹ֬ךְ",
+          "strongId": 6186,
+          "traducao": "Preparas"
+        },
+        {
+          "original": "לְפָנַ֨י ׀",
+          "strongId": 6440,
+          "traducao": "diante de mim"
+        },
+        {
+          "original": "שֻׁלְחָ֗ן",
+          "strongId": 7979,
+          "traducao": "mesa"
+        },
+        {
+          "original": "נֶ֥גֶד",
+          "strongId": 5048,
+          "traducao": "em frente de"
+        },
+        {
+          "original": "צֹרְרָ֑י",
+          "strongId": 6887,
+          "traducao": "meus inimigos"
+        },
+        {
+          "original": "דִּשַּׁ֖נְתָּ",
+          "strongId": 1878,
+          "traducao": "engordaste",
+          "traducao2": "tornaste farto"
+        },
+        {
+          "original": "בַשֶּׁ֥מֶן",
+          "strongId": 8081,
+          "traducao": "com óleo"
+        },
+        {
+          "original": "רֹ֝אשִׁ֗י",
+          "strongId": 7218,
+          "traducao": "minha cabeça"
+        },
+        {
+          "original": "כּוֹסִ֥י",
+          "strongId": 3563,
+          "traducao": "meu copo"
+        },
+        {
+          "original": "רְוָיָֽה׃",
+          "strongId": 7310,
+          "traducao": "abundância.",
+          "traducao2": "transbordamento.",
+          "fimParagrafo": true
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "palavras": [
+        {
+          "original": "אַ֤ךְ",
+          "strongId": 389,
+          "traducao": "Certamente"
+        },
+        {
+          "original": "ט֤וֹב",
+          "strongId": 2896,
+          "traducao": "bondade"
+        },
+        {
+          "original": "וָחֶ֣סֶד",
+          "strongId": 2617,
+          "traducao": "e amor leal"
+        },
+        {
+          "original": "יִ֭רְדְּפוּנִי",
+          "strongId": 7291,
+          "traducao": "me perseguem",
+          "traducao2": "me seguem"
+        },
+        {
+          "original": "כָּל־",
+          "strongId": 3605,
+          "traducao": "todos"
+        },
+        {
+          "original": "יְמֵ֣י",
+          "strongId": 3117,
+          "traducao": "dias de"
+        },
+        {
+          "original": "חַיָּ֑י",
+          "strongId": 2416,
+          "traducao": "minha vida"
+        },
+        {
+          "original": "וְשַׁבְתִּ֥י",
+          "strongId": 3427,
+          "traducao": "e habitarei"
+        },
+        {
+          "original": "בְּבֵית־",
+          "strongId": 1004,
+          "traducao": "em casa de"
+        },
+        {
+          "original": "יְ֝הוָ֗ה",
+          "strongId": 3068,
+          "traducao": "Jeová"
+        },
+        {
+          "original": "לְאֹ֣רֶךְ",
+          "strongId": 753,
+          "traducao": "por extensão de"
+        },
+        {
+          "original": "יָמִֽים׃",
+          "strongId": 3117,
+          "traducao": "dias",
+          "fimParagrafo": true
+        }
+      ]
+    }
+  ]
+}

@@ -9,119 +9,119 @@
         {
           "original": "Ἐὰν",
           "traducao": "Se",
-          "strongId": "1437",
+          "strongId": 1437,
           "morfologia": "Conj"
         },
         {
           "original": "ταῖς",
           "traducao": "nas",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-DFP"
         },
         {
           "original": "γλώσσαις",
           "traducao": "línguas",
-          "strongId": "1100",
+          "strongId": 1100,
           "morfologia": "N-DFP"
         },
         {
           "original": "τῶν",
           "traducao": "dos",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-GMP"
         },
         {
           "original": "ἀνθρώπων",
           "traducao": "homens",
           "traducao2": "humanos",
-          "strongId": "444",
+          "strongId": 444,
           "morfologia": "N-GMP"
         },
         {
           "original": "λαλῶ",
           "traducao": "[eu] fale",
           "traducao2": "[eu] falar",
-          "strongId": "2980",
+          "strongId": 2980,
           "morfologia": "V-PSA-1S"
         },
         {
           "original": "καὶ",
           "traducao": "e",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "τῶν",
           "traducao": "dos",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-GMP"
         },
         {
           "original": "ἀγγέλων,",
           "traducao": "anjos,",
-          "strongId": "32",
+          "strongId": 32,
           "morfologia": "N-GMP"
         },
         {
           "original": "ἀγάπην",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-AFS"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "μὴ",
           "traducao": "não",
-          "strongId": "3361",
+          "strongId": 3361,
           "morfologia": "Adv"
         },
         {
           "original": "ἔχω",
           "traducao": "[eu] tenha,",
           "traducao2": "[eu] tiver,",
-          "strongId": "2192",
+          "strongId": 2192,
           "morfologia": "V-PSA-1S"
         },
         {
           "original": "γέγονα",
           "traducao": "tenho me tornado",
-          "strongId": "1096",
+          "strongId": 1096,
           "morfologia": "V-RIA-1S"
         },
         {
           "original": "χαλκὸς",
           "traducao": "bronze",
           "traducao2": "[pedaço de] metal",
-          "strongId": "5475",
+          "strongId": 5475,
           "morfologia": "N-NMS"
         },
         {
           "original": "ἠχῶν",
           "traducao": "ressoando",
-          "strongId": "2278",
+          "strongId": 2278,
           "morfologia": "V-PPA-NMS"
         },
         {
           "original": "ἢ",
           "traducao": "ou",
-          "strongId": "2228",
+          "strongId": 2228,
           "morfologia": "Conj"
         },
         {
           "original": "κύμβαλον",
           "traducao": "címbalo",
-          "strongId": "2950",
+          "strongId": 2950,
           "morfologia": "N-NNS"
         },
         {
           "original": "ἀλαλάζον.",
           "traducao": "retinindo.",
-          "strongId": "214",
+          "strongId": 214,
           "morfologia": "V-PPA-NNS"
         }
       ]
@@ -132,72 +132,72 @@
         {
           "original": "καὶ",
           "traducao": "E",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "ἐὰν",
           "traducao": "se",
-          "strongId": "1437",
+          "strongId": 1437,
           "morfologia": "Conj"
         },
         {
           "original": "ἔχω",
           "traducao": "[eu] tenha",
           "traducao2": "[eu] tiver",
-          "strongId": "2192",
+          "strongId": 2192,
           "morfologia": "V-PSA-1S"
         },
         {
           "original": "προφητείαν",
           "traducao": "profecia",
           "traducao2": "[dom de] profecia",
-          "strongId": "4394",
+          "strongId": 4394,
           "morfologia": "N-AFS"
         },
         {
           "original": "καὶ",
           "traducao": "e",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "εἰδῶ",
           "traducao": "[eu] conheça",
           "traducao2": "[eu] conhecer",
-          "strongId": "1492",
+          "strongId": 1492,
           "morfologia": "V-RSA-1S"
         },
         {
           "original": "τὰ",
           "traducao": "os",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-ANP"
         },
         {
           "original": "μυστήρια",
           "traducao": "mistérios",
           "traducao2": "segredos sagrados",
-          "strongId": "3466",
+          "strongId": 3466,
           "morfologia": "N-ANP"
         },
         {
           "original": "πάντα",
           "traducao": "todos",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-ANP"
         },
         {
           "original": "καὶ",
           "traducao": "e",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "πᾶσαν",
           "traducao": "toda",
           "traducao2": "todo",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-AFS",
           "notaId": "n1"
         },
@@ -205,105 +205,105 @@
           "original": "τὴν",
           "traducao": "a",
           "traducao2": "o",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-AFS"
         },
         {
           "original": "γνῶσιν,",
           "traducao": "conhecimento,",
-          "strongId": "1108",
+          "strongId": 1108,
           "morfologia": "N-AFS"
         },
         {
           "original": "καὶ",
           "traducao": "e",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "ἐὰν",
           "traducao": "se",
-          "strongId": "1437",
+          "strongId": 1437,
           "morfologia": "Conj"
         },
         {
           "original": "ἔχω",
           "traducao": "[eu] tenha,",
           "traducao2": "[eu] tiver,",
-          "strongId": "2192",
+          "strongId": 2192,
           "morfologia": "V-PSA-1S"
         },
         {
           "original": "πᾶσαν",
           "traducao": "toda",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-AFS"
         },
         {
           "original": "τὴν",
           "traducao": "a",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-AFS"
         },
         {
           "original": "πίστιν",
           "traducao": "fé",
-          "strongId": "4102",
+          "strongId": 4102,
           "morfologia": "N-AFS"
         },
         {
           "original": "ὥστε",
           "traducao": "de modo que",
-          "strongId": "5620",
+          "strongId": 5620,
           "morfologia": "Conj"
         },
         {
           "original": "ὄρη",
           "traducao": "montanhas",
-          "strongId": "3735",
+          "strongId": 3735,
           "morfologia": "N-ANP"
         },
         {
           "original": "μεθιστάναι,",
           "traducao": "transportar,",
-          "strongId": "3179",
+          "strongId": 3179,
           "morfologia": "V-PNA"
         },
         {
           "original": "ἀγάπην",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-AFS"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "μὴ",
           "traducao": "não",
-          "strongId": "3361",
+          "strongId": 3361,
           "morfologia": "Adv"
         },
         {
           "original": "ἔχω",
           "traducao": "[eu] tenha,",
           "traducao2": "[eu] tiver,",
-          "strongId": "2192",
+          "strongId": 2192,
           "morfologia": "V-PSA-1S"
         },
         {
           "original": "οὐθέν",
           "traducao": "nada",
-          "strongId": "3762",
+          "strongId": 3762,
           "morfologia": "Adj-ANS"
         },
         {
           "original": "εἰμι.",
           "traducao": "sou.",
-          "strongId": "1510",
+          "strongId": 1510,
           "morfologia": "V-PIA-1S"
         }
       ]
@@ -314,133 +314,133 @@
         {
           "original": "καὶ",
           "traducao": "E",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "ἐὰν",
           "traducao": "se",
-          "strongId": "1437",
+          "strongId": 1437,
           "morfologia": "Conj"
         },
         {
           "original": "ψωμίσω",
           "traducao": "[eu] distribua em alimento",
           "traducao2": "[eu] alimentar",
-          "strongId": "5595",
+          "strongId": 5595,
           "morfologia": "V-ASA-1S"
         },
         {
           "original": "πάντα",
           "traducao": "todos",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-ANP"
         },
         {
           "original": "τὰ",
           "traducao": "os",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-ANP"
         },
         {
           "original": "ὑπάρχοντά",
           "traducao": "bens",
-          "strongId": "5225",
+          "strongId": 5225,
           "morfologia": "V-PPA-ANP"
         },
         {
           "original": "μου,",
           "traducao": "meus,",
-          "strongId": "1473",
+          "strongId": 1473,
           "morfologia": "PPro-G1S"
         },
         {
           "original": "καὶ",
           "traducao": "e",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "ἐὰν",
           "traducao": "se",
-          "strongId": "1437",
+          "strongId": 1437,
           "morfologia": "Conj"
         },
         {
           "original": "παραδῶ",
           "traducao": "[eu] entregue",
           "traducao2": "[eu] entregar",
-          "strongId": "3860",
+          "strongId": 3860,
           "morfologia": "V-ASA-1S"
         },
         {
           "original": "τὸ",
           "traducao": "o",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-ANS"
         },
         {
           "original": "σῶμά",
           "traducao": "corpo",
-          "strongId": "4983",
+          "strongId": 4983,
           "morfologia": "N-ANS"
         },
         {
           "original": "μου",
           "traducao": "meu",
-          "strongId": "1473",
+          "strongId": 1473,
           "morfologia": "PPro-G1S"
         },
         {
           "original": "ἵνα",
           "traducao": "para que",
-          "strongId": "2443",
+          "strongId": 2443,
           "morfologia": "Conj"
         },
         {
           "original": "καυχήσωμαι,",
           "traducao": "[eu] me glorifique,",
           "traducao2": "[eu] me gabe",
-          "strongId": "2744",
+          "strongId": 2744,
           "morfologia": "V-ASM-1S",
           "notaId": "n2"
         },
         {
           "original": "ἀγάπην",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-AFS"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "μὴ",
           "traducao": "não",
-          "strongId": "3361",
+          "strongId": 3361,
           "morfologia": "Adv"
         },
         {
           "original": "ἔχω,",
           "traducao": "[eu] tenha,",
           "traducao2": "[eu] tiver,",
-          "strongId": "2192",
+          "strongId": 2192,
           "morfologia": "V-PSA-1S"
         },
         {
           "original": "οὐδὲν",
           "traducao": "nada",
-          "strongId": "3762",
+          "strongId": 3762,
           "morfologia": "Adj-ANS"
         },
         {
           "original": "ὠφελοῦμαι.",
           "traducao": "sou beneficiado.",
           "fimParagrafo": true,
-          "strongId": "5623",
+          "strongId": 5623,
           "morfologia": "V-PIM/P-1S"
         }
       ]
@@ -452,91 +452,91 @@
           "original": "Ἡ",
           "traducao": "A",
           "traducao2": "O",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NFS",
           "notaId": "n3"
         },
         {
           "original": "ἀγάπη",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-NFS"
         },
         {
           "original": "μακροθυμεῖ,",
           "traducao": "é paciente,",
-          "strongId": "3114",
+          "strongId": 3114,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "χρηστεύεται,",
           "traducao": "é bondosa,",
           "traducao2": "é bondoso,",
-          "strongId": "5541",
+          "strongId": 5541,
           "morfologia": "V-PIM/P-3S"
         },
         {
           "original": "ἡ",
           "traducao": "a",
           "traducao2": "o",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NFS"
         },
         {
           "original": "ἀγάπη",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-NFS"
         },
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "ζηλοῖ",
           "traducao": "é ciumenta,",
           "traducao2": "é ciumento,",
-          "strongId": "2206",
+          "strongId": 2206,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "ἡ",
           "traducao": "a",
           "traducao2": "o",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NFS"
         },
         {
           "original": "ἀγάπη",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-NFS"
         },
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "περπερεύεται,",
           "traducao": "se gaba,",
-          "strongId": "4068",
+          "strongId": 4068,
           "morfologia": "V-PIM/P-3S"
         },
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "φυσιοῦται,",
           "traducao": "se infla,",
           "traducao2": "é orgulhoso,",
-          "strongId": "5448",
+          "strongId": 5448,
           "morfologia": "V-PIM/P-3S"
         }
       ]
@@ -547,74 +547,74 @@
         {
           "original": "οὐκ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "ἀσχημονεῖ,",
           "traducao": "se comporta indecentemente,",
-          "strongId": "807",
+          "strongId": 807,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "ζητεῖ",
           "traducao": "busca",
-          "strongId": "2212",
+          "strongId": 2212,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "τὰ",
           "traducao": "as [coisas]",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-ANP"
         },
         {
           "original": "ἑαυτῆς",
           "traducao": "de si mesma,",
           "traducao2": "de si mesmo,",
-          "strongId": "1438",
+          "strongId": 1438,
           "morfologia": "RefPro-GF3S"
         },
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "παροξύνεται,",
           "traducao": "se irrita,",
-          "strongId": "3947",
+          "strongId": 3947,
           "morfologia": "V-PIM/P-3S"
         },
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "λογίζεται",
           "traducao": "leva em conta",
-          "strongId": "3049",
+          "strongId": 3049,
           "morfologia": "V-PIM/P-3S"
         },
         {
           "original": "τὸ",
           "traducao": "a",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-ANS"
         },
         {
           "original": "κακόν,",
           "traducao": "[coisa] ruim,",
-          "strongId": "2556",
+          "strongId": 2556,
           "morfologia": "Adj-ANS"
         }
       ]
@@ -625,55 +625,55 @@
         {
           "original": "οὐ",
           "traducao": "não",
-          "strongId": "3756",
+          "strongId": 3756,
           "morfologia": "Adv"
         },
         {
           "original": "χαίρει",
           "traducao": "se alegra",
-          "strongId": "5463",
+          "strongId": 5463,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "ἐπὶ",
           "traducao": "com",
-          "strongId": "1909",
+          "strongId": 1909,
           "morfologia": "Prep"
         },
         {
           "original": "τῇ",
           "traducao": "a",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-DFS"
         },
         {
           "original": "ἀδικίᾳ,",
           "traducao": "injustiça,",
-          "strongId": "93",
+          "strongId": 93,
           "morfologia": "N-DFS"
         },
         {
           "original": "συγχαίρει",
           "traducao": "se alegra junto",
-          "strongId": "4796",
+          "strongId": 4796,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "τῇ",
           "traducao": "à",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-DFS"
         },
         {
           "original": "ἀληθείᾳ·",
           "traducao": "verdade;",
-          "strongId": "225",
+          "strongId": 225,
           "morfologia": "N-DFS"
         }
       ]
@@ -684,51 +684,51 @@
         {
           "original": "πάντα",
           "traducao": "todas [as coisas]",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-ANP"
         },
         {
           "original": "στέγει,",
           "traducao": "cobre,",
           "traducao2": "suporta,",
-          "strongId": "4722",
+          "strongId": 4722,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "πάντα",
           "traducao": "todas [as coisas]",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-ANP"
         },
         {
           "original": "πιστεύει,",
           "traducao": "crê,",
-          "strongId": "4100",
+          "strongId": 4100,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "πάντα",
           "traducao": "todas [as coisas]",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-ANP"
         },
         {
           "original": "ἐλπίζει,",
           "traducao": "espera,",
-          "strongId": "1679",
+          "strongId": 1679,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "πάντα",
           "traducao": "todas [as coisas]",
-          "strongId": "3956",
+          "strongId": 3956,
           "morfologia": "Adj-ANP"
         },
         {
           "original": "ὑπομένει.",
           "traducao": "persevera.",
           "fimParagrafo": true,
-          "strongId": "5278",
+          "strongId": 5278,
           "morfologia": "V-PIA-3S"
         }
       ]
@@ -740,90 +740,90 @@
           "original": "Ἡ",
           "traducao": "A",
           "traducao2": "O",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NFS"
         },
         {
           "original": "ἀγάπη",
           "traducao": "amor",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-NFS"
         },
         {
           "original": "οὐδέποτε",
           "traducao": "nunca",
-          "strongId": "3763",
+          "strongId": 3763,
           "morfologia": "Adv"
         },
         {
           "original": "πίπτει.",
           "traducao": "cai.",
           "traducao2": "falha.",
-          "strongId": "4098",
+          "strongId": 4098,
           "morfologia": "V-PIA-3S",
           "notaId": "n4"
         },
         {
           "original": "εἴτε",
           "traducao": "Se [houver]",
-          "strongId": "1535",
+          "strongId": 1535,
           "morfologia": "Conj"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "προφητεῖαι,",
           "traducao": "profecias,",
           "traducao2": "[dom de] profecias,",
-          "strongId": "4394",
+          "strongId": 4394,
           "morfologia": "N-NFP"
         },
         {
           "original": "καταργηθήσονται·",
           "traducao": "serão anuladas;",
-          "strongId": "2673",
+          "strongId": 2673,
           "morfologia": "V-FIP-3P"
         },
         {
           "original": "εἴτε",
           "traducao": "se",
-          "strongId": "1535",
+          "strongId": 1535,
           "morfologia": "Conj"
         },
         {
           "original": "γλῶσσαι,",
           "traducao": "línguas,",
           "traducao2": "[dom de] línguas],",
-          "strongId": "1100",
+          "strongId": 1100,
           "morfologia": "N-NFP"
         },
         {
           "original": "παύσονται·",
           "traducao": "cessarão;",
-          "strongId": "3973",
+          "strongId": 3973,
           "morfologia": "V-FIM-3P"
         },
         {
           "original": "εἴτε",
           "traducao": "se",
-          "strongId": "1535",
+          "strongId": 1535,
           "morfologia": "Conj"
         },
         {
           "original": "γνῶσις",
           "traducao": "conhecimento",
           "traducao2": "[dom de] conhecimento",
-          "strongId": "1108",
+          "strongId": 1108,
           "morfologia": "N-NFS"
         },
         {
           "original": "καταργηθήσεται.",
           "traducao": "será anulado.",
-          "strongId": "2673",
+          "strongId": 2673,
           "morfologia": "V-FIP-3S"
         }
       ]
@@ -835,50 +835,50 @@
           "original": "ἐκ",
           "traducao": "De",
           "traducao2": "Em",
-          "strongId": "1537",
+          "strongId": 1537,
           "morfologia": "Prep"
         },
         {
           "original": "μέρους",
           "traducao": "parte",
-          "strongId": "3313",
+          "strongId": 3313,
           "morfologia": "N-GNS"
         },
         {
           "original": "γὰρ",
           "traducao": "porque",
-          "strongId": "1063",
+          "strongId": 1063,
           "morfologia": "Conj"
         },
         {
           "original": "γινώσκομεν",
           "traducao": "conhecemos",
-          "strongId": "1097",
+          "strongId": 1097,
           "morfologia": "V-PIA-1P"
         },
         {
           "original": "καὶ",
           "traducao": "e",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "ἐκ",
           "traducao": "de",
           "traducao2": "em",
-          "strongId": "1537",
+          "strongId": 1537,
           "morfologia": "Prep"
         },
         {
           "original": "μέρους",
           "traducao": "parte",
-          "strongId": "3313",
+          "strongId": 3313,
           "morfologia": "N-GNS"
         },
         {
           "original": "προφητεύομεν·",
           "traducao": "profetizamos;",
-          "strongId": "4395",
+          "strongId": 4395,
           "morfologia": "V-PIA-1P"
         }
       ]
@@ -889,55 +889,55 @@
         {
           "original": "ὅταν",
           "traducao": "quando",
-          "strongId": "3752",
+          "strongId": 3752,
           "morfologia": "Conj"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "ἔλθῃ",
           "traducao": "vier",
-          "strongId": "2064",
+          "strongId": 2064,
           "morfologia": "V-ASA-3S"
         },
         {
           "original": "τὸ",
           "traducao": "a [coisa]",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NNS"
         },
         {
           "original": "τέλειον",
           "traducao": "perfeita",
-          "strongId": "5046",
+          "strongId": 5046,
           "morfologia": "Adj-NNS"
         },
         {
           "original": "τὸ",
           "traducao": "a [coisa]",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NNS"
         },
         {
           "original": "ἐκ",
           "traducao": "de",
-          "strongId": "1537",
+          "strongId": 1537,
           "morfologia": "Prep"
         },
         {
           "original": "μέρους",
           "traducao": "parte",
-          "strongId": "3313",
+          "strongId": 3313,
           "morfologia": "N-GNS"
         },
         {
           "original": "καταργηθήσεται.",
           "traducao": "será anulada.",
-          "strongId": "2673",
+          "strongId": 2673,
           "morfologia": "V-FIP-3S"
         }
       ]
@@ -948,116 +948,116 @@
         {
           "original": "ὅτε",
           "traducao": "Quando",
-          "strongId": "3753",
+          "strongId": 3753,
           "morfologia": "Adv"
         },
         {
           "original": "ἤμην",
           "traducao": "[eu] era",
-          "strongId": "1510",
+          "strongId": 1510,
           "morfologia": "V-IIM-1S"
         },
         {
           "original": "νήπιος,",
           "traducao": "criança,",
-          "strongId": "3516",
+          "strongId": 3516,
           "morfologia": "Adj-NMS"
         },
         {
           "original": "ἐλάλουν",
           "traducao": "[eu] falava",
-          "strongId": "2980",
+          "strongId": 2980,
           "morfologia": "V-IIA-1S"
         },
         {
           "original": "ὡς",
           "traducao": "como",
-          "strongId": "5613",
+          "strongId": 5613,
           "morfologia": "Adv"
         },
         {
           "original": "νήπιος,",
           "traducao": "criança,",
-          "strongId": "3516",
+          "strongId": 3516,
           "morfologia": "Adj-NMS"
         },
         {
           "original": "ἐφρόνουν",
           "traducao": "[eu] pensava",
-          "strongId": "5426",
+          "strongId": 5426,
           "morfologia": "V-IIA-1S"
         },
         {
           "original": "ὡς",
           "traducao": "como",
-          "strongId": "5613",
+          "strongId": 5613,
           "morfologia": "Adv"
         },
         {
           "original": "νήπιος,",
           "traducao": "criança,",
-          "strongId": "3516",
+          "strongId": 3516,
           "morfologia": "Adj-NMS"
         },
         {
           "original": "ἐλογιζόμην",
           "traducao": "raciocinava",
-          "strongId": "3049",
+          "strongId": 3049,
           "morfologia": "V-IIM/P-1S"
         },
         {
           "original": "ὡς",
           "traducao": "como",
-          "strongId": "5613",
+          "strongId": 5613,
           "morfologia": "Adv"
         },
         {
           "original": "νήπιος·",
           "traducao": "criança;",
-          "strongId": "3516",
+          "strongId": 3516,
           "morfologia": "Adj-NMS"
         },
         {
           "original": "ὅτε",
           "traducao": "quando",
-          "strongId": "3753",
+          "strongId": 3753,
           "morfologia": "Adv"
         },
         {
           "original": "γέγονα",
           "traducao": "me tornei",
-          "strongId": "1096",
+          "strongId": 1096,
           "morfologia": "V-RIA-1S"
         },
         {
           "original": "ἀνήρ,",
           "traducao": "homem,",
-          "strongId": "435",
+          "strongId": 435,
           "morfologia": "N-NMS"
         },
         {
           "original": "κατήργηκα",
           "traducao": "anulei",
-          "strongId": "2673",
+          "strongId": 2673,
           "morfologia": "V-RIA-1S"
         },
         {
           "original": "τὰ",
           "traducao": "as [coisas]",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-ANP"
         },
         {
           "original": "τοῦ",
           "traducao": "do",
           "traducao2": "de",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-GMS"
         },
         {
           "original": "νηπίου.",
           "traducao": "criança.",
-          "strongId": "3516",
+          "strongId": 3516,
           "morfologia": "Adj-GMS"
         }
       ]
@@ -1068,135 +1068,135 @@
         {
           "original": "βλέπομεν",
           "traducao": "Vemos",
-          "strongId": "991",
+          "strongId": 991,
           "morfologia": "V-PIA-1P"
         },
         {
           "original": "γὰρ",
           "traducao": "porque",
-          "strongId": "1063",
+          "strongId": 1063,
           "morfologia": "Conj"
         },
         {
           "original": "ἄρτι",
           "traducao": "agora",
-          "strongId": "737",
+          "strongId": 737,
           "morfologia": "Adv"
         },
         {
           "original": "διʼ",
           "traducao": "através",
           "traducao2": "por",
-          "strongId": "1223",
+          "strongId": 1223,
           "morfologia": "Prep"
         },
         {
           "original": "ἐσόπτρου",
           "traducao": "espelho",
-          "strongId": "2072",
+          "strongId": 2072,
           "morfologia": "N-GNS"
         },
         {
           "original": "ἐν",
           "traducao": "em",
-          "strongId": "1722",
+          "strongId": 1722,
           "morfologia": "Prep"
         },
         {
           "original": "αἰνίγματι,",
           "traducao": "expressão obscura,",
-          "strongId": "135",
+          "strongId": 135,
           "morfologia": "N-DNS"
         },
         {
           "original": "τότε",
           "traducao": "então",
-          "strongId": "5119",
+          "strongId": 5119,
           "morfologia": "Adv"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "πρόσωπον",
           "traducao": "face",
-          "strongId": "4383",
+          "strongId": 4383,
           "morfologia": "N-NNS"
         },
         {
           "original": "πρὸς",
           "traducao": "a",
-          "strongId": "4314",
+          "strongId": 4314,
           "morfologia": "Prep"
         },
         {
           "original": "πρόσωπον·",
           "traducao": "face;",
-          "strongId": "4383",
+          "strongId": 4383,
           "morfologia": "N-NNS"
         },
         {
           "original": "ἄρτι",
           "traducao": "agora",
-          "strongId": "737",
+          "strongId": 737,
           "morfologia": "Adv"
         },
         {
           "original": "γινώσκω",
           "traducao": "conheço",
-          "strongId": "1097",
+          "strongId": 1097,
           "morfologia": "V-PIA-1S"
         },
         {
           "original": "ἐκ",
           "traducao": "de",
           "traducao2": "em",
-          "strongId": "1537",
+          "strongId": 1537,
           "morfologia": "Prep"
         },
         {
           "original": "μέρους,",
           "traducao": "parte,",
-          "strongId": "3313",
+          "strongId": 3313,
           "morfologia": "N-GNS"
         },
         {
           "original": "τότε",
           "traducao": "então",
-          "strongId": "5119",
+          "strongId": 5119,
           "morfologia": "Adv"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "ἐπιγνώσομαι",
           "traducao": "conhecerei plenamente",
-          "strongId": "1921",
+          "strongId": 1921,
           "morfologia": "V-FIM-1S"
         },
         {
           "original": "καθὼς",
           "traducao": "assim como",
-          "strongId": "2531",
+          "strongId": 2531,
           "morfologia": "Adv"
         },
         {
           "original": "καὶ",
           "traducao": "também",
-          "strongId": "2532",
+          "strongId": 2532,
           "morfologia": "Conj"
         },
         {
           "original": "ἐπεγνώσθην.",
           "traducao": "fui conhecido.",
-          "strongId": "1921",
+          "strongId": 1921,
           "morfologia": "V-AIP-1S"
         }
       ]
@@ -1207,86 +1207,86 @@
         {
           "original": "νυνὶ",
           "traducao": "Agora",
-          "strongId": "3570",
+          "strongId": 3570,
           "morfologia": "Adv"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "μένει",
           "traducao": "permanece",
-          "strongId": "3306",
+          "strongId": 3306,
           "morfologia": "V-PIA-3S"
         },
         {
           "original": "πίστις,",
           "traducao": "fé,",
-          "strongId": "4102",
+          "strongId": 4102,
           "morfologia": "N-NFS"
         },
         {
           "original": "ἐλπίς,",
           "traducao": "esperança,",
-          "strongId": "1680",
+          "strongId": 1680,
           "morfologia": "N-NFS"
         },
         {
           "original": "ἀγάπη·",
           "traducao": "amor;",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-NFS"
         },
         {
           "original": "τὰ",
           "traducao": "as",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NNP"
         },
         {
           "original": "τρία",
           "traducao": "três [coisas]",
-          "strongId": "5140",
+          "strongId": 5140,
           "morfologia": "Adj-NNP"
         },
         {
           "original": "ταῦτα,",
           "traducao": "estas,",
-          "strongId": "3778",
+          "strongId": 3778,
           "morfologia": "DPro-NNP"
         },
         {
           "original": "μείζων",
           "traducao": "maior",
-          "strongId": "3173",
+          "strongId": 3173,
           "morfologia": "Adj-NFS"
         },
         {
           "original": "δὲ",
           "traducao": "porém",
-          "strongId": "1161",
+          "strongId": 1161,
           "morfologia": "Conj"
         },
         {
           "original": "τούτων",
           "traducao": "destas",
-          "strongId": "3778",
+          "strongId": 3778,
           "morfologia": "DPro-GNP"
         },
         {
           "original": "ἡ",
           "traducao": "a",
           "traducao2": "[é] o",
-          "strongId": "3588",
+          "strongId": 3588,
           "morfologia": "Art-NFS"
         },
         {
           "original": "ἀγάπη.",
           "traducao": "amor.",
-          "strongId": "26",
+          "strongId": 26,
           "morfologia": "N-NFS"
         }
       ]
@@ -1302,7 +1302,7 @@
     {
       "id": "n2",
       "versiculo": 3,
-      "negrito": "καυχήσωμαι,",
+      "negrito": "καυχήσωμαι",
       "texto": "Alguns manuscritos, especialmente bizantinos, trazem: “[eu] seja queimado”."
     },
     {
@@ -1314,7 +1314,7 @@
     {
       "id": "n4",
       "versiculo": 8,
-      "negrito": "πίπτει.",
+      "negrito": "πίπτει",
       "texto": "Alguns manuscritos tardios trazem: “cai completamente; desaparece”."
     }
   ]
